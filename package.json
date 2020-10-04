@@ -1,14 +1,18 @@
 {
-  "name": "presidio-mep",
+  "name": "mesa-mep",
   "description": "ShadePro NextJS with Bootstrap 4, Styled Components, Slick Carousel, React Headroom, etc",
   "version": "1.0.0",
   "author": "grayic",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev-next": "next",
+    "dev": "node server.js",
+    "develop": "yarn dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next build && next export"
+    "start-next": "next start",
+    "start": "cross-env NODE_ENV=production node server.js",
+    "export": "next export",
+    "deploy": "yarn build && yarn export"
   },
   "dependencies": {
     "@n8tb1t/use-scroll-position": "^1.0.43",
