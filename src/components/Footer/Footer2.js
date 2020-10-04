@@ -96,7 +96,7 @@ const Footer = () => {
                 <div className="single-footer mb-13 mb-lg-9">
                   <p className="footer-title gr-text-11 mb-7">Contact</p>
                   <ul className="footer-list list-unstyled">
-                    <li className="py-2">Presidio MEP, LLC</li>
+                    <li className="py-2">Mesa MEP, LLC</li>
                     <li className="py-2">San Francisco, CA</li>
                     <li className="py-2">
                       <a
@@ -125,7 +125,7 @@ const Footer = () => {
                 <p
                   className={`copyright-text gr-text-11 mb-6 mb-lg-0 text-center text-lg-left ${copyClassName}`}
                 >
-                  © 2020 Presidio MEP, LLC. All Right Reserved.
+                  © 2020 Mesa MEP, LLC. All Right Reserved.
                 </p>
               </Col>
               <Col lg="6" className="text-center text-lg-right">
