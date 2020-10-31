@@ -101,7 +101,7 @@ const Footer = () => {
                     <li className="py-2">
                       <a
                         className={`gr-text-9 font-weight-bold hover-underline active ${contactClassName}`}
-                        href="mailto:support@grayic.com"
+                        href="mailto:success@mesamep.com"
                       >
                         success@mesamep.com
                       </a>
