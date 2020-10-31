@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       {/* <!-- Hero Area --> */}
       <div
-        className="bg-image bg-gradient bg-gradient-black pb-17 pt-24 pt-lg-32 pb-lg-28"
+        className="bg-image bg-gradient bg-gradient-black pb-15 pt-24 pt-lg-32 pb-lg-20"
         css={`
           background-image: url(${imgH});
         `}
@@ -19,7 +19,7 @@ const Hero = () => {
             <Col
               md="9"
               lg="7"
-              xl="6"
+              xl="8"
               data-aos="fade-right"
               data-aos-duration="750"
               data-aos-delay="500"
