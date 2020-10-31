@@ -56,17 +56,19 @@ const Consultation = () => {
         </div>
 
         <Row className="justify-content-center">
-            <Col xl="6" lg="8" sm="10">
-              <div className="section-title text-center mb-11 mb-lg-20">
-                <h2 className="title gr-text-4 mb-7">
-                  Data-Driven MEP Solutions
-                </h2>
-                <p className="gr-text-8 px-lg-7 px-xl-0">
-                  Modern building systems account for the highest cost-variance in commercial construction.  Mesa MEP provides industry-leading tools to make informed cost decisions.
-                </p>
-              </div>
-            </Col>
-          </Row>
+          <Col xl="6" lg="8" sm="10">
+            <div className="section-title text-center mb-11 mb-lg-20">
+              <h2 className="title gr-text-4 mb-7">
+                Data-Driven MEP Solutions
+              </h2>
+              <p className="gr-text-8 px-lg-7 px-xl-0">
+                Modern building systems account for the highest cost-variance in
+                commercial construction. Mesa MEP provides industry-leading
+                tools to make informed cost decisions.
+              </p>
+            </div>
+          </Col>
+        </Row>
 
         {/* <!-- Fact Area --> */}
         <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
@@ -129,6 +131,12 @@ const Consultation = () => {
             another goal, but in almost all cases they are a very important
             part.
           </p>
+          <h4>Sample Estimate Reports</h4>
+          <ul>
+            <li>Conceptual Example Estimate Report</li>
+            <li>Assemblies-Based Example Estimate Report</li>
+            <li>Detailed Example Estimate Report</li>
+          </ul>
         </div>
         <CTA />
       </PageWrapper>

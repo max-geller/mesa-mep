@@ -150,6 +150,12 @@ const Controls = () => {
             building. Change Order Forensics Here's the paragraph text. MEP
             Tradd Labor & Productivity Validation Here's the paragraph text.
           </p>
+          <h4>Sample Cost Control Assets</h4>
+          <ul>
+            <li>Cash Flow Dashboard</li>
+            <li>Systems Budget Report</li>
+            <li>Actual vs Budgeted Report</li>
+          </ul>
         </div>
         <CTA />
       </PageWrapper>

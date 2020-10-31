@@ -129,6 +129,12 @@ const Consultation = () => {
             another goal, but in almost all cases they are a very important
             part.
           </p>
+          <h4>Sample Takeoff Deliverables</h4>
+          <ul>
+            <li>Conceptual Example Estimate Report</li>
+            <li>Assemblies-Based Example Estimate Report</li>
+            <li>Detailed Example Estimate Report</li>
+          </ul>
         </div>
         <CTA />
       </PageWrapper>

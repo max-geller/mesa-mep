@@ -3,9 +3,12 @@ export const menuItems = [
     name: "solutions",
     label: "Solutions",
     items: [
-      { name: "solutions/consulting", label: "MEP Cost Consulting" },
+      { name: "solutions/consulting", label: "Cost Consulting" },
       { name: "solutions/forensics", label: "Change Forensics" },
-      { name: "services/reconciliation", label: "Cost Reconciliation" },
+      { name: "solutions/analytics", label: "Cost Analytics Solutions" },
+      { name: "solutions/research", label: "Market Research" },
+      { name: "solutions/claims", label: "Claims Assistance" },
+      { name: "solutions/legal", label: "Legal Services" },
     ],
   },
   {
@@ -15,14 +18,15 @@ export const menuItems = [
       { name: "services/takeoff", label: "Takeoff / Survey" },
       { name: "services/estimating", label: "Estimating & Modeling" },
       { name: "services/procurement", label: "Procurement" },
-      { name: "services/research", label: "Market Research" },
+      { name: "services/reconciliation", label: "Cost Reconciliation" },
+      { name: "services/controls", label: "Cost Controls" },
     ],
   },
   {
     name: "markets",
     label: "Markets",
     items: [
-      { name: "markets/airport", label: "Airport / Transportation" },
+      { name: "markets/airport", label: "Airport / Terminal" },
       { name: "markets/corporate", label: "Corporate" },
       { name: "markets/data-centers", label: "Mission Critical" },
       { name: "markets/high-rise", label: "High-Rise / Mixed Use" },
@@ -41,7 +45,21 @@ export const menuItems = [
       { name: "expertise/plumbing", label: "Plumbing & Sprinkler" },
       { name: "expertise/electrical", label: "Electrical Systems" },
       { name: "expertise/life-safety", label: "Fire & Life Safety" },
-      { name: "expertise/technology", label: "Technology" }
+      { name: "expertise/technology", label: "Network / IT" },
+      { name: "expertise/technology", label: "Voice / Audio Visual" },
+      { name: "expertise/technology", label: "Security & Access" },
+      { name: "expertise/technology", label: "Wireless / RF" },
+    ],
+  },
+  {
+    name: "company",
+    label: "Company",
+    items: [
+      { name: "company/data-centers", label: "Our Approach" },
+      { name: "company/data-centers", label: "EstiBase™ Platform" },
+      { name: "company/corporate", label: "Our Team" },
+      { name: "company/data-centers", label: "Careers" },
+      { name: "company/data-centers", label: "Contact Us" },
     ],
   },
 ];

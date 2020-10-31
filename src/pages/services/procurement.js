@@ -102,6 +102,11 @@ const Procurement = () => {
             </Col>
 
         </Container>
+        <h4>Sample Buyout Resources</h4>
+          <ul>
+            <li>Final Bid Tabs</li>
+            <li>Interview Checklist</li>
+          </ul>
       </div>
         <CTA />
       </PageWrapper>
