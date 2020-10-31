@@ -28,6 +28,7 @@ export const menuItems = [
       { name: "markets/high-rise", label: "High-Rise / Mixed Use" },
       { name: "markets/hospitality", label: "Hotels / Hospitality" },
       { name: "markets/industrial", label: "Industrial" },
+      { name: "markets/residential", label: "Residential" },
       { name: "markets/medical", label: "Medical / OSHPD" },
       { name: "markets/labs", label: "Labs / Life-Sciences" },
     ],
