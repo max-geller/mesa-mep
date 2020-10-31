@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import map from "./../../assets/image/stock/map.jpeg";
+import reconcile from "./../../assets/image/stock/reconcile.jpeg";
 
 
 const Analytics = () => {
@@ -28,7 +28,7 @@ const Analytics = () => {
     <div
         className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
         css={`
-          background-image: url(${map});
+          background-image: url(${reconcile});
         `}
       >
         <Container>

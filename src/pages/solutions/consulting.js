@@ -59,7 +59,7 @@ const Consultation = () => {
             <Col xl="12" lg="12" sm="11" xs="11">
               <div className="section-title text-left mb-11 mb-lg-20">
                 <h4 className="title gr-text-6 mb-5">
-                  🚀 Data-Driven MEP Solutions
+                  Let's Talk Costs...
                 </h4>
                 <p className="gr-text-8  px-xl-0">
                   Modern building systems account for the highest cost-variance
@@ -69,7 +69,7 @@ const Consultation = () => {
                 <p>
                   Accurate MEP estimating requires thoughtful attention to
                   project requirements, system experience, familiarity with
-                  local Code, and regional market pricing insights.
+                  local Code, and regional market pricing insights.  It's tough for today's owners, developers and general contractors to navigate the changing technologies and regulations.
                 </p>
               </div>
             </Col>

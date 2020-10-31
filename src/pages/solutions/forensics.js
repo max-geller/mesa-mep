@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import map from "./../../assets/image/stock/map.jpeg";
+import forensics from "./../../assets/image/stock/forensics.jpeg";
 
 
 const Analytics = () => {
@@ -28,7 +28,7 @@ const Analytics = () => {
     <div
         className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
         css={`
-          background-image: url(${map});
+          background-image: url(${forensics});
         `}
       >
         <Container>
@@ -46,7 +46,7 @@ const Analytics = () => {
                   CHANGE FORENSICS
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
-                History shows the buyout process of MEP systems is the single-largest contributor to trade bid variance. Let's get you setup for success.
+                Tough time digesting a change order? We've been there.  Let's take a look for you.
                 </p>
               </div>
             </Col>
