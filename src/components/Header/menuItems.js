@@ -4,20 +4,17 @@ export const menuItems = [
     label: "Solutions",
     items: [
       { name: "solutions/consulting", label: "MEP Cost Consulting" },
-      { name: "solutions/database", label: "Database Management" },
-      { name: "solutions/analytics", label: "Self-Service Analytics" },
-      { name: "solutions/engagement", label: "End-User Engagement" },
+      { name: "solutions/database", label: "Change Forensics" },
+      { name: "services/reconciliation", label: "Cost Reconciliation" },
     ],
   },
   {
     name: "services",
     label: "Services",
     items: [
+      { name: "services/controls", label: "Takeoff / Survey" },
       { name: "services/estimating", label: "Estimating & Modeling" },
       { name: "services/procurement", label: "Procurement" },
-      { name: "services/controls", label: "Project Controls" },
-      { name: "services/forensics", label: "Change Forensics" },
-      { name: "services/reconciliation", label: "Cost Reconciliation" },
       { name: "services/research", label: "Market Research" },
     ],
   },
