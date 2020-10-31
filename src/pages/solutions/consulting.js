@@ -42,7 +42,7 @@ const Consultation = () => {
               >
                 <div className="hero-content section-title dark-mode-texts">
                   <h1 className="gr-text-3 font-weight-bold mb-8">
-                    MEP COST CONSULTING
+                    COST CONSULTING
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
                     Let us take care of your MEP estimating needs. Our systems

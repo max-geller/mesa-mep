@@ -4,7 +4,7 @@ export const menuItems = [
     label: "Solutions",
     items: [
       { name: "solutions/consulting", label: "MEP Cost Consulting" },
-      { name: "solutions/database", label: "Change Forensics" },
+      { name: "solutions/forensics", label: "Change Forensics" },
       { name: "services/reconciliation", label: "Cost Reconciliation" },
     ],
   },
@@ -35,11 +35,11 @@ export const menuItems = [
     name: "expertise",
     label: "Expertise",
     items: [
-      { name: "mechanical", label: "Mechanical / HVAC" },
-      { name: "plumbing", label: "Plumbing & Sprinkler" },
-      { name: "electrical", label: "Electrical Systems" },
-      { name: "fire", label: "Fire & Life Safety" },
-      { name: "technology", label: "Technology" }
+      { name: "expertise/mechanical", label: "Mechanical / HVAC" },
+      { name: "expertise/plumbing", label: "Plumbing & Sprinkler" },
+      { name: "expertise/electrical", label: "Electrical Systems" },
+      { name: "expertise/life-safety", label: "Fire & Life Safety" },
+      { name: "expertise/technology", label: "Technology" }
     ],
   },
 ];
