@@ -209,7 +209,7 @@ const JobOpenings = () => {
                           Electrical Estimator{" "}
                         </h3>
                         <p className="gr-text-9 mb-0 gr-color-blackish-blue-opacity-7">
-                          San Francisco, CA
+                          Mesa, AZ
                         </p>
                       </div>
                       <div className="card-icon">

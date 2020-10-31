@@ -97,7 +97,7 @@ const Footer = () => {
                   <p className="footer-title gr-text-11 mb-7">Contact</p>
                   <ul className="footer-list list-unstyled">
                     <li className="py-2">Mesa MEP, LLC</li>
-                    <li className="py-2">San Francisco, CA</li>
+                    <li className="py-2">Peoria, AZ</li>
                     <li className="py-2">
                       <a
                         className={`gr-text-9 font-weight-bold hover-underline active ${contactClassName}`}
@@ -111,7 +111,7 @@ const Footer = () => {
                         className={`gr-text-9 font-weight-bold hover-underline active ${contactClassName}`}
                         href="tel:+133-394-3439-1435"
                       >
-                        +1 (415) 542-8218
+                        +1 (309) 542-8218
                       </a>
                     </li>
                   </ul>
