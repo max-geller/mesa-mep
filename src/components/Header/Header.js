@@ -226,11 +226,13 @@ const Header = () => {
 
             {gContext.header.button === "cta" && (
               <div className="header-btn ml-auto ml-lg-0 mr-6 mr-lg-0 d-none d-xs-block">
-                <Link href="client.presidiomep.com">
-                  <a className={`btn btn-${gContext.header.variant}`}>
-                    {gContext.header.buttonText}
-                  </a>
-                </Link>
+                <a
+                  href="https://client.mesamep.com"
+                  target="_blank"
+                  className={`btn btn-${gContext.header.variant}`}
+                >
+                  {gContext.header.buttonText}
+                </a>
               </div>
             )}
 
