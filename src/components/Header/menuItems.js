@@ -12,7 +12,7 @@ export const menuItems = [
     name: "services",
     label: "Services",
     items: [
-      { name: "services/controls", label: "Takeoff / Survey" },
+      { name: "services/takeoff", label: "Takeoff / Survey" },
       { name: "services/estimating", label: "Estimating & Modeling" },
       { name: "services/procurement", label: "Procurement" },
       { name: "services/research", label: "Market Research" },
@@ -28,7 +28,8 @@ export const menuItems = [
       { name: "markets/high-rise", label: "High-Rise / Mixed Use" },
       { name: "markets/hospitality", label: "Hotels / Hospitality" },
       { name: "markets/industrial", label: "Industrial" },
-      { name: "markets/labs", label: "Medical / Life-Sciences" },
+      { name: "markets/medical", label: "Medical / OSHPD" },
+      { name: "markets/labs", label: "Labs / Life-Sciences" },
     ],
   },
   {
