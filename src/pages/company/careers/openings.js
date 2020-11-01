@@ -71,7 +71,7 @@ const JobOpenings = () => {
                   </div>
                   <div className="card-texts pr-xl-10">
                     <h3 className="gr-text-6 mb-7 gr-text-exerpt">
-                      Personal growth
+                      Work From Home
                     </h3>
                     <p className="gr-text-9 mb-0">
                       Leverage agile frameworks to provide a robust synopsis for
@@ -202,7 +202,7 @@ const JobOpenings = () => {
             <Row>
               <Col xs="12">
                 <div className="px-md-13 px-xl-15">
-                  <Link href="/openings/estimator">
+                  <Link href="/company/careers/openings/electrical-estimator">
                     <a className="d-flex justify-content-between bg-white rounded-10 px-8 pl-lg-13 pr-lg-11 py-9 py-lg-10 align-items-center mb-5 job-card-hover gr-hover-shadow-5">
                       <div className="texts">
                         <h3 className="gr-text-6 font-weight-bold text-blackish-blue mb-4">
