@@ -1,8 +1,8 @@
 {
-  "name": "mesa-mep",
-  "description": "ShadePro NextJS with Bootstrap 4, Styled Components, Slick Carousel, React Headroom, etc",
+  "name": "presidio-mep",
+  "description": "Presidio MEP, constructionc cost consulting, electrical, telecom cost solutions",
   "version": "1.0.0",
-  "author": "grayic",
+  "author": "Max Geller",
   "private": true,
   "scripts": {
     "dev": "next dev",
