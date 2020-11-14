@@ -5,10 +5,9 @@ export const menuItems = [
     items: [
       { name: "solutions/consulting", label: "Cost Consulting" },
       { name: "solutions/forensics", label: "Change Forensics" },
-      { name: "solutions/analytics", label: "Cost Analytics Solutions" },
       { name: "solutions/research", label: "Market Research" },
       { name: "solutions/claims", label: "Claims Assistance" },
-      { name: "solutions/legal", label: "Legal Services" },
+      { name: "solutions/analytics", label: "Cost Analytics" },
     ],
   },
   {
@@ -41,9 +40,8 @@ export const menuItems = [
     name: "expertise",
     label: "Expertise",
     items: [
-      { name: "expertise/mechanical", label: "Mechanical / HVAC" },
-      { name: "expertise/plumbing", label: "Plumbing & Sprinkler" },
-      { name: "expertise/electrical", label: "Electrical Systems" },
+      { name: "expertise/electrical", label: "Power & Distribution" },
+      { name: "expertise/electrical", label: "Lighting & Controls" },
       { name: "expertise/life-safety", label: "Fire & Life Safety" },
       { name: "expertise/it", label: "Network / IT" },
       { name: "expertise/av", label: "Voice / Audio Visual" },
