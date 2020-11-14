@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import imgH from "../assets/image/az.jpeg";
+import imgH from "../assets/image/avery.jpeg";
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
             >
               <div className="hero-content section-title dark-mode-texts">
                 <h1 className="gr-text-2 font-weight-bold mb-8">
-                  Get help from our expert MEP consultants.
+                  Get cost help from our expert MEP consultants.
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
                   Presidio MEP is your trusted partner for MEP Systems Cost
