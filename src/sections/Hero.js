@@ -2,7 +2,7 @@ import React from "react";
 
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import imgH from "../assets/image/avery.jpeg";
+import imgH from "../assets/image/avery.jpg";
 
 const Hero = () => {
   return (
