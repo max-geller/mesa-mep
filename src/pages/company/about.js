@@ -56,11 +56,11 @@ const AboutPage = () => {
               <Col lg="6">
                 <div className="pr-xl-13">
                   <p className="gr-text-8 mb-7 mb-lg-10">
-                    Mesa MEP is a leading construction consulting firm
+                    Presidio MEP is a leading construction consulting firm
                     providing a portfolio of professional support services to a
                     wide range of clients including owners, contractors,
                     attorneys, engineers, insurers, and suppliers involved in
-                    the engineering and construction process. Mesa MEP
+                    the engineering and construction process. Presidio MEP
                     offers guidance and control for all types of architectural
                     construction projects. We serve public and private owners,
                     architects, engineers and contractors. We have extensive
