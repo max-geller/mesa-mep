@@ -54,9 +54,9 @@ const Contact = () => {
                       <div className="widget-text">
                         <h3 className="gr-text-6 mb-5">Email us</h3>
                         <p className="gr-text-7 mb-0">
-                          success@presidiomep.com
+                          success@presidiosolutions.com
                           <br />
-                          support@presidiomep.com
+                          support@presidiosolutions.com
                         </p>
                       </div>
                     </div>
