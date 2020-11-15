@@ -3,10 +3,37 @@ export const menuItems = [
     name: "solutions",
     label: "Solutions",
     items: [
-      { name: "solutions/consulting", label: "Cost Consulting" },
-      { name: "solutions/forensics", label: "Change Forensics" },
-      { name: "solutions/research", label: "Market Research" },
-      { name: "solutions/analytics", label: "Cost Analytics" },
+      {
+        name: "solutions/consulting",
+        label: "Owners / Developers",
+        items: [
+          { name: "solutions/consulting", label: "Cost Consulting" },
+          { name: "services/controls", label: "Cost Modeling" },
+          { name: "solutions/forensics", label: "Change Forensics" },
+          { name: "solutions/research", label: "Market Research" },
+        ],
+      },
+      {
+        name: "solutions/forensics",
+        label: "Design-Builders",
+        items: [
+          { name: "solutions/consulting", label: "Systems Estimating" },
+          { name: "solutions/forensics", label: "Change Management" },
+          { name: "services/procurement", label: "Buyout & Bid Support" },
+          { name: "solutions/research", label: "Market Research" },
+        ],
+      },
+
+      {
+        name: "solutions/research",
+        label: "Trade Partners",
+        items: [
+          { name: "solutions/consulting", label: "Takeoff Support" },
+          { name: "solutions/consulting", label: "Detailed Estimating" },
+          { name: "solutions/forensics", label: "RFQ Management" },
+          { name: "solutions/consulting", label: "Change Management" },
+        ],
+      },
     ],
   },
   {
@@ -14,7 +41,8 @@ export const menuItems = [
     label: "Services",
     items: [
       { name: "services/takeoff", label: "Takeoff / Survey" },
-      { name: "services/estimating", label: "Estimating & Modeling" },
+      { name: "services/controls", label: "Cost Modeling" },
+      { name: "services/estimating", label: "Estimating" },
       { name: "services/procurement", label: "Procurement" },
       { name: "services/reconciliation", label: "Cost Reconciliation" },
       { name: "services/controls", label: "Cost Controls" },
@@ -53,7 +81,7 @@ export const menuItems = [
     label: "Company",
     items: [
       { name: "company/approach", label: "Our Approach" },
-      { name: "company/estibase", label: "Capabilities" },
+      { name: "company/estibase", label: "Tooling & Capabilities" },
       { name: "company/team", label: "Our Team" },
       { name: "company/careers/openings", label: "Careers" },
       { name: "company/contact", label: "Contact Us" },
