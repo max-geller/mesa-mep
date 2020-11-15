@@ -23,7 +23,7 @@ const Services = () => {
                   Data-Driven MEP Solutions
                 </h2>
                 <p className="gr-text-8 px-lg-7 px-xl-0">
-                  Modern building systems account for the highest cost-variance in commercial construction.  Presidio MEP provides industry-leading tools to make informed cost decisions.
+                  Modern building systems account for the highest cost-variance in commercial construction.  Presidio Cost Solutions provides industry-leading tools to make informed cost decisions.
                 </p>
               </div>
             </Col>

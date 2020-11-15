@@ -98,7 +98,7 @@ const Legal = () => {
             </Col>
           </Container>
           <p>
-            Presidio MEP provides technical support services to the legal,
+            Presidio Cost Solutions provides technical support services to the legal,
             building and insurance professions to help them avoid, respond to
             and manage building system failures. We also provide support
             services for a variety of construction related matters including

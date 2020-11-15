@@ -93,7 +93,7 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Head>
-            <title>Presidio MEP | Construction Cost Consulting</title>
+            <title>Presidio Cost Solutions | Construction Cost Consulting</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Head>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
@@ -122,7 +122,7 @@ const Layout = ({ children, pageContext }) => {
         <div data-theme-mode-panel-active data-theme="light">
           <GlobalStyle />
           <Head>
-            <title>Presidio MEP | Construction Cost Consulting</title>
+            <title>Presidio Cost Solutions | Construction Cost Consulting</title>
             <link rel="icon" type="image/png" href={imgFavicon} />
           </Head>
           <Loader id="loading" className={visibleLoader ? "" : "inActive"} />
