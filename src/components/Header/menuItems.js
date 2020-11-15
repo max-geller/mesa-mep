@@ -6,7 +6,6 @@ export const menuItems = [
       { name: "solutions/consulting", label: "Cost Consulting" },
       { name: "solutions/forensics", label: "Change Forensics" },
       { name: "solutions/research", label: "Market Research" },
-      { name: "solutions/claims", label: "Claims Assistance" },
       { name: "solutions/analytics", label: "Cost Analytics" },
     ],
   },
