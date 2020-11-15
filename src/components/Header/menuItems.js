@@ -53,7 +53,7 @@ export const menuItems = [
     label: "Company",
     items: [
       { name: "company/approach", label: "Our Approach" },
-      { name: "company/estibase", label: "EstiBase™ Platform" },
+      { name: "company/estibase", label: "Capabilities" },
       { name: "company/team", label: "Our Team" },
       { name: "company/careers/openings", label: "Careers" },
       { name: "company/contact", label: "Contact Us" },
