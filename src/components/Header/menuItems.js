@@ -17,10 +17,11 @@ export const menuItems = [
         name: "solutions/forensics",
         label: "Design-Builders",
         items: [
-          { name: "solutions/consulting", label: "Systems Estimating" },
+          { name: "solutions/consulting", label: "Electrical Estimating" },
           { name: "solutions/forensics", label: "Change Management" },
           { name: "services/procurement", label: "Buyout & Bid Support" },
           { name: "solutions/research", label: "Market Research" },
+          { name: "services/controls", label: "Training" },
         ],
       },
 
