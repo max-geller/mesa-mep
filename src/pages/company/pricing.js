@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { Row, Col, Container, Button } from "react-bootstrap";
-import PageWrapper from "../../../components/PageWrapper";
+import PageWrapper from "../../components/PageWrapper";
 
 const Pricing3 = () => {
   return (

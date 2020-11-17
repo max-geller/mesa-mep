@@ -1,9 +1,9 @@
 import React from "react";
 
-import PageWrapper from "../../../components/PageWrapper";
-import Tooling from "../../../sections/Tooling";
-import CTA from "../../../sections/CTA";
-import Newsletter from "../../../sections/Newsletter";
+import PageWrapper from "../../components/PageWrapper";
+import Tooling from "../../sections/Tooling";
+import CTA from "../../sections/CTA";
+import Newsletter from "../../sections/Newsletter";
 
 const Consultation = () => {
   return (
