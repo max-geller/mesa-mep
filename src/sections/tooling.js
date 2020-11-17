@@ -6,7 +6,7 @@ import estimating from "../assets/image/stock/estimating.jpeg";
 
 const Tooling = () => {
   const gContext = useContext(GlobalContext);
-
+ 
   return (
     <>
       {/* <!-- Hero Area --> */}
