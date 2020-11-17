@@ -87,8 +87,9 @@ export const menuItems = [
     items: [
       { name: "company/approach", label: "Our Approach" },
       { name: "company/tooling", label: "Tooling" },
-      { name: "company/team", label: "Our Team" },
-      { name: "company/careers/openings", label: "Careers" },
+      { name: "company/about", label: "About" },
+//      { name: "company/team", label: "Our Team" },
+//      { name: "company/careers/openings", label: "Careers" },
       { name: "company/contact", label: "Contact Us" },
     ],
   },
