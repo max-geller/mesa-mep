@@ -96,7 +96,7 @@ const Footer = () => {
                 <div className="single-footer mb-13 mb-lg-9">
                   <p className="footer-title gr-text-11 mb-7">Contact</p>
                   <ul className="footer-list list-unstyled">
-                    <li className="py-2">Presidio Solutions</li>
+                    <li className="py-2">Presidio Cost Solutions, LLC</li>
                     <li className="py-2">Peoria, AZ</li>
                     <li className="py-2">
                       <a

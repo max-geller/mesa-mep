@@ -18,9 +18,10 @@ const Contact = () => {
                 <div className="px-md-15 text-center">
                   <h2 className="title gr-text-2 mb-9">Contact us</h2>
                   <p className="gr-text-8 mb-13">
-                    With lots of unique blocks, you can easily build a page
-                    withousdebsite within
-                    few minutes.
+                    We strive to be a trusted partner in cost estimating, and
+                    take pride in responding to each and every request for
+                    support. Use the form below to shoot us a question and we'll
+                    get back to you within 48 hours.
                   </p>
                 </div>
               </Col>
@@ -39,10 +40,7 @@ const Contact = () => {
                       </div>
                       <div className="widget-text">
                         <h3 className="gr-text-6 mb-5">Call us</h3>
-                        <p className="gr-text-7 mb-0">
-                          +1-940-394-2948 <br />
-                          +1-389-385-3807
-                        </p>
+                        <p className="gr-text-7 mb-0">+1-415-542-8218</p>
                       </div>
                     </div>
                   </Col>
@@ -55,23 +53,6 @@ const Contact = () => {
                         <h3 className="gr-text-6 mb-5">Email us</h3>
                         <p className="gr-text-7 mb-0">
                           success@presidiosolutions.com
-                          <br />
-                          support@presidiosolutions.com
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col md="5" lg="4" className="mb-13">
-                    <div className="single-contact-widget d-flex">
-                      <div className="widget-icon circle-sm-2 bg-white gr-text-6 text-primary mr-7">
-                        <i className="icon icon-pin-3-2"></i>
-                      </div>
-                      <div className="widget-text">
-                        <h3 className="gr-text-6 mb-5">Visit us</h3>
-                        <p className="gr-text-7 mb-0">
-                          34 Madison Street,
-                          <br />
-                          NY, USA 10005
                         </p>
                       </div>
                     </div>
@@ -81,28 +62,50 @@ const Contact = () => {
               <Col xs="12">
                 <div className="login-form bg-white border-gray-3 px-8 pt-8 pb-9 px-sm-11 py-sm-11 shadow-1 rounded-10">
                   <form
-                    name="contact2"
+                    name="contact-primary"
                     method="post"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                   >
                     {/* You still need to add the hidden input with the form name to your JSX form */}
-                    <input type="hidden" name="form-name" value="contact2" />
+                    <input
+                      type="hidden"
+                      name="form-name"
+                      value="contact-primary"
+                    />
                     <Row>
                       <Col md="6">
                         <div className="form-group mb-7">
                           <label
-                            htmlFor="name"
+                            htmlFor="firstName"
                             className="gr-text-11 font-weight-bold text-blackish-blue"
                           >
-                            First &amp; Last Name
+                            First Name
                           </label>
                           <input
                             className="form-control gr-text-11 border"
                             type="text"
-                            id="name"
-                            name="name"
-                            placeholder="i.e. John Doe"
+                            id="firstName"
+                            name="firstName"
+                            placeholder="Nikola "
+                            required
+                          />
+                        </div>
+                      </Col>
+                      <Col md="6">
+                        <div className="form-group mb-7">
+                          <label
+                            htmlFor="lastName"
+                            className="gr-text-11 font-weight-bold text-blackish-blue"
+                          >
+                            Last Name
+                          </label>
+                          <input
+                            className="form-control gr-text-11 border"
+                            type="text"
+                            id="lastName"
+                            name="lastName"
+                            placeholder="Tesla"
                             required
                           />
                         </div>
@@ -120,7 +123,7 @@ const Contact = () => {
                             type="text"
                             id="email"
                             name="email"
-                            placeholder="i.e. john@mail.com"
+                            placeholder="nikola@edisonlampco.com"
                             required
                           />
                         </div>
@@ -156,7 +159,7 @@ const Contact = () => {
                             type="text"
                             id="subject"
                             name="subject"
-                            placeholder="i.e. I need a help"
+                            placeholder="i.e. Could use some help with a change order..."
                             required
                           />
                         </div>
