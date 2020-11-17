@@ -8,7 +8,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import estimate from "./../../assets/image/stock/estimating.jpeg";
 
-const Consultation = () => {
+const Estimating = () => {
   return (
     <>
       <PageWrapper
@@ -144,4 +144,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default Estimating;

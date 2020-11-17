@@ -6,10 +6,10 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import reconcile from "./../../assets/image/stock/reconcile.jpeg";
+import contracts from "./../../assets/image/stock/contracts.jpeg";
 
 
-const Analytics = () => {
+const RFQ = () => {
   return (
     <>
       <PageWrapper
@@ -28,7 +28,7 @@ const Analytics = () => {
     <div
         className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
         css={`
-          background-image: url(${reconcile});
+          background-image: url(${contracts});
         `}
       >
         <Container>
@@ -42,8 +42,8 @@ const Analytics = () => {
               data-aos-delay="500"
             >
               <div className="hero-content section-title dark-mode-texts">
-                <h1 className="gr-text-3 font-weight-bold mb-8">
-                  RECONCILIATION
+                <h1 className="gr-text-2 font-weight-bold mb-8">
+                  RFQ / VENDOR OUTREACH
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
                 History shows the buyout process of MEP systems is the single-largest contributor to trade bid variance. Let's get you setup for success.
@@ -102,6 +102,11 @@ const Analytics = () => {
             </Col>
 
         </Container>
+        <h4>Sample Buyout Resources</h4>
+          <ul>
+            <li>Final Bid Tabs</li>
+            <li>Interview Checklist</li>
+          </ul>
       </div>
         <CTA />
       </PageWrapper>
@@ -109,4 +114,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default RFQ;

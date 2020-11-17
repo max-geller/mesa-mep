@@ -6,10 +6,10 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import reconcile from "./../../assets/image/stock/reconcile.jpeg";
+import forensics from "./../../assets/image/stock/forensics.jpeg";
 
 
-const Analytics = () => {
+const Change = () => {
   return (
     <>
       <PageWrapper
@@ -28,7 +28,7 @@ const Analytics = () => {
     <div
         className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
         css={`
-          background-image: url(${reconcile});
+          background-image: url(${forensics});
         `}
       >
         <Container>
@@ -43,10 +43,10 @@ const Analytics = () => {
             >
               <div className="hero-content section-title dark-mode-texts">
                 <h1 className="gr-text-3 font-weight-bold mb-8">
-                  RECONCILIATION
+                  CHANGE MANAGEMENT
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
-                History shows the buyout process of MEP systems is the single-largest contributor to trade bid variance. Let's get you setup for success.
+                Tough time digesting a change order? We've been there.  Let's take a look for you.
                 </p>
               </div>
             </Col>
@@ -109,4 +109,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default Change;

@@ -8,7 +8,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import estimate from "./../../../assets/image/stock/estimating.jpeg";
 
-const Consultation = () => {
+const Estimating = () => {
   return (
     <>
       <PageWrapper
@@ -42,7 +42,7 @@ const Consultation = () => {
               >
                 <div className="hero-content section-title dark-mode-texts text-left">
                   <h1 className="gr-text-3 font-weight-bold mb-8 text-left">
-                    SYSTEMS SCOPING
+                    SYSTEMS ESTIMATING
                   </h1>
                   <p className="gr-text-10 text-left">
                     Let us take care of your MEP estimating needs. Our systems
@@ -109,4 +109,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default Estimating;

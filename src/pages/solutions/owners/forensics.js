@@ -9,7 +9,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import forensics from "./../../../assets/image/stock/forensics.jpeg";
 
 
-const Analytics = () => {
+const Forensics = () => {
   return (
     <>
       <PageWrapper
@@ -109,4 +109,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default Forensics;

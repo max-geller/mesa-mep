@@ -4,7 +4,7 @@ export const menuItems = [
     label: "Solutions",
     items: [
       {
-        name: "solutions/consulting",
+        name: "owners",
         label: "Owners / Developers",
         items: [
           { name: "solutions/owners/consulting", label: "Cost Consulting" },
@@ -12,28 +12,29 @@ export const menuItems = [
           { name: "solutions/owners/scoping", label: "Scoping Support" },
           { name: "solutions/owners/procurement", label: "Procurement Support" },
           { name: "solutions/owners/forensics", label: "Change Forensics" },
+          { name: "solutions/owners/tracking", label: "BI / Cost Tracking" },
         ],
       },
       {
-        name: "solutions/forensics",
+        name: "design",
         label: "Design-Builders",
         items: [
-          { name: "solutions/consulting", label: "Systems Estimating" },
-          { name: "services/procurement", label: "Buyout & Bid Support" },
-          { name: "services/procurement", label: "Value Engineering" },
-          { name: "solutions/forensics", label: "Change Management" },
-          { name: "services/controls", label: "Training & Instruction" },
+          { name: "solutions/builders/estimating", label: "Systems Estimating" },
+          { name: "solutions/builders/buyout", label: "Buyout & Bid Support" },
+          { name: "solutions/builders/value", label: "Value Engineering" },
+          { name: "solutions/builders/change", label: "Change Management" },
+          { name: "solutions/builders/training", label: "Training & Instruction" },
         ],
       },
 
       {
-        name: "solutions/research",
+        name: "trades",
         label: "Trade Partners",
         items: [
-          { name: "solutions/consulting", label: "Takeoff Support" },
-          { name: "solutions/consulting", label: "Detailed Estimating" },
-          { name: "solutions/forensics", label: "RFQ Management" },
-          { name: "solutions/consulting", label: "Change Management" },
+          { name: "solutions/trades/takeoff", label: "Takeoff Support" },
+          { name: "solutions/trades/estimating", label: "Detailed Estimating" },
+          { name: "solutions/trades/rfq", label: "RFQ Management" },
+          { name: "solutions/trades/change", label: "Change Management" },
         ],
       },
     ],
@@ -43,13 +44,13 @@ export const menuItems = [
     label: "Services",
     items: [
       { name: "services/takeoff", label: "Takeoff / Survey" },
-      { name: "services/controls", label: "Cost Modeling" },
+      { name: "services/modeling", label: "Cost Modeling" },
       { name: "services/estimating", label: "Estimating" },
       { name: "services/procurement", label: "Procurement" },
-      { name: "services/controls", label: "Market Analysis" },
+      { name: "services/research", label: "Market Analysis" },
       { name: "services/reconciliation", label: "Cost Reconciliation" },
       { name: "services/controls", label: "Cost Controls" },
-      { name: "services/controls", label: "Analytics / BI" },
+      { name: "services/analytics", label: "Analytics / BI" },
     ],
   },
   {
@@ -71,8 +72,8 @@ export const menuItems = [
     name: "expertise",
     label: "Expertise",
     items: [
-      { name: "expertise/electrical", label: "Power & Distribution" },
-      { name: "expertise/electrical", label: "Lighting & Controls" },
+      { name: "expertise/distribution", label: "Power & Distribution" },
+      { name: "expertise/lighting", label: "Lighting & Controls" },
       { name: "expertise/life-safety", label: "Fire & Life Safety" },
       { name: "expertise/it", label: "Network / IT" },
       { name: "expertise/av", label: "Voice / Audio Visual" },
@@ -85,7 +86,7 @@ export const menuItems = [
     label: "Company",
     items: [
       { name: "company/approach", label: "Our Approach" },
-      { name: "company/estibase", label: "Tooling & Capabilities" },
+      { name: "company/tooling", label: "Tooling" },
       { name: "company/team", label: "Our Team" },
       { name: "company/careers/openings", label: "Careers" },
       { name: "company/contact", label: "Contact Us" },

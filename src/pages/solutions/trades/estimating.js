@@ -6,9 +6,9 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import legal from "./../../assets/image/stock/legal.jpeg";
+import estimate from "./../../assets/image/stock/estimating.jpeg";
 
-const Consultation = () => {
+const Estimating = () => {
   return (
     <>
       <PageWrapper
@@ -27,7 +27,7 @@ const Consultation = () => {
         <div
           className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
           css={`
-            background-image: url(${legal});
+            background-image: url(${estimate});
           `}
         >
           <Container>
@@ -41,8 +41,8 @@ const Consultation = () => {
                 data-aos-delay="500"
               >
                 <div className="hero-content section-title dark-mode-texts">
-                  <h1 className="gr-text-3 font-weight-bold mb-8">
-                    LEGAL SERVICES
+                  <h1 className="gr-text-2 font-weight-bold mb-8">
+                    DETAILED ESTIMATING
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
                     Let us take care of your MEP estimating needs. Our systems
@@ -54,20 +54,22 @@ const Consultation = () => {
             </Row>
           </Container>
         </div>
-        <Container>
-        <Row className="justify-content-center mt-11 mb-11" >
-            <Col xl="6" lg="8" sm="10">
-              <div className="section-title text-center mb-11 mb-lg-20">
-                <h2 className="title gr-text-4 mb-7">
-                  Data-Driven MEP Solutions
-                </h2>
-                <p className="gr-text-8 px-lg-7 px-xl-0">
-                  Modern building systems account for the highest cost-variance in commercial construction.  Presidio Cost Solutions provides industry-leading tools to make informed cost decisions.
-                </p>
-              </div>
-            </Col>
-          </Row>
-          </Container>
+
+        <Row className="justify-content-center">
+          <Col xl="6" lg="8" sm="10">
+            <div className="section-title text-center mb-11 mb-lg-20">
+              <h2 className="title gr-text-4 mb-7">
+                Data-Driven MEP Solutions
+              </h2>
+              <p className="gr-text-8 px-lg-7 px-xl-0">
+                Modern building systems account for the highest cost-variance in
+                commercial construction. Presidio Cost Solutions provides industry-leading
+                tools to make informed cost decisions.
+              </p>
+            </div>
+          </Col>
+        </Row>
+
         {/* <!-- Fact Area --> */}
         <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
           <Container>
@@ -129,6 +131,12 @@ const Consultation = () => {
             another goal, but in almost all cases they are a very important
             part.
           </p>
+          <h4>Sample Estimate Reports</h4>
+          <ul>
+            <li>Conceptual Example Estimate Report</li>
+            <li>Assemblies-Based Example Estimate Report</li>
+            <li>Detailed Example Estimate Report</li>
+          </ul>
         </div>
         <CTA />
       </PageWrapper>
@@ -136,4 +144,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default Estimating;

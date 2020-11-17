@@ -6,9 +6,9 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import legal from "./../../assets/image/stock/legal.jpeg";
+import estimate from "./../../assets/image/stock/estimating.jpeg";
 
-const Consultation = () => {
+const Takeoff = () => {
   return (
     <>
       <PageWrapper
@@ -27,7 +27,7 @@ const Consultation = () => {
         <div
           className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
           css={`
-            background-image: url(${legal});
+            background-image: url(${estimate});
           `}
         >
           <Container>
@@ -42,7 +42,7 @@ const Consultation = () => {
               >
                 <div className="hero-content section-title dark-mode-texts">
                   <h1 className="gr-text-3 font-weight-bold mb-8">
-                    LEGAL SERVICES
+                    DETAILED TAKEOFF
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
                     Let us take care of your MEP estimating needs. Our systems
@@ -54,6 +54,34 @@ const Consultation = () => {
             </Row>
           </Container>
         </div>
+        <Container>
+          <Row className="justify-content-center mt-11 mb-11">
+            <Col xl="12" lg="12" sm="11" xs="11">
+              <div className="section-title text-left mb-11 mb-lg-20">
+                <h4 className="title gr-text-6 mb-5">
+                  🚀 Data-Driven MEP Solutions
+                </h4>
+                <p className="gr-text-8  px-xl-0">
+                  Modern building systems account for the highest cost-variance
+                  in commercial construction. Presidio Cost Solutions provides industry-leading
+                  tools to make informed cost decisions.
+                </p>
+                <p>
+                  Accurate MEP estimating requires thoughtful attention to
+                  project requirements, system experience, familiarity with
+                  local Code, and regional market pricing insights.
+                </p>
+                <ul>
+                  <li>Accubid Estimating</li>
+                  <li>On-Screen Takeoff</li>
+                  <li>BlueBeam Xtreme</li>
+                  <li>Autodesk Revit</li>
+                  <li>Trimble Live Count</li>
+                </ul>
+              </div>
+            </Col>
+          </Row>
+        </Container>
         <Container>
         <Row className="justify-content-center mt-11 mb-11" >
             <Col xl="6" lg="8" sm="10">
@@ -129,6 +157,12 @@ const Consultation = () => {
             another goal, but in almost all cases they are a very important
             part.
           </p>
+          <h4>Sample Takeoff Deliverables</h4>
+          <ul>
+            <li>Conceptual Example Estimate Report</li>
+            <li>Assemblies-Based Example Estimate Report</li>
+            <li>Detailed Example Estimate Report</li>
+          </ul>
         </div>
         <CTA />
       </PageWrapper>
@@ -136,4 +170,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default Takeoff;
