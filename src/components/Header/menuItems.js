@@ -7,11 +7,11 @@ export const menuItems = [
         name: "solutions/consulting",
         label: "Owners / Developers",
         items: [
-          { name: "solutions/consulting", label: "Cost Consulting" },
-          { name: "solutions/research", label: "Market Research" },
-          { name: "solutions/forensics", label: "Scoping Support" },
-          { name: "solutions/consulting", label: "Procurement Support" },
-          { name: "solutions/forensics", label: "Change Forensics" },
+          { name: "solutions/owners/consulting", label: "Cost Consulting" },
+          { name: "solutions/owners/research", label: "Market Research" },
+          { name: "solutions/owners/scoping", label: "Scoping Support" },
+          { name: "solutions/owners/procurement", label: "Procurement Support" },
+          { name: "solutions/owners/forensics", label: "Change Forensics" },
         ],
       },
       {
