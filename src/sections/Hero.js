@@ -26,10 +26,11 @@ const Hero = () => {
             >
               <div className="hero-content section-title dark-mode-texts">
                 <h1 className="gr-text-2 font-weight-bold mb-8">
-                Let's take care of your cost estimating needs...
+                  Let's take care of your cost estimating needs...
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
-                  Presidio Cost Solutions is your trusted partner for MEP Systems Cost
+                  Presidio Cost Solutions is your trusted partner for
+                  Electrical, Fire Alarm, and Low-Voltage Systems Cost
                   Consulting. Our team delivers crucial data-driven insights
                   that enable better MEP systems decision-making for modern
                   construction.

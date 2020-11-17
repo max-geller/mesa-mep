@@ -22,25 +22,30 @@ const Content = () => {
                   With lots of unique blocks, you can easily build a page
                   without coding. Build your next landing page.
                 </p>
+                <p>
+                  What We Do Clients have relied on Presidio Cost Solutions to
+                  prepare, analyze, and resolve their construction claims and
+                  disputes. In addition, clients and their attorneys have called
+                  on Presidio Cost Solutions’s experts to perform forensic
+                  analysis of construction projects to determine liability for
+                  increased cost, reduced labor productivity, defects, and
+                  schedule delays. Clients benefit from the comprehensive
+                  evaluation and professional presentation that Presidio Cost
+                  Solutions provides on each assignment. Our experts assist
+                  clients with divesting, restructuring, improving, and
+                  acquiring firms involved in engineering and construction.
+                  Whether supplying key project management personnel on work
+                  sites, or supporting project management efforts from our home
+                  office, clients depend on Presidio Cost Solutions when a
+                  positive change or action is required. Design Consulting Cost
+                  Estimating Cost Analytics Project Controls Market Research
+                </p>
               </div>
             </Col>
           </Row>
           <Row className="align-items-center">
             <Col lg="6">
-              <div className="content-video-thumb rounded-8 gr-hover-shadow-2">
-                <img className="w-100 rounded-8" src={imgC} alt="" />
-                <a
-                  className="video-play-trigger circle-xl bg-white gr-abs-center gr-abs-hover-y focus-reset"
-                  tabIndex="-1"
-                  href="/#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    gContext.toggleVideoModal();
-                  }}
-                >
-                  <i className="icon icon-triangle-right-17-2 text-green"></i>
-                </a>
-              </div>
+              <h2> Here's where the video was</h2>
             </Col>
             <Col lg="5">
               <div className="content-widget mt-7 mt-lg-0 pl-xl-13">

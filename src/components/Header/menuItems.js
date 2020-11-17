@@ -8,7 +8,7 @@ export const menuItems = [
         label: "Owners / Developers",
         items: [
           { name: "solutions/consulting", label: "Cost Consulting" },
-          { name: "services/controls", label: "Cost Modeling" },
+          { name: "solutions/consulting", label: "Procurement Support" },
           { name: "solutions/forensics", label: "Change Forensics" },
           { name: "solutions/research", label: "Market Research" },
         ],
@@ -17,10 +17,10 @@ export const menuItems = [
         name: "solutions/forensics",
         label: "Design-Builders",
         items: [
-          { name: "solutions/consulting", label: "Electrical Estimating" },
-          { name: "solutions/forensics", label: "Change Management" },
+          { name: "solutions/consulting", label: "Systems Estimating" },
           { name: "services/procurement", label: "Buyout & Bid Support" },
-          { name: "solutions/research", label: "Market Research" },
+          { name: "services/procurement", label: "Value Engineering" },
+          { name: "solutions/forensics", label: "Change Management" },
           { name: "services/controls", label: "Training" },
         ],
       },
