@@ -8,9 +8,10 @@ export const menuItems = [
         label: "Owners / Developers",
         items: [
           { name: "solutions/consulting", label: "Cost Consulting" },
+          { name: "solutions/research", label: "Market Research" },
+          { name: "solutions/forensics", label: "Scoping Support" },
           { name: "solutions/consulting", label: "Procurement Support" },
           { name: "solutions/forensics", label: "Change Forensics" },
-          { name: "solutions/research", label: "Market Research" },
         ],
       },
       {
@@ -21,7 +22,7 @@ export const menuItems = [
           { name: "services/procurement", label: "Buyout & Bid Support" },
           { name: "services/procurement", label: "Value Engineering" },
           { name: "solutions/forensics", label: "Change Management" },
-          { name: "services/controls", label: "Training" },
+          { name: "services/controls", label: "Training & Instruction" },
         ],
       },
 
@@ -45,8 +46,10 @@ export const menuItems = [
       { name: "services/controls", label: "Cost Modeling" },
       { name: "services/estimating", label: "Estimating" },
       { name: "services/procurement", label: "Procurement" },
+      { name: "services/controls", label: "Market Analysis" },
       { name: "services/reconciliation", label: "Cost Reconciliation" },
       { name: "services/controls", label: "Cost Controls" },
+      { name: "services/controls", label: "Analytics / BI" },
     ],
   },
   {
