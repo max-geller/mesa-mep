@@ -1,12 +1,12 @@
 import React from "react";
 
-import PageWrapper from "../../components/PageWrapper";
-import CTA from "../../sections/CTA";
+import PageWrapper from "../../../components/PageWrapper";
+import CTA from "../../../sections/CTA";
 import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import contracts from "./../../assets/image/stock/contracts.jpeg";
+import contracts from "./../../../assets/image/stock/contracts.jpeg";
 
 
 const RFQ = () => {
