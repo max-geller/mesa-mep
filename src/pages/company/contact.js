@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container, Button } from "react-bootstrap";
-import PageWrapper from "../../components/PageWrapper";
+import PageWrapper from "../../../components/PageWrapper";
 
 const Contact = () => {
   return (

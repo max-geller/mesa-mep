@@ -1,13 +1,10 @@
 import React from "react";
 
-import PageWrapper from "../../components/PageWrapper";
-import Fact from "../../sections/Fact";
-import Services from "../../sections/Services";
-import Content from "../../sections/Content";
-import Alert from "../../sections/Alert";
-import CTA from "../../sections/CTA";
-import Approach from "../../sections/Approach";
-import Newsletter from "../../sections/Newsletter";
+import PageWrapper from "../../../components/PageWrapper";
+import Alert from "../../../sections/Alert";
+import CTA from "../../../sections/CTA";
+import Approach from "../../../sections/Approach";
+import Newsletter from "../../../sections/Newsletter";
 
 const Consultation = () => {
   return (
