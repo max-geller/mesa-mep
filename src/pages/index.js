@@ -29,8 +29,6 @@ const Consultation = () => {
         <Services />
         <Content />
         <Alert />
-
-        <Testimonial />
         <CTA />
         <Newsletter />
       </PageWrapper>
