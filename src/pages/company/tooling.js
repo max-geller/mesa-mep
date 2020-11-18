@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
 import Newsletter from "../../sections/Newsletter";
