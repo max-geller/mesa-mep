@@ -97,7 +97,6 @@ const Footer = () => {
                   <p className="footer-title gr-text-11 mb-7">Contact</p>
                   <ul className="footer-list list-unstyled">
                     <li className="py-2">Presidio Cost Solutions, LLC</li>
-                    <li className="py-2">Peoria, AZ</li>
                     <li className="py-2">
                       <a
                         className={`gr-text-9 font-weight-bold hover-underline active ${contactClassName}`}

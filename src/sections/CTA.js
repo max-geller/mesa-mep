@@ -24,9 +24,7 @@ const CTA = () => {
                 <div className="chat-icon circle-xl gr-bg-white-opacity-1 text-green gr-text-4 mb-13">
                   <i className="icon icon-chat-round-2 text-green"></i>
                 </div>
-                <h1 className="title gr-text-1 mb-6">
-                  Let's chat.
-                </h1>
+                <h1 className="title gr-text-1 mb-6">Let's chat.</h1>
                 <p className="gr-text-8 pr-lg-7 mb-0">
                   With lots of unique blocks, you can easily build a page
                   without coding. Build your next landing page so quickly with
@@ -42,14 +40,20 @@ const CTA = () => {
               data-aos="fade-left"
               data-aos-duration="800"
             >
-              <form className="cta-form bg-white light-mode rounded-10 px-8 py-8">
+              <form
+                className="cta-form bg-white light-mode rounded-10 px-8 py-8"
+                name="contact-secondary"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+              >
                 <div className="form-group gr-text-11 font-weight-bold text-blackish-blue">
                   <label htmlFor="ctaName">Name </label>
                   <input
                     type="text"
                     className="form-control gr-text-11"
                     id="ctaName"
-                    placeholder="i.e. John Doe"
+                    placeholder="i.e. Nikola Tesla"
                     required=""
                   />
                 </div>
@@ -59,7 +63,7 @@ const CTA = () => {
                     type="email"
                     className="form-control gr-text-11"
                     id="ctaEmail"
-                    placeholder="i.e. john@mail.com"
+                    placeholder="i.e. nikola@edisonlampco.com"
                     required=""
                   />
                 </div>
@@ -69,7 +73,7 @@ const CTA = () => {
                     type="email"
                     className="form-control gr-text-11"
                     id="ctaPhone"
-                    placeholder="i.e. 123-456-7890"
+                    placeholder="i.e. 415-456-7890"
                   />
                 </div>
                 <div className="form-group gr-text-11 font-weight-bold text-blackish-blue">
