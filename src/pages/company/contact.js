@@ -7,8 +7,14 @@ const Contact = () => {
     <>
       <PageWrapper
         headerConfig={{
-          align: "right",
-          button: "account", // cta, account, null
+          theme: "light",
+          align: "left",
+          isFluid: true,
+          button: "cta", // cta, account, null
+          buttonText: "Client Login",
+        }}
+        footerConfig={{
+          theme: "light",
         }}
       >
         <div className="inner-banner pt-29 pb-md-11 bg-default-2">

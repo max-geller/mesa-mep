@@ -41,9 +41,7 @@ const Content = () => {
             </Col>
           </Row>
           <Row className="align-items-center">
-            <Col lg="6">
-              <h2> Here's where the video was</h2>
-            </Col>
+
             <Col lg="5">
               <div className="content-widget mt-7 mt-lg-0 pl-xl-13">
                 <Row className="align-items-center">

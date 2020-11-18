@@ -2,13 +2,12 @@ import React from "react";
 
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/Hero";
-import Fact from "../sections/Fact";
 import Services from "../sections/Services";
 import Content from "../sections/Content";
-import Alert from "../sections/Alert";
-import Testimonial from "../sections/Testimonial";
 import CTA from "../sections/CTA";
 import Newsletter from "../sections/Newsletter";
+
+
 
 const Consultation = () => {
   return (
@@ -28,7 +27,6 @@ const Consultation = () => {
         <Hero />
         <Services />
         <Content />
-        <Alert />
         <CTA />
         <Newsletter />
       </PageWrapper>
