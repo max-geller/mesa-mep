@@ -20,7 +20,7 @@ const ToolingPage = () => {
           theme: "light",
         }}
       >
-        <Tooling/>
+        <Tooling />
         <CTA />
         <Newsletter />
       </PageWrapper>
