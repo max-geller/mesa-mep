@@ -7,7 +7,6 @@ const defaultOptions = [
   { value: "estimating", label: "Cost Modeling / Estimating" },
   { value: "procurement", label: "Buyout / Procurement" },
   { value: "controls", label: "Project Controls" },
-  { value: "analytics", label: "Cloud Analytics" },
   { value: "forensics", label: "Cost Forensics" },
   { value: "reconciliation", label: "Cost Reconciliation" },
 ];
@@ -70,7 +69,7 @@ const CTA = () => {
                 <div className="form-group gr-text-11 font-weight-bold text-blackish-blue">
                   <label htmlFor="ctaPhone">Phone </label>
                   <input
-                    type="email"
+                    type="text"
                     className="form-control gr-text-11"
                     id="ctaPhone"
                     placeholder="i.e. 415-456-7890"
