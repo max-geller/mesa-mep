@@ -202,7 +202,7 @@ const Tooling = () => {
                         </h3>
                         <p>
                           Let's face it, today's construction consulting
-                          requires a level of remote accessability that we
+                          requires a level of remote accessibility that we
                           haven't seen before in this industry. Presidio has you
                           covered. We're equipped to deliver insights anywhere
                           in the world, whether in-person or via remote
@@ -241,7 +241,7 @@ const Tooling = () => {
                         <ul>
                           <li className="gr-text-9 mb-0">
                             <a
-                              className={`gr-text-9 font-weight-bold hover-underline active ${contactClassName}`}
+                              className={`gr-text-9 font-weight-bold hover-underline active `}
                               href="https://clients.presidiosolutions.com"
                               target="_blank"
                             >
