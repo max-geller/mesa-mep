@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
 import GlobalContext from "../context/GlobalContext";
-import imgC from "../assets/image/l2/jpg/l2-content2-img.jpg";
 
 const Content = () => {
   const gContext = useContext(GlobalContext);
@@ -15,33 +14,33 @@ const Content = () => {
           <Row className="justify-content-center">
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-center mb-12 mb-lg-17">
-                <h2 className="title gr-text-4 mb-7">
-                What We Do
-                </h2>
+                <h2 className="title gr-text-4 mb-7">What We Do</h2>
 
                 <p>
-                   Clients have relied on Presidio Cost Solutions to
-                  prepare, analyze, and resolve their construction claims and
-                  disputes. In addition, clients and their attorneys have called
-                  on Presidio Cost Solutions’s experts to perform forensic
-                  analysis of construction projects to determine liability for
-                  increased cost, reduced labor productivity, defects, and
-                  schedule delays. Clients benefit from the comprehensive
-                  evaluation and professional presentation that Presidio Cost
-                  Solutions provides on each assignment. Our experts assist
-                  clients with divesting, restructuring, improving, and
-                  acquiring firms involved in engineering and construction.
-                  Whether supplying key project management personnel on work
-                  sites, or supporting project management efforts from our home
-                  office, clients depend on Presidio Cost Solutions when a
-                  positive change or action is required. Design Consulting Cost
-                  Estimating Cost Analytics Project Controls Market Research
+                  Clients have relied on Presidio Cost Solutions to prepare,
+                  analyze, and resolve their construction claims and disputes.
+                  In addition, clients and their attorneys have called on
+                  Presidio Cost Solutions’s experts to perform forensic analysis
+                  of construction projects to determine liability for increased
+                  cost, reduced labor productivity, defects, and schedule
+                  delays.
+                </p>
+                <p>
+                  {" "}
+                  Clients benefit from the comprehensive evaluation and
+                  professional presentation that Presidio Cost Solutions
+                  provides on each assignment. Our experts assist clients with
+                  divesting, restructuring, improving, and acquiring firms
+                  involved in engineering and construction. Whether supplying
+                  key project management personnel on work sites, or supporting
+                  project management efforts from our home office, clients
+                  depend on Presidio Cost Solutions when a positive change or
+                  action is required.
                 </p>
               </div>
             </Col>
           </Row>
           <Row className="align-items-center">
-
             <Col lg="5">
               <div className="content-widget mt-7 mt-lg-0 pl-xl-13">
                 <Row className="align-items-center">

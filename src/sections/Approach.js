@@ -28,7 +28,7 @@ const Approach = () => {
             >
               <div className="hero-content section-title dark-mode-texts">
                 <h1 className="gr-text-3 font-weight-bold mb-8">
-                  Our Approach
+                  OUR APPROACH
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12"></p>
               </div>
@@ -40,11 +40,17 @@ const Approach = () => {
         <Container>
           <Row className="justify-content-center">
             <div className="section-title text-left mb-12 mb-lg-8">
-              <h2 className="title gr-text-4 mb-7">Tooling & Software</h2>
-              <p className="gr-text-8 px-lg-7 px-xl-0">
-                Modern construction requires modern tooling. Presidio Cost
-                Solutions leverages the latest in construction technology to
-                prepare, evaluate, and deliver our insights.
+              <h4>Calibration</h4>
+              <p>
+                Presidio Cost Solutions commences most new client services with
+                a ‘calibration’ period, which should be expected to take 1-2
+                weeks. This process is intended to serve as a triangulation
+                period in which our team strives to identify the commonalities
+                and sources of variance using a number of our clients'
+                historical projects. Using this information, along with feedback
+                from your estimating team, we can develop and tune material and
+                productivity costs that more accurately reflect your unique
+                operating conditions.
               </p>
             </div>
           </Row>
@@ -59,33 +65,21 @@ const Approach = () => {
                     data-aos-duration="750"
                   >
                     <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          1
-                        </span>
-                      </div>
                       <div className="media-body">
                         <h3 className="w-title mb-5 gr-text-7">
-                          Estimating & Takeoff
+                          Standard Estimate Deliverables include:
                         </h3>
-                        <p>
-                          Presidio Cost Solutions strives to deliver an
-                          unprecedented level of detail into our final client
-                          deliverables. We do this by utilizing the same
-                          software and tooling as our finest electrical and
-                          low-voltage trade partners. Cost reconciliation is a
-                          breeze when you speak the same cost language, so we
-                          make every effort to use the same estimating methods
-                          and techniques as our construction counterparts. Let's
-                          have a look:
-                        </p>
+
                         <ul>
-                          <li className="gr-text-9 mb-0">Accubid Pro 14</li>
-                          <li className="gr-text-9 mb-0">Accubid Enterprise</li>
-                          <li className="gr-text-9 mb-0">
-                            Accubid Change Order
+                          <li>Final Pricing Summary</li>
+                          <li>Original Quantity Takeoff Documentation</li>
+                          <li>Assemblies-Based Itemized Cost Estimate </li>
+                          <li>Basis of Estimate & Qualifications</li>
+                          <li>
+                            Indirect Labor, Equipment & General Expense
+                            Assumptions
                           </li>
-                          <li className="gr-text-9 mb-0">On-Screen Takeoff</li>
+                          <li>Labor Rate Assumptions</li>
                         </ul>
                       </div>
                     </div>
@@ -98,150 +92,20 @@ const Approach = () => {
                     data-aos-duration="1800"
                   >
                     <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          2
-                        </span>
-                      </div>
                       <div className="media-body">
                         <h3 className="w-title mb-5 gr-text-7">
-                          Advanced Client Reporting & BI
+                          Deliverables and Services Available Upon Request:
                         </h3>
-                        <p>
-                          Tired of looking at endless spreadsheets? We are too.
-                          Let's show you how we can bring insights into your
-                          estimates and historical costs using some modern
-                          Business Intelligence (BI) platforms:
-                        </p>
-                        <ul>
-                          <li className="gr-text-9 mb-0">Microsoft Power BI</li>
-                          <li className="gr-text-9 mb-0">Adobe Analytics</li>
-                          <li className="gr-text-9 mb-0">Tableau</li>
-                          <li className="gr-text-9 mb-0">Snowflake</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="1800"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          3
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Project Management / Document Control
-                        </h3>
-                        <p>
-                          Project Management technologies are continuously
-                          changing, but we're pretty good at keeping up. Let us
-                          integrate with your existing systems of record for
-                          easier collaboration.
-                        </p>
-                        <ul>
-                          <li className="gr-text-9 mb-0">Procore</li>
-                          <li className="gr-text-9 mb-0">Building Connected</li>
-                          <li className="gr-text-9 mb-0">PlanGrid</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </Col>
 
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="1200"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          5
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          PDF Markup / File Sharing / Collaboration
-                        </h3>
-                        <p>
-                          Design collaboration and review can be a crucial step
-                          in understanding cost contributors. Our team is
-                          equipped to handle any collaboration environment you
-                          may find yourself in.
-                        </p>
                         <ul>
-                          <li className="gr-text-9 mb-0">BlueBeam Revu</li>
-                          <li className="gr-text-9 mb-0">Box.com</li>
-                          <li className="gr-text-9 mb-0">OneDrive</li>
-                          <li className="gr-text-9 mb-0">PlanGrid</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="1800"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          6
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Teleconference / Video
-                        </h3>
-                        <p>
-                          Let's face it, today's construction consulting
-                          requires a level of remote accessability that we
-                          haven't seen before in this industry. Presidio has you
-                          covered. We're equipped to deliver insights anywhere
-                          in the world, whether in-person or via remote
-                          services. Let's take a look:
-                        </p>
-                        <ul>
-                          <li className="gr-text-9 mb-0">Zoom Meetings</li>
-                          <li className="gr-text-9 mb-0">Microsoft Teams</li>
-                          <li className="gr-text-9 mb-0">Cisco WebEx</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="750"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          1
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Client Data Engagement
-                        </h3>
-                        <p>
-                          We were frustrated by the lack of data-engagement
-                          platforms to share complex datasets with our most
-                          trusted clients. That's why we developed our own
-                          Client Access Portal, powered by AWS & MongoDB:
-                        </p>
-                        <ul>
-                          <li className="gr-text-9 mb-0">
-                            Presidio Client Portal
+                          <li>Conceptual Cost Model Report</li>
+                          <li>Analytics BI Model using Power BI</li>
+                          <li>Specification Evaluation</li>
+                          <li>
+                            Value Engineering Evaluation & Recommendations
                           </li>
+                          <li>Subcontractor Buyout Support</li>
+                          <li>IBEW Labor Market Evaluation</li>
                         </ul>
                       </div>
                     </div>
