@@ -202,14 +202,14 @@ const JobOpenings = () => {
             <Row>
               <Col xs="12">
                 <div className="px-md-13 px-xl-15">
-                  <Link href="/company/careers/openings/electrical-estimator">
+                  <Link href="/company/careers/openings/mechanical-estimatora">
                     <a className="d-flex justify-content-between bg-white rounded-10 px-8 pl-lg-13 pr-lg-11 py-9 py-lg-10 align-items-center mb-5 job-card-hover gr-hover-shadow-5">
                       <div className="texts">
                         <h3 className="gr-text-6 font-weight-bold text-blackish-blue mb-4">
-                          Electrical Estimator{" "}
+                          Mechanical Estimator{" "}
                         </h3>
                         <p className="gr-text-9 mb-0 gr-color-blackish-blue-opacity-7">
-                          Presidio, AZ
+                          Full Time, Pheonix, AZ / Remote
                         </p>
                       </div>
                       <div className="card-icon">
@@ -217,11 +217,11 @@ const JobOpenings = () => {
                       </div>
                     </a>
                   </Link>
-                  <Link href="/">
+                  <Link href="/company/careers/openings/mechanical-estimatora">
                     <a className="d-flex justify-content-between bg-white rounded-10 px-8 pl-lg-13 pr-lg-11 py-9 py-lg-10 align-items-center mb-5 job-card-hover gr-hover-shadow-5">
                       <div className="texts">
                         <h3 className="gr-text-6 font-weight-bold text-blackish-blue mb-4">
-                          Full Stack Developer
+                          Angular Developer
                         </h3>
                         <p className="gr-text-9 mb-0 gr-color-blackish-blue-opacity-7">
                           Full Time, Remote
@@ -232,51 +232,7 @@ const JobOpenings = () => {
                       </div>
                     </a>
                   </Link>
-                  <Link href="/">
-                    <a className="d-flex justify-content-between bg-white rounded-10 px-8 pl-lg-13 pr-lg-11 py-9 py-lg-10 align-items-center mb-5 job-card-hover gr-hover-shadow-5">
-                      <div className="texts">
-                        <h3 className="gr-text-6 font-weight-bold text-blackish-blue mb-4">
-                          Web Developer (React / Angular)
-                        </h3>
-                        <p className="gr-text-9 mb-0 gr-color-blackish-blue-opacity-7">
-                          Full Time, New York
-                        </p>
-                      </div>
-                      <div className="card-icon">
-                        <i className="fas fa-arrow-right gr-text-8 text-storm"></i>
-                      </div>
-                    </a>
-                  </Link>
-                  <Link href="/">
-                    <a className="d-flex justify-content-between bg-white rounded-10 px-8 pl-lg-13 pr-lg-11 py-9 py-lg-10 align-items-center mb-5 job-card-hover gr-hover-shadow-5">
-                      <div className="texts">
-                        <h3 className="gr-text-6 font-weight-bold text-blackish-blue mb-4">
-                          UX Designer
-                        </h3>
-                        <p className="gr-text-9 mb-0 gr-color-blackish-blue-opacity-7">
-                          Full Time, New York
-                        </p>
-                      </div>
-                      <div className="card-icon">
-                        <i className="fas fa-arrow-right gr-text-8 text-storm"></i>
-                      </div>
-                    </a>
-                  </Link>
-                  <Link href="/">
-                    <a className="d-flex justify-content-between bg-white rounded-10 px-8 pl-lg-13 pr-lg-11 py-9 py-lg-10 align-items-center mb-5 job-card-hover gr-hover-shadow-5">
-                      <div className="texts">
-                        <h3 className="gr-text-6 font-weight-bold text-blackish-blue mb-4">
-                          Software Engineer
-                        </h3>
-                        <p className="gr-text-9 mb-0 gr-color-blackish-blue-opacity-7">
-                          Full Time, New York
-                        </p>
-                      </div>
-                      <div className="card-icon">
-                        <i className="fas fa-arrow-right gr-text-8 text-storm"></i>
-                      </div>
-                    </a>
-                  </Link>
+
                 </div>
               </Col>
             </Row>

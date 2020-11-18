@@ -89,9 +89,10 @@ const CTA = () => {
                     // indicator={false}
                   />
                 </div>
-                <Button type="submit" className="gr-hover-y rounded-8 w-100">
+                <Button type="submit" className="form-btn gr-hover-y rounded-8 w-100">
                   Submit
                 </Button>
+
               </form>
             </Col>
           </Row>

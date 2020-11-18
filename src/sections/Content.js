@@ -13,17 +13,14 @@ const Content = () => {
       <div className="content-section2 pt-12 pb-9 pt-lg-21 pb-lg-25 bg-default-2">
         <Container>
           <Row className="justify-content-center">
-            <Col xl="6" lg="8" sm="10">
+            <Col xl="12" lg="12" sm="12">
               <div className="section-title text-center mb-12 mb-lg-17">
                 <h2 className="title gr-text-4 mb-7">
-                  Why you should choose us?
+                What We Do
                 </h2>
-                <p className="gr-text-8 px-lg-7 px-xl-0">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next landing page.
-                </p>
+
                 <p>
-                  What We Do Clients have relied on Presidio Cost Solutions to
+                   Clients have relied on Presidio Cost Solutions to
                   prepare, analyze, and resolve their construction claims and
                   disputes. In addition, clients and their attorneys have called
                   on Presidio Cost Solutions’s experts to perform forensic

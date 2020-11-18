@@ -17,10 +17,10 @@ const Services = () => {
       <div className="service-section pt-12 pb-7 pb-lg-25 pt-lg-19">
         <Container>
           <Row className="justify-content-center">
-            <Col xl="6" lg="8" sm="10">
+            <Col xl="10" lg="10" sm="10">
               <div className="section-title text-center mb-11 mb-lg-20">
                 <h2 className="title gr-text-4 mb-7">
-                  Don't worry, we speak Electrical
+                  Don't worry, we've got you covered
                 </h2>
                 <p className="gr-text-8 px-lg-7 px-xl-0">
                   Modern building systems account for the highest cost-variance
