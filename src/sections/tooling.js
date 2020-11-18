@@ -1,11 +1,9 @@
 import React, { useContext } from "react";
 
 import { Container, Row, Col } from "react-bootstrap";
-import GlobalContext from "../context/GlobalContext";
 import estimating from "../assets/image/stock/estimating.jpeg";
 
 const Tooling = () => {
-  const gContext = useContext(GlobalContext);
 
   return (
     <>
