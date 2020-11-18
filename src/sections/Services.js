@@ -23,9 +23,18 @@ const Services = () => {
                   Don't worry, we've got you covered
                 </h2>
                 <p className="gr-text-8 px-lg-7 px-xl-0">
-                  Modern building systems account for the highest cost-variance
-                  in commercial construction. Presidio Cost Solutions provides
-                  industry-leading tools to make informed cost decisions.
+                  Modern electrical and low-voltage systems account for some of
+                  the highest cost-variance in commercial construction. Presidio
+                  Cost Solutions provides industry-leading tools to make
+                  informed cost decisions.
+                </p>
+                <p className="gr-text-8 px-lg-7 px-xl-0">
+                  Whether you are an owner, developer, design-builder, or trade
+                  partner, Presidio Cost Solutions can provide unprecedented
+                  levels of cost articulation and clarity. Our electrical and
+                  low-voltage preconstruction services provide peace-of-mind
+                  buyout and procurement support at all levels of the electrical
+                  industry.
                 </p>
               </div>
             </Col>

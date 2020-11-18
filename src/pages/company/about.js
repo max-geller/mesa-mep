@@ -2,19 +2,26 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-import imgBanner from "../../assets/image/inner/about-banner.png";
-import imgC1 from "../../assets/image/inner/about-content-1.png";
-import imgC2 from "../../assets/image/inner/about-content-2.png";
-import imgC3 from "../../assets/image/inner/about-content-3.png";
-import imgC4 from "../../assets/image/inner/about-content-4.png";
+
+import imgBanner from "../../assets/image/stock/precon.jpeg";
+import imgC1 from "../../assets/image/stock/data-center.jpeg";
+import imgC2 from "../../assets/image/stock/cellular.jpeg";
+import imgC3 from "../../assets/image/stock/precon.jpeg";
+import imgC4 from "../../assets/image/stock/conduit.jpeg";
 
 const AboutPage = () => {
   return (
     <>
       <PageWrapper
         headerConfig={{
-          align: "right",
-          button: "account", // cta, account, null
+          theme: "light",
+          align: "left",
+          isFluid: true,
+          button: "cta", // cta, account, null
+          buttonText: "Client Login",
+        }}
+        footerConfig={{
+          theme: "light",
         }}
       >
         <div className="inner-banner">
@@ -22,7 +29,7 @@ const AboutPage = () => {
             <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
               <Col lg="9" xl="8">
                 <div className="px-md-12 text-center mb-11 mb-lg-14">
-                  <h2 className="title gr-text-2 mb-9 mb-lg-12">Our story</h2>
+                  <h2 className="title gr-text-2 mb-9 mb-lg-12">About Us</h2>
                   <p className="gr-text-8 mb-0">
                     With lots of unique blocks, you can easily build a page
                     without coding. Build your next consultancy website within
@@ -123,8 +130,8 @@ const AboutPage = () => {
               >
                 <div className="content-text">
                   <h2 className="gr-text-3 mb-7 mb-lg-11">
-                    High skilled coders <br className="d-none d-lg-block" />{" "}
-                    from worldwide.
+                    We speak<br className="d-none d-lg-block" />{" "}
+                    building systems
                   </h2>
                   <p className="gr-text-8 mb-7 mb-lg-10">
                     We share common trends and strategies for improving your

@@ -14,7 +14,7 @@ const Content = () => {
           <Row className="justify-content-center">
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-center mb-12 mb-lg-17">
-                <h2 className="title gr-text-4 mb-7">What We Do</h2>
+                <h2 className="title gr-text-4 mb-7">Why Presidio Cost Solutions?</h2>
 
                 <p>
                   Clients have relied on Presidio Cost Solutions to prepare,
@@ -40,33 +40,8 @@ const Content = () => {
               </div>
             </Col>
           </Row>
-          <Row className="align-items-center">
-            <Col lg="5">
-              <div className="content-widget mt-7 mt-lg-0 pl-xl-13">
+
                 <Row className="align-items-center">
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="750"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          1
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          White-Label Client Access
-                        </h3>
-                        <p className="gr-text-9 mb-0">
-                          With lots of unique blocks, you can easily build a
-                          page without coding.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
                   <Col
                     md="6"
                     lg="12"
@@ -76,12 +51,12 @@ const Content = () => {
                     <div className="single-widget my-7 media">
                       <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
                         <span className="count text-primary--light-only gr-text-9">
-                          2
+                          1
                         </span>
                       </div>
                       <div className="media-body">
                         <h3 className="w-title mb-5 gr-text-7">
-                          Free Expert Opinion
+                          Trade-Level Estimating Detail
                         </h3>
                         <p className="gr-text-9 mb-0">
                           With lots of unique blocks, you can easily build a
@@ -99,12 +74,12 @@ const Content = () => {
                     <div className="single-widget my-7 media">
                       <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
                         <span className="count text-primary--light-only gr-text-9">
-                          3
+                          2
                         </span>
                       </div>
                       <div className="media-body">
                         <h3 className="w-title mb-5 gr-text-7">
-                          Get Your Results
+                          Modern Reporting
                         </h3>
                         <p className="gr-text-9 mb-0">
                           With lots of unique blocks, you can easily build a
@@ -123,12 +98,35 @@ const Content = () => {
                     <div className="single-widget my-7 media">
                       <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
                         <span className="count text-primary--light-only gr-text-9">
+                          3
+                        </span>
+                      </div>
+                      <div className="media-body">
+                        <h3 className="w-title mb-5 gr-text-7">
+                          Industry-Leading Collaboration
+                        </h3>
+                        <p className="gr-text-9 mb-0">
+                          With lots of unique blocks, you can easily build a
+                          page without coding.{" "}
+                        </p>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col
+                    md="6"
+                    lg="12"
+                    data-aos="fade-left"
+                    data-aos-duration="750"
+                  >
+                    <div className="single-widget my-7 media">
+                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                        <span className="count text-primary--light-only gr-text-9">
                           4
                         </span>
                       </div>
                       <div className="media-body">
                         <h3 className="w-title mb-5 gr-text-7">
-                          Monitize Your Project Data
+                          Unparalleled Expertise
                         </h3>
                         <p className="gr-text-9 mb-0">
                           With lots of unique blocks, you can easily build a
@@ -138,9 +136,6 @@ const Content = () => {
                     </div>
                   </Col>
                 </Row>
-              </div>
-            </Col>
-          </Row>
         </Container>
       </div>
     </>
