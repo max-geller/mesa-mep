@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import estimate from "./../../../assets/image/stock/estimating.jpeg";
+import estimate from "./../../../assets/image/accubid.JPG";
 
 const Estimating = () => {
   return (
@@ -42,7 +42,7 @@ const Estimating = () => {
               >
                 <div className="hero-content section-title dark-mode-texts">
                   <h1 className="gr-text-2 font-weight-bold mb-8">
-                    DETAILED ESTIMATING
+                    ACCUBID ESTIMATING
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
                     Let us take care of your MEP estimating needs. Our systems
