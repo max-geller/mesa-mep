@@ -2,8 +2,6 @@ import React from "react";
 
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import estimate from "./../../../assets/image/stock/estimating.jpeg";
@@ -58,25 +56,21 @@ const Consultation = () => {
           <Row className="justify-content-center mt-11 mb-11">
             <Col xl="12" lg="12" sm="11" xs="11">
               <div className="section-title text-left mb-11 mb-lg-20">
-                <h4 className="title gr-text-6 mb-5">
-                  Let's Talk Costs...
-                </h4>
+                <h4 className="title gr-text-6 mb-5">Let's Talk Costs...</h4>
                 <p className="gr-text-8  px-xl-0">
                   Modern building systems account for the highest cost-variance
-                  in commercial construction. Presidio Cost Solutions provides industry-leading
-                  tools to make informed cost decisions.
+                  in commercial construction. Presidio Cost Solutions provides
+                  industry-leading tools to make informed cost decisions.
                 </p>
                 <p>
                   Accurate MEP estimating requires thoughtful attention to
                   project requirements, system experience, familiarity with
-                  local Code, and regional market pricing insights.  It's tough for today's owners, developers and general contractors to navigate the changing technologies and regulations.
+                  local Code, and regional market pricing insights. It's tough
+                  for today's owners, developers and general contractors to
+                  navigate the changing technologies and regulations.
                 </p>
               </div>
             </Col>
-          </Row>
-        </Container>
-        <Container>
-          <Row className="justify-content-left mt-11 mb-11">
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-left mb-11 mb-lg-20">
                 <p className="gr-text-8  px-xl-0">
@@ -103,6 +97,7 @@ const Consultation = () => {
             </Col>
           </Row>
         </Container>
+
         <CTA />
       </PageWrapper>
     </>

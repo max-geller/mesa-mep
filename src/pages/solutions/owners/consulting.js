@@ -73,10 +73,6 @@ const Consultation = () => {
                 </p>
               </div>
             </Col>
-          </Row>
-        </Container>
-        <Container>
-          <Row className="justify-content-left mt-11 mb-11">
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-left mb-11 mb-lg-20">
                 <p className="gr-text-8  px-xl-0">
@@ -86,18 +82,7 @@ const Consultation = () => {
                   - Assessing the validity of claims - Value engineering - Life
                   cycle costing/cost-in-use - Due diligence studies Such
                   quantity surveys may be carried out from drawings or at the
-                  actual site, as appropriate. Consequently, the method used for
-                  carrying out the measurements will vary widely, with drawings
-                  possibly be measured by scale rule, small measuring wheel,
-                  digitizer, or on-screen software (such as BidScreen from
-                  Vertigraph) used with electronic documents. On-site
-                  measurements might be carried out using traditional tape,
-                  electronic 'tape' measures, measuring wheel, etc. Whatever
-                  method is used, the level of detail must be appropriate for
-                  use to which it is being put, gathering ample records, but not
-                  superfluous information. Quantity Surveys are normally part of
-                  the process to achieving another goal, but in almost all cases
-                  they are a very important part.
+                  actual site, as appropriate. C
                 </p>
               </div>
             </Col>
