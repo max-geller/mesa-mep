@@ -70,21 +70,14 @@ const Footer = () => {
                   <p className="footer-title gr-text-11 mb-7">Legal</p>
                   <ul className="footer-list list-unstyled">
                     <li className="py-2">
-                      <Link href="/">
+                      <Link href="/company/privacy">
                         <a className={`gr-text-9 ${linkClassName}`}>
                           Privacy Policy
                         </a>
                       </Link>
                     </li>
                     <li className="py-2">
-                      <Link href="/">
-                        <a className={`gr-text-9 ${linkClassName}`}>
-                          Terms &amp; Conditions
-                        </a>
-                      </Link>
-                    </li>
-                    <li className="py-2">
-                      <Link href="/">
+                      <Link href="/company/cookies">
                         <a className={`gr-text-9 ${linkClassName}`}>
                           Cookie Policy
                         </a>
