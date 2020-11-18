@@ -3,6 +3,7 @@ import React from "react";
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
 import Newsletter from "../../sections/Newsletter";
+import estimating from "../../assets/image/stock/estimating.jpeg"
 
 const Tooling = () => {
   return (

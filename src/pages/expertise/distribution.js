@@ -6,7 +6,7 @@ import CountUp from "react-countup";
 import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import map from "./../../assets/image/stock/map.jpeg";
+import map from "./../../assets/image/distribution.jpeg";
 
 
 const Analytics = () => {
