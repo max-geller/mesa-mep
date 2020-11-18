@@ -32,7 +32,7 @@ export const menuItems = [
         label: "Trade Partners",
         items: [
           { name: "solutions/trades/takeoff", label: "Takeoff Support" },
-          { name: "solutions/trades/estimating", label: "Detailed Estimating" },
+          { name: "solutions/trades/estimating", label: "Accubid Estimating" },
           { name: "solutions/trades/rfq", label: "RFQ Management" },
           { name: "solutions/trades/change", label: "Change Management" },
         ],

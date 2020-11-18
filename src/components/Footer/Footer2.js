@@ -41,9 +41,15 @@ const Footer = () => {
                 <div className="single-footer mb-13 mb-lg-9">
                   <p className="footer-title gr-text-11 mb-7">Company</p>
                   <ul className="footer-list list-unstyled">
+
                     <li className="py-2">
-                      <Link href="/company/team">
-                        <a className={`gr-text-9 ${linkClassName}`}>Team</a>
+                      <Link href="/company/approach">
+                        <a className={`gr-text-9 ${linkClassName}`}>Our Approach</a>
+                      </Link>
+                    </li>
+                    <li className="py-2">
+                      <Link href="/company/careers/openings">
+                        <a className={`gr-text-9 ${linkClassName}`}>Careers</a>
                       </Link>
                     </li>
                     <li className="py-2">
@@ -52,13 +58,8 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li className="py-2">
-                      <Link href="/company/about">
-                        <a className={`gr-text-9 ${linkClassName}`}>News</a>
-                      </Link>
-                    </li>
-                    <li className="py-2">
-                      <Link href="/company/careers/openings">
-                        <a className={`gr-text-9 ${linkClassName}`}>Careers</a>
+                      <Link href="/company/contact">
+                        <a className={`gr-text-9 ${linkClassName}`}>Contact Us</a>
                       </Link>
                     </li>
                   </ul>
