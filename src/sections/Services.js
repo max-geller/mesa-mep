@@ -20,22 +20,23 @@ const Services = () => {
             <Col xl="6" lg="8" sm="10">
               <div className="section-title text-center mb-11 mb-lg-20">
                 <h2 className="title gr-text-4 mb-7">
-                  Data-Driven MEP Solutions
+                  Don't worry, we speak Electrical
                 </h2>
                 <p className="gr-text-8 px-lg-7 px-xl-0">
-                  Modern building systems account for the highest cost-variance in commercial construction.  Presidio Cost Solutions provides industry-leading tools to make informed cost decisions.
+                  Modern building systems account for the highest cost-variance
+                  in commercial construction. Presidio Cost Solutions provides
+                  industry-leading tools to make informed cost decisions.
                 </p>
               </div>
             </Col>
           </Row>
 
           <Row className="justify-content-center">
-
             <Col
               xs="10"
               sm="6"
               lg="3"
-              className="mb-9 mb-lg-0"
+              className="mb-9 mb-lg-6"
               data-aos="fade-left"
               data-aos-duration="1100"
             >
@@ -46,7 +47,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/#">
+                  <Link href="/services/estimating">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Modeling / Estimating{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -60,7 +61,7 @@ const Services = () => {
               xs="10"
               sm="6"
               lg="3"
-              className="mb-9 mb-lg-0"
+              className="mb-9 mb-lg-6"
               data-aos="fade-left"
               data-aos-duration="2300"
             >
@@ -71,7 +72,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/#">
+                  <Link href="/services/procurement">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Procurement / Buyout{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -85,7 +86,7 @@ const Services = () => {
               xs="10"
               sm="6"
               lg="3"
-              className="mb-9 mb-lg-0"
+              className="mb-9 mb-lg-6"
               data-aos="fade-left"
               data-aos-duration="1700"
             >
@@ -96,7 +97,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/#">
+                  <Link href="/services/controls">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Project Controls{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -105,61 +106,12 @@ const Services = () => {
                 </div>
               </div>
             </Col>
-            <Col
-              xs="10"
-              sm="6"
-              lg="3"
-              className="mb-9 mb-lg-0"
-              data-aos="fade-left"
-              data-aos-duration="2300"
-            >
-              <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
-                <img
-                  src={warehouse}
-                  className="card-img-top rounded-top-10"
-                  alt="..."
-                />
-                <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/#">
-                    <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
-                      Data Management{" "}
-                      <i className="icon icon-tail-right font-weight-bold"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </Col>
 
             <Col
               xs="10"
               sm="6"
               lg="3"
-              className="mb-9 mb-lg-0"
-              data-aos="fade-left"
-              data-aos-duration="2300"
-            >
-              <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
-                <img
-                  src={imgS4}
-                  className="card-img-top rounded-top-10"
-                  alt="..."
-                />
-                <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/#">
-                    <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
-                      Cost Analytics{" "}
-                      <i className="icon icon-tail-right font-weight-bold"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </Col>
-
-            <Col
-              xs="10"
-              sm="6"
-              lg="3"
-              className="mb-9 mb-lg-0"
+              className="mb-9 mb-lg-6"
               data-aos="fade-left"
               data-aos-duration="2300"
             >
@@ -170,7 +122,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/#">
+                  <Link href="/services/forensics">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Change Forensics{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -184,7 +136,7 @@ const Services = () => {
               xs="10"
               sm="6"
               lg="3"
-              className="mb-9 mb-lg-0"
+              className="mb-9 mb-lg-6"
               data-aos="fade-left"
               data-aos-duration="2300"
             >
@@ -195,7 +147,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/#">
+                  <Link href="/services/research">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Market Research{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -204,7 +156,30 @@ const Services = () => {
                 </div>
               </div>
             </Col>
-
+            <Col
+              xs="10"
+              sm="6"
+              lg="3"
+              className="mb-9 mb-lg-6"
+              data-aos="fade-left"
+              data-aos-duration="2300"
+            >
+              <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
+                <img
+                  src={imgS4}
+                  className="card-img-top rounded-top-10"
+                  alt="..."
+                />
+                <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
+                  <Link href="/analytics">
+                    <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
+                      Cost Analytics{" "}
+                      <i className="icon icon-tail-right font-weight-bold"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </Col>
           </Row>
         </Container>
       </div>

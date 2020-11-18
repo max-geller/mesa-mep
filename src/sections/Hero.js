@@ -30,10 +30,10 @@ const Hero = () => {
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
                   Presidio Cost Solutions is your trusted partner for
-                  Electrical, Fire Alarm, and Low-Voltage systems 
-                  consulting. Our team delivers crucial data-driven insights
-                  that enable better MEP systems decision-making for modern
-                  construction.
+                  Electrical, Fire Alarm, and Low-Voltage systems cost
+                  consulting and preconstruction services. Our team delivers
+                  crucial data-driven insights that enable better systems
+                  decision-making for modern construction.
                 </p>
               </div>
             </Col>
