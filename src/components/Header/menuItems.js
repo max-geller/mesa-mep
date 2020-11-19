@@ -39,7 +39,7 @@ export const menuItems = [
       },
     ],
   },
-//  {
+  //  {
 //    name: "services",
 //    label: "Services",
 //    items: [
@@ -53,6 +53,16 @@ export const menuItems = [
 //      { name: "services/analytics", label: "Analytics / BI" },
 //    ],
 //  },
+  {
+    name: "services",
+    label: "PowerBI",
+    items: [
+      { name: "services/takeoff", label: "What is PowerBI?" },
+      { name: "services/modeling", label: "Why Should I Care?" },
+      { name: "services/estimating", label: "Workflow" },
+      { name: "services/estimating", label: "Client Access" },
+    ],
+  },
   {
     name: "markets",
     label: "Markets",
