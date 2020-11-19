@@ -98,8 +98,6 @@ export const menuItems = [
       { name: "company/approach", label: "Our Approach" },
       { name: "company/tooling", label: "Software & Tooling" },
       { name: "company/about", label: "About Us" },
-//      { name: "company/team", label: "Our Team" },
-      { name: "company/careers/openings", label: "Careers" },
       { name: "company/contact", label: "Contact Us" },
     ],
   },
