@@ -7,9 +7,8 @@ export const menuItems = [
         name: "owners",
         label: "Owners / Developers",
         items: [
-          { name: "solutions/owners/consulting", label: "Cost Consulting" },
+          { name: "solutions/owners/consulting", label: "Systems Consulting" },
           { name: "solutions/owners/research", label: "Market Research" },
-          { name: "solutions/owners/scoping", label: "Scoping Support" },
           { name: "solutions/owners/procurement", label: "Procurement Support" },
           { name: "solutions/owners/forensics", label: "Change Forensics" },
           { name: "solutions/owners/tracking", label: "BI / Cost Tracking" },
@@ -19,7 +18,8 @@ export const menuItems = [
         name: "design",
         label: "Design-Builders",
         items: [
-          { name: "solutions/builders/estimating", label: "Systems Estimating" },
+          { name: "solutions/builders/estimating", label: "Electrical Estimating" },
+          { name: "solutions/builders/scoping", label: "Scoping Support" },
           { name: "solutions/builders/buyout", label: "Buyout & Bid Support" },
           { name: "solutions/builders/value", label: "Value Engineering" },
           { name: "solutions/builders/change", label: "Change Management" },
@@ -55,9 +55,9 @@ export const menuItems = [
 //  },
   {
     name: "services",
-    label: "PowerBI",
+    label: "Analytics / BI",
     items: [
-      { name: "services/takeoff", label: "What is PowerBI?" },
+      { name: "services/takeoff", label: "PowerBI" },
       { name: "services/modeling", label: "Why Should I Care?" },
       { name: "services/estimating", label: "Workflow" },
       { name: "services/estimating", label: "Client Access" },

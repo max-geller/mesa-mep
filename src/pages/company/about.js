@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-
 import imgBanner from "../../assets/image/stock/precon.jpeg";
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
 import imgC2 from "../../assets/image/stock/cellular.jpeg";
@@ -56,22 +55,25 @@ const AboutPage = () => {
               <Col lg="6">
                 <div className="pr-xl-13">
                   <p className="gr-text-8 mb-7 mb-lg-10">
-                    Presidio Cost Solutions is a leading construction consulting firm
-                    providing a portfolio of professional support services to a
-                    wide range of clients including owners, contractors,
+                    Presidio Cost Solutions is a leading construction consulting
+                    firm providing a portfolio of professional support services
+                    to a wide range of clients including owners, contractors,
                     attorneys, engineers, insurers, and suppliers involved in
-                    the engineering and construction process. Presidio Cost Solutions
-                    offers guidance and control for all types of architectural
-                    construction projects. We serve public and private owners,
-                    architects, engineers and contractors. We have extensive
-                    experience in health care, educational facilities, research
-                    labs, high tech office buildings, hospitality and resort,
-                    aviation, museums, art galleries, retail, industrial,
-                    government, and commercial office buildings. We offer you a
-                    comprehensive range of project and cost management services
-                    including: Strategic Planning, Project Management, Budget
-                    Management, Schedule Management, Value Management, Claims
-                    Settlement, Dispute Resolution, and Quantity Surveys.
+                    the engineering and construction process. Presidio Cost
+                    Solutions offers guidance and control for all types of
+                    architectural construction projects.
+                  </p>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, research labs, high tech
+                    office buildings, hospitality and resort, aviation, museums,
+                    art galleries, retail, industrial, government, and
+                    commercial office buildings. We offer you a comprehensive
+                    range of project and cost management services including:
+                    Strategic Planning, Project Management, Budget Management,
+                    Schedule Management, Value Management, Claims Settlement,
+                    Dispute Resolution, and Quantity Surveys.
                   </p>
                 </div>
               </Col>
@@ -130,8 +132,8 @@ const AboutPage = () => {
               >
                 <div className="content-text">
                   <h2 className="gr-text-3 mb-7 mb-lg-11">
-                    We speak<br className="d-none d-lg-block" />{" "}
-                    building systems
+                    We speak
+                    <br className="d-none d-lg-block" /> building systems
                   </h2>
                   <p className="gr-text-8 mb-7 mb-lg-10">
                     We share common trends and strategies for improving your
@@ -149,7 +151,6 @@ const AboutPage = () => {
             </Row>
           </Container>
         </div>
-        
       </PageWrapper>
     </>
   );
