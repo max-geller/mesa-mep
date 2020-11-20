@@ -45,7 +45,7 @@ export const menuItems = [
     items: [
       { name: "services/takeoff", label: "Capabilities" },
       { name: "services/takeoff", label: "Visual Reporting" },
-      { name: "services/estimating", label: "Data Workflow" },
+      { name: "services/estimating", label: "Cost Repository" },
       { name: "services/estimating", label: "Client Data Access" },
     ],
   },

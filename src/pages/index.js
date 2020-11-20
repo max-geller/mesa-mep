@@ -6,6 +6,7 @@ import Services from "../sections/Services";
 import Content from "../sections/Content";
 import CTA from "../sections/CTA";
 import FAQ from "../sections/FAQ";
+import BI from "../sections/BI";
 import Newsletter from "../sections/Newsletter";
 
 
@@ -28,6 +29,7 @@ const Consultation = () => {
         <Hero />
         <Services />
         <Content />
+        <BI />
         <FAQ />
         <CTA />
 
