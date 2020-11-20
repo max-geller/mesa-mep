@@ -11,7 +11,6 @@ export const menuItems = [
           { name: "solutions/owners/research", label: "Market Research" },
           { name: "solutions/owners/procurement", label: "Procurement Support" },
           { name: "solutions/owners/forensics", label: "Change Forensics" },
-          { name: "solutions/owners/tracking", label: "BI / Cost Tracking" },
         ],
       },
       {
@@ -43,10 +42,10 @@ export const menuItems = [
     name: "services",
     label: "Analytics / BI",
     items: [
-      { name: "services/takeoff", label: "Capabilities" },
+      { name: "services/takeoff", label: "BI Capabilities" },
       { name: "services/takeoff", label: "Visual Reporting" },
-      { name: "services/estimating", label: "Cost Repository" },
       { name: "services/estimating", label: "Client Data Access" },
+      { name: "services/estimating", label: "Cost Repo Services" },
     ],
   },
   {

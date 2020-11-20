@@ -2,8 +2,6 @@ import React from "react";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import map from "./../../assets/image/distribution.jpeg";
@@ -45,9 +43,9 @@ const Analytics = () => {
                     ELECTRICAL DISTRIBUTION
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    History shows the buyout process of MEP systems is the
-                    single-largest contributor to trade bid variance. Let's get
-                    you setup for success.
+                    We know our switchgear.  220? 221? Whatever it takes...
+                  </p>
+                  <p className="gr-text-8 pr-sm-7 pr-md-12">
                   </p>
                 </div>
               </Col>
