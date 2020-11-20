@@ -10,7 +10,7 @@ const Phases = () => {
           <Row className="justify-content-center">
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-center mb-12 mb-lg-17">
-                <h2 className="title gr-text-4 mb-7">Why Presidio Cost Solutions?</h2>
+                <h2 className="title gr-text-4 mb-7">Where Can We Help?</h2>
 
                 <p>
                   Clients have relied on Presidio Cost Solutions to prepare,
@@ -41,7 +41,7 @@ const Phases = () => {
                       </div>
                       <div className="media-body">
                         <h3 className="w-title mb-5 gr-text-7">
-                          Conceptual / Feasability
+                          Conceptual / Feasibility
                         </h3>
                         <p className="gr-text-9 mb-0">
                           With lots of unique blocks, you can easily build a

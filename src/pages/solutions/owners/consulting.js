@@ -2,6 +2,7 @@ import React from "react";
 
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
+import Phases from "../../../sections/Phases";
 import { Container, Row, Col } from "react-bootstrap";
 
 import estimate from "./../../../assets/image/stock/estimating.jpeg";
@@ -96,6 +97,9 @@ const Consultation = () => {
               </div>
             </Col>
           </Row>
+        </Container>
+        <Container>
+          <Phases />
         </Container>
         <CTA />
       </PageWrapper>
