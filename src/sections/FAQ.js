@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import GlobalContext from "../context/GlobalContext";
 
-const Content = () => {
+const FAQ = () => {
   const gContext = useContext(GlobalContext);
 
   return (
@@ -14,7 +14,7 @@ const Content = () => {
           <Row className="justify-content-center">
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-center mb-12 mb-lg-17">
-                <h2 className="title gr-text-4 mb-7">Why Presidio Cost Solutions?</h2>
+                <h2 className="title gr-text-4 mb-7">FAQs</h2>
 
                 <p>
                   Clients have relied on Presidio Cost Solutions to prepare,
@@ -131,4 +131,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default FAQ;

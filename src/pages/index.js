@@ -5,6 +5,7 @@ import Hero from "../sections/Hero";
 import Services from "../sections/Services";
 import Content from "../sections/Content";
 import CTA from "../sections/CTA";
+import FAQ from "../sections/FAQ";
 import Newsletter from "../sections/Newsletter";
 
 
@@ -27,7 +28,9 @@ const Consultation = () => {
         <Hero />
         <Services />
         <Content />
+        <FAQ />
         <CTA />
+
         <Newsletter />
       </PageWrapper>
     </>

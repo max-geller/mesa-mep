@@ -32,8 +32,8 @@ const Hero = () => {
                   Presidio Cost Solutions is your trusted partner for
                   Electrical, Fire Alarm, and Low-Voltage systems cost
                   consulting and preconstruction services. Our team delivers
-                  crucial data-driven insights that enable better systems
-                  decision-making for modern construction.
+                  crucial data-driven insights that enable better
+                  decision-making for modern building systems.
                 </p>
               </div>
             </Col>

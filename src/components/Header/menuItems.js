@@ -39,28 +39,14 @@ export const menuItems = [
       },
     ],
   },
-  //  {
-//    name: "services",
-//    label: "Services",
-//    items: [
-//      { name: "services/takeoff", label: "Takeoff / Survey" },
-//      { name: "services/modeling", label: "Cost Modeling" },
-//      { name: "services/estimating", label: "Estimating" },
-//      { name: "services/procurement", label: "Procurement" },
-//      { name: "services/research", label: "Market Analysis" },
-//      { name: "services/reconciliation", label: "Cost Reconciliation" },
-//      { name: "services/controls", label: "Cost Controls" },
-//      { name: "services/analytics", label: "Analytics / BI" },
-//    ],
-//  },
   {
     name: "services",
     label: "Analytics / BI",
     items: [
-      { name: "services/takeoff", label: "PowerBI" },
-      { name: "services/modeling", label: "Why Should I Care?" },
-      { name: "services/estimating", label: "Workflow" },
-      { name: "services/estimating", label: "Client Access" },
+      { name: "services/takeoff", label: "Capabilities" },
+      { name: "services/takeoff", label: "Visual Reporting" },
+      { name: "services/estimating", label: "Data Workflow" },
+      { name: "services/estimating", label: "Client Data Access" },
     ],
   },
   {
