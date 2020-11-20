@@ -2,6 +2,7 @@ import React from "react";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
+import Tiers from "../../sections/Tiers";
 import Approach from "../../sections/Approach";
 import Newsletter from "../../sections/Newsletter";
 
@@ -21,6 +22,7 @@ const Consultation = () => {
         }}
       >
         <Approach />
+        <Tiers />
         <CTA />
         <Newsletter />
       </PageWrapper>

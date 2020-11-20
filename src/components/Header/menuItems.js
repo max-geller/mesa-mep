@@ -54,7 +54,7 @@ export const menuItems = [
     items: [
       { name: "markets/airport", label: "Airport / Terminal" },
       { name: "markets/corporate", label: "Corporate" },
-      { name: "markets/data-centers", label: "Mission Critical" },
+      { name: "markets/data-centers", label: "Data Centers" },
       { name: "markets/high-rise", label: "High-Rise / Mixed Use" },
       { name: "markets/hospitality", label: "Hotels / Hospitality" },
       { name: "markets/industrial", label: "Industrial" },

@@ -58,18 +58,30 @@ const Estimating = () => {
           <Row className="justify-content-center mt-11 mb-11">
             <Col xl="12" lg="12" sm="11" xs="11">
               <div className="section-title text-left mb-11 mb-lg-20">
-                <h4 className="title gr-text-6 mb-5">
-                  Let's Talk Costs...
-                </h4>
+                <h4 className="title gr-text-6 mb-5">Let's Talk Costs...</h4>
                 <p className="gr-text-8  px-xl-0">
                   Modern building systems account for the highest cost-variance
-                  in commercial construction. Presidio Cost Solutions provides industry-leading
-                  tools to make informed cost decisions.
+                  in commercial construction. Presidio Cost Solutions provides
+                  industry-leading tools to make informed cost decisions.
                 </p>
                 <p>
                   Accurate MEP estimating requires thoughtful attention to
                   project requirements, system experience, familiarity with
-                  local Code, and regional market pricing insights.  It's tough for today's owners, developers and general contractors to navigate the changing technologies and regulations.
+                  local Code, and regional market pricing insights. It's tough
+                  for today's owners, developers and general contractors to
+                  navigate the changing technologies and regulations.
+                </p>
+                <p>
+                  General contractors are faced with a continually fluctuating
+                  market which makes it frustrating to maintain reliable and
+                  consistent workloads throughout the year. In today’s
+                  environment of economic pullback, the construction trades are
+                  seeing major cuts and contractors must do more with less. The
+                  contracting industry as whole has always been subject to the
+                  whims of commodity cost changes, local market conditions, and
+                  the never-ending cycle of subcontractors; but with the current
+                  resources, lack of training, and dwindling labor pool,
+                  recovery in the construction sector may take years.
                 </p>
               </div>
             </Col>
@@ -79,16 +91,14 @@ const Estimating = () => {
                   Quantity Surveys are needed for a wide variety of purposes,
                   including: - Preparing estimates and bids - Measuring work
                   completed (for interim payments, etc.) - Valuing change orders
-                  - Assessing the validity of claims - 
+                  - Assessing the validity of claims -
                 </p>
               </div>
             </Col>
           </Row>
         </Container>
         <Container>
-          <Row className="justify-content-left mt-11 mb-11">
-
-          </Row>
+          <Row className="justify-content-left mt-11 mb-11"></Row>
         </Container>
         <CTA />
       </PageWrapper>

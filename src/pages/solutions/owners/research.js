@@ -43,9 +43,7 @@ const Research = () => {
                     MARKET RESEARCH
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    History shows the buyout process of MEP systems is the
-                    single-largest contributor to trade bid variance. Let's get
-                    you setup for success.
+                   Need to know Union Market Share?  Looking to see what Journeymen are paid in Local 332?  We wonder about these sorts of things too...
                   </p>
                 </div>
               </Col>
