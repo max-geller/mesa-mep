@@ -33,7 +33,6 @@ const Consultation = () => {
         <Content />
         <Systems />
         <Actions />
-        <BI />
         <FAQ />
         <CTA />
         <Newsletter />

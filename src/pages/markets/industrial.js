@@ -2,11 +2,9 @@ import React from "react";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import estimate from "./../../assets/image/stock/estimating.jpeg";
+import distribution from "./../../assets/image/distribution.jpeg";
 
 const Consultation = () => {
   return (
@@ -27,7 +25,7 @@ const Consultation = () => {
         <div
           className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
           css={`
-            background-image: url(${estimate});
+            background-image: url(${distribution});
           `}
         >
           <Container>

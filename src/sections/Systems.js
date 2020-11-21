@@ -24,7 +24,7 @@ const Systems = () => {
               xl="5"
               className="offset-lg-1 offset-lg-1 offset-xl-0"
             >
-              <div className="content-text">
+              <div className="content-text ml-6">
                 <h2 className="gr-text-3 mb-7 mb-lg-11">
                   We speak
                   <br className="d-none d-lg-block" /> building systems

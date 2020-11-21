@@ -52,7 +52,20 @@ const Security = () => {
             </Row>
           </Container>
         </div>
-
+        <Container>
+          <p className="mt-8">
+            Airport campuses can present many logistic challenges to the
+            construction phasing process, and require a special attention to
+            labor factoring and productivity impacts. Our team has seen more
+            exposure to these challenges than most, and have unique experience
+            that can help prepare more accurate cost estimates for airport
+            construction.{" "}
+          </p>
+          <p>
+            Let's take a look at some common cost-drivers for airport
+            construction:
+          </p>
+        </Container>
         <CTA />
       </PageWrapper>
     </>

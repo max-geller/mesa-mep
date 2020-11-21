@@ -20,7 +20,7 @@ const FAQ = () => {
           </Row>
 
           <Row className="align-items-center">
-            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1200">
+            <Col md="6" lg="6" data-aos="fade-left" data-aos-duration="1200">
               <div className="single-widget my-7 media">
                 <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
                   <span className="count text-primary--light-only gr-text-9">
@@ -44,7 +44,7 @@ const FAQ = () => {
                 </div>
               </div>
             </Col>
-            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1800">
+            <Col md="6" lg="6" data-aos="fade-left" data-aos-duration="1200">
               <div className="single-widget my-7 media">
                 <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
                   <span className="count text-primary--light-only gr-text-9">
@@ -70,7 +70,7 @@ const FAQ = () => {
               </div>
             </Col>
 
-            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1800">
+            <Col md="6" lg="6" data-aos="fade-left" data-aos-duration="1200">
               <div className="single-widget my-7 media">
                 <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
                   <span className="count text-primary--light-only gr-text-9">
@@ -92,7 +92,7 @@ const FAQ = () => {
                 </div>
               </div>
             </Col>
-            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="750">
+            <Col md="6" lg="6" data-aos="fade-left" data-aos-duration="1200">
               <div className="single-widget my-7 media">
                 <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
                   <span className="count text-primary--light-only gr-text-9">
