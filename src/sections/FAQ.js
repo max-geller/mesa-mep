@@ -14,17 +14,7 @@ const FAQ = () => {
           <Row className="justify-content-center">
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-center mb-12 mb-lg-17">
-                <h2 className="title gr-text-4 mb-7">FAQs</h2>
-
-                <p>
-                  Clients have relied on Presidio Cost Solutions to prepare,
-                  analyze, and resolve their construction claims and disputes.
-                  In addition, clients and their attorneys have called on
-                  Presidio Cost Solutions’s experts to perform forensic analysis
-                  of construction projects to determine liability for increased
-                  cost, reduced labor productivity, defects, and schedule
-                  delays.
-                </p>
+                <h2 className="title gr-text-4 mb-7">Common FAQs</h2>
               </div>
             </Col>
           </Row>

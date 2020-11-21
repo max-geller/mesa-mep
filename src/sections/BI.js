@@ -33,7 +33,7 @@ const BI = () => {
                   href="/company/about"
                   className={`btn btn-${gContext.header.variant}`}
                 >
-                  Show Me More!
+                  Show Me More
                 </a>
               </div>
             </Col>
