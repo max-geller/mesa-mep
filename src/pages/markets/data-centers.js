@@ -55,44 +55,122 @@ const Consultation = () => {
           </Container>
         </div>
         <Container>
-          <Row className="justify-content-center mt-11 mb-11">
-            <Col xl="6" lg="8" sm="10">
-              <div className="section-title text-center mb-11 mb-lg-20">
-                <h2 className="title gr-text-4 mb-7">
-                  Data-Driven MEP Solutions
-                </h2>
-                <p className="gr-text-8 px-lg-7 px-xl-0">
-                  Modern building systems account for the highest cost-variance
-                  in commercial construction. Presidio Cost Solutions provides
-                  industry-leading tools to make informed cost decisions.
-                </p>
+          <p className="mt-8">
+            Airport campuses can present many logistic challenges to the
+            construction phasing process, and require a special attention to
+            labor factoring and productivity impacts. Our team has seen more
+            exposure to these challenges than most, and have unique experience
+            that can help prepare more accurate cost estimates for airport
+            construction.{" "}
+          </p>
+          <p>
+            Let's take a look at some common cost-drivers for airport
+            construction:
+          </p>
+        </Container>
+        <Container>
+          <Row className="align-items-center">
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1200">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    1
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">
+                    Impacts to Labor Producitivies
+                  </h3>
+                  <p className="gr-text-9 mb-0">
+                    Crowded airport terminals, high-levels of passenger traffic,
+                    and difficult overhead installation conditions can
+                    contribute to unusually high productivity impacts. We've
+                    seen it all, and are here to help guide your estimating and
+                    preconstruction efforts to ensure these labor impacts are
+                    observed and captured in your construction budget.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1200">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    2
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">
+                    Site-Specific General Requirements
+                  </h3>
+                  <p className="gr-text-9 mb-0">
+                    Airport construction requires increased expenses due to
+                    general conditions and requirements focused on minimizing
+                    impacts to the passenger experience. While these are often
+                    overlooked, cost elements such as construction signage,
+                    barriers, badging, campus training, and security escorting
+                    can be a costly oversight. Let us help develop strategies to
+                    observe these costs at the outset of your estimating and
+                    preconstruction efforts.
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    3
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">
+                    Portal-to-Portal & Material Lay-Down
+                  </h3>
+                  <p className="gr-text-9 mb-0">
+                    Construction within an operational airport campus can
+                    present many challenges when it comes to the transportation
+                    of materials and field labor. Establishing an accurate cost
+                    estimate requires thoughtful attention to material lay-down
+                    restrictions, portal-to-portal travel times and distances,
+                    as well as material accessibility through the sterile areas
+                    of the campus. Presidio Cost Solutions has a thorough
+                    understanding of these challenges and are here to help
+                    develop cost strategies for success.
+                  </p>
+                </div>
               </div>
             </Col>
           </Row>
         </Container>
         <Container>
-          {/* <!-- Fact Area --> */}
-          <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
-            <p>
-              Quantity Surveys are needed for a wide variety of purposes,
-              including: - Preparing estimates and bids - Measuring work
-              completed (for interim payments, etc.) - Valuing change orders -
-              Assessing the validity of claims - Value engineering - Life cycle
-              costing/cost-in-use - Due diligence studies Such quantity surveys
-              may be carried out from drawings or at the actual site, as
-              appropriate. Consequently, the method used for carrying out the
-              measurements will vary widely, with drawings possibly be measured
-              by scale rule, small measuring wheel, digitizer, or on-screen
-              software (such as BidScreen from Vertigraph) used with electronic
-              documents. On-site measurements might be carried out using
-              traditional tape, electronic 'tape' measures, measuring wheel,
-              etc. Whatever method is used, the level of detail must be
-              appropriate for use to which it is being put, gathering ample
-              records, but not superfluous information. Quantity Surveys are
-              normally part of the process to achieving another goal, but in
-              almost all cases they are a very important part.
-            </p>
-          </div>
+          <Row className="justify-content-center mt-11 mb-11 ml-12">
+            <Col xl="6" lg="6" sm="6">
+              <h4>Airport-Specific Expertise</h4>
+              <ul>
+                <li>New Terminal Construction</li>
+                <li>Terminal Modernization</li>
+                <li>Hi-Mast Lighting</li>
+                <li>Digital Signage & Wayfinding</li>
+                <li>Concessions Improvements</li>
+                <li>FAA Structures / Air Traffic Control Tower</li>
+                <li>Runway Lighting</li>
+                <li>Legacy Systems Migration</li>
+                <li>Medium-Voltage Substation Upgrades</li>
+              </ul>
+            </Col>
+            <Col xl="6" lg="6" sm="6">
+              <h4>Team-Specific Experience:</h4>
+              <ul>
+                <li>SFO Terminal 3 West Modernization</li>
+                <li>SFO Grand Hyatt Hotel</li>
+                <li>SFO New Air Traffic Control Tower</li>
+                <li>SFO T1C / Boarding Area B</li>
+                <li>SFO Long Term Parking Garage</li>
+                <li>SFO Substation TX Bypass & Upgrade</li>
+              </ul>
+            </Col>
+          </Row>
         </Container>
         <CTA />
       </PageWrapper>
