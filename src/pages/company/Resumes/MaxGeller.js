@@ -2,11 +2,7 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../../components/PageWrapper";
 
-import imgBanner from "../../../assets/image/stock/precon.jpeg";
-import imgC1 from "../../../assets/image/stock/data-center.jpeg";
-import imgC2 from "../../../assets/image/stock/cellular.jpeg";
-import imgC3 from "../../../assets/image/stock/precon.jpeg";
-import imgC4 from "../../../assets/image/stock/conduit.jpeg";
+import maxgeller from "../../../assets/image/team/max.jpg";
 
 const AboutPage = () => {
   return (
@@ -26,76 +22,11 @@ const AboutPage = () => {
         <div className="inner-banner">
           <Container>
             <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
-              <Col lg="9" xl="8">
-                <div className="px-md-12 text-center mb-11 mb-lg-14">
-                  <h2 className="title gr-text-2 mb-9 mb-lg-12">Max Geller</h2>
-                  <p className="gr-text-8 mb-0">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next consultancy website within
-                    few minutes.
-                  </p>
-                </div>
-              </Col>
-              <Col xs="12">
-                <div className="banner-fluid-image pt-lg-9">
-                  <img src={imgBanner} alt="" className="w-100" />
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
-          <Container>
-            <Row>
-              <Col lg="6" className="mb-7 mb-lg-0">
-                <div className="pr-xl-13">
-                  <h2 className="gr-text-3 mb-0">Who We Are</h2>
-                </div>
-              </Col>
-              <Col lg="6">
-                <div className="pr-xl-13">
-                  <p className="gr-text-8 mb-7 mb-lg-10">
-                    Presidio Cost Solutions is a leading construction consulting
-                    firm providing a portfolio of professional support services
-                    to a wide range of clients including owners, contractors,
-                    attorneys, engineers, insurers, and suppliers involved in
-                    the engineering and construction process. Presidio Cost
-                    Solutions offers guidance and control for all types of
-                    architectural construction projects.
-                  </p>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities, research labs, high tech
-                    office buildings, hospitality and resort, aviation, museums,
-                    art galleries, retail, industrial, government, and
-                    commercial office buildings. We offer you a comprehensive
-                    range of project and cost management services including:
-                    Strategic Planning, Project Management, Budget Management,
-                    Schedule Management, Value Management, Claims Settlement,
-                    Dispute Resolution, and Quantity Surveys.
-                  </p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        <div className="content-section pt-14 pt-lg-27 pb-13 pb-lg-27 bg-default-2">
-          <Container>
-            <Row className="align-items-center justify-content-center">
-              <Col sm="8" lg="5" xl="6" className="mb-9 mb-lg-0">
+              <Col sm="8" lg="5" xl="5" className="mb-9 mb-lg-0">
                 <div className="content-grid-image-group d-flex  mx-sm-n3">
                   <div className="single-image d-flex flex-column px-3 px-sm-6">
                     <img
-                      src={imgC1}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      className="w-100 pb-6 pb-sm-9 rounded-10"
-                    />
-
-                    <img
-                      src={imgC2}
+                      src={maxgeller}
                       alt=""
                       data-aos="zoom-in"
                       data-aos-duration="500"
@@ -103,49 +34,332 @@ const AboutPage = () => {
                       className="w-100 pb-6 pb-sm-9 rounded-10"
                     />
                   </div>
-                  <div className="single-image d-flex flex-column pt-11 px-3 px-sm-6">
-                    <img
-                      src={imgC3}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      data-aos-delay="400"
-                      className="w-100 pb-6 pb-sm-9 rounded-10"
-                    />
-
-                    <img
-                      src={imgC4}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      data-aos-delay="1200"
-                      className="w-100 rounded-10"
-                    />
-                  </div>
                 </div>
               </Col>
-              <Col
-                sm="8"
-                lg="6"
-                xl="5"
-                className="offset-lg-1 offset-lg-1 offset-xl-0"
-              >
-                <div className="content-text">
-                  <h2 className="gr-text-3 mb-7 mb-lg-11">
-                    We speak
-                    <br className="d-none d-lg-block" /> building systems
-                  </h2>
-                  <p className="gr-text-8 mb-7 mb-lg-10">
-                    We share common trends and strategies for improving your
-                    rental income and making sure you stay in high demand of
-                    service.{" "}
-                  </p>
+
+              <Col lg="6" xl="6">
+                <div className="px-md-12 text-left mb-11 mb-lg-14">
+                  <h2 className=" gr-text-2 mb-9 mb-lg-12">Max M. Geller</h2>
+                  <h3>Electrical Preconstruction</h3>
                   <p className="gr-text-8 mb-0">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next landing page. With lots of
-                    unique blocks, you can easily build a page without coding
-                    any other page.
+                    Max Geller is a seasoned construction professional, with a
+                    dedicated background in Electrical, Fire-Alarm, Low Voltage
+                    and Controls Systems, both in Preconstruction and
+                    Construction Operations. Max is experienced in all major
+                    types of construction from Commercial Office Buildings,
+                    Hospitality, Data Centers / Mission-Critical, Laboratories,
+                    Residential, High Rise / Mixed Use, Education and Airports.
                   </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
+          
+          <Container>
+            <Row>
+              <Col lg="6" className="mb-7 mb-lg-0">
+                <div className="pr-xl-13">
+                  <h2 className="gr-text-3 mb-0">Education</h2>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>University of Southern California</h4>
+                  <h5>M. S. Construction Management, 2015</h5>
+                  <p className="gr-text-8 mb-7 mb-lg-10">
+                    Presidio Cost Solutions is a leading construction consulting
+                    firm providing a portfolio of professional support services
+                  </p>
+                  <h4>California State University, Chico</h4>
+                  <h5>B. S. Construction Management, 2011</h5>
+                  <p className="gr-text-8 mb-7 mb-lg-10">
+                    Presidio Cost Solutions is a leading construction consulting
+                    firm providing a portfolio of professional support services
+                    to a wide range of clients including owners, contractors,
+                    attorneys, engineers,
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <Container className="mb-8">
+            <Row>
+              <Col lg="6" className="mb-7 mb-lg-0">
+                <div className="pr-xl-13">
+                  <h2 className="gr-text-3 mb-0">Experience</h2>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>Hollins Consulting, Inc.</h4>
+                  <h5>Electrical & Technology Preconstruction</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, research labs, high tech
+                    office buildings, hospitality and resort, aviation, museums,
+                    art galleries, retail, industrial, government,
+                    <ul>
+                      <li>
+                        commercial office buildings range of project and cost
+                        management services including:
+                      </li>
+                      <li>
+                        Strategic Planning, Project Management, Budget
+                        Management, Schedule Management, Value Management,
+                        Claims Settlement,
+                      </li>
+                      <li>Dispute Resolution, and Quantity Surveys.</li>
+                    </ul>
+                  </p>
+                </div>
+
+                <div className="pr-xl-13">
+                  <h4>Webcor Builders</h4>
+                  <h5>Electrical Preconstruction Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, research labs, high tech
+                    office buildings, hospitality and resort, aviation, museums,
+                    art galleries, retail, industrial, government,
+                    <ul>
+                      <li>
+                        commercial office buildings range of project and cost
+                        management services including:
+                      </li>
+                      <li>
+                        Strategic Planning, Project Management, Budget
+                        Management, Schedule Management, Value Management,
+                        Claims Settlement,
+                      </li>
+                      <li>Dispute Resolution, and Quantity Surveys.</li>
+                    </ul>
+                  </p>
+                </div>
+                <div className="pr-xl-13">
+                  <h4>Redwood Electric Group</h4>
+                  <h5>Project Management</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, research labs, high tech
+                    office buildings, hospitality and resort, aviation, museums,
+                    art galleries, retail, industrial, government,
+                    <ul>
+                      <li>
+                        commercial office buildings range of project and cost
+                        management services including:
+                      </li>
+                      <li>
+                        Strategic Planning, Project Management, Budget
+                        Management, Schedule Management, Value Management,
+                        Claims Settlement,
+                      </li>
+                      <li>Dispute Resolution, and Quantity Surveys.</li>
+                    </ul>
+                  </p>
+                </div>
+                <div className="pr-xl-13">
+                  <h4>CSI Electrical Contractors</h4>
+                  <h5>Electrical Estimating</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, research labs, high tech
+                    office buildings, hospitality and resort, aviation, museums,
+                    art galleries, retail, industrial, government,
+                    <ul>
+                      <li>
+                        commercial office buildings range of project and cost
+                        management services including:
+                      </li>
+                      <li>
+                        Strategic Planning, Project Management, Budget
+                        Management, Schedule Management, Value Management,
+                        Claims Settlement,
+                      </li>
+                      <li>Dispute Resolution, and Quantity Surveys.</li>
+                    </ul>
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <Container>
+            <Row className="mb-12">
+              <Col lg="6" className="mb-7 mb-lg-0">
+                <div className="pr-xl-13">
+                  <h2 className="gr-text-3 mb-0">Notable Projects</h2>
+                </div>
+              </Col>
+              </Row>
+              <Row className="mb-12">
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <h4>SFO Terminal 3 West Modernization</h4>
+                  <h5>Special Systems Project Manager</h5>
+                  <p>
+                    We serve public and private owners, architects, engineers
+                    and contractors. We have extensive experience in health
+                    care, educational facilities, 
+
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+          <Container>
+            <Row>
+              <Col lg="6" className="mb-7 mb-lg-0">
+                <div className="pr-xl-13">
+                  <h2 className="gr-text-3 mb-0">Expertise</h2>
+                </div>
+              </Col>
+              <Col lg="6">
+                <div className="pr-xl-13">
+                  <Row className="align-items-center">
+                    <Col sm="2" lg="2">
+                      <i className=" gr-text-2 icon icon-camera-flash"></i>
+                    </Col>
+                    <Col sm="8" lg="8">
+                      <h5 class="small" className="gr-text-8 text-left">
+                        Power & Distribution Systems
+                      </h5>
+                    </Col>
+                  </Row>
+                  <Row className="align-items-center">
+                    <Col sm="2" lg="2">
+                      <i className="gr-text-2 icon icon-plug"></i>
+                    </Col>
+                    <h5 className="text-left">Power & Distribution Systems</h5>
+                  </Row>
+                  <Row className="align-items-center">
+                    <Col sm="2" lg="2">
+                      <i className="gr-text-2 icon icon-bulb-63"></i>
+                    </Col>
+                  </Row>
+                  <Row className="align-items-center">
+                    <Col sm="2" lg="2">
+                      <i className="gr-text-2 icon icon-energy"></i>
+                    </Col>
+                  </Row>
+                  <Row className="align-items-center">
+                    <Col sm="2" lg="2">
+                      <i className=" gr-text-2 icon icon-phone-2-2"></i>
+                    </Col>
+                  </Row>
+                  <Row className="align-items-center">
+                    <Col sm="2" lg="2">
+                      <i className="gr-text-2 icon icon-cctv"></i>
+                    </Col>
+                  </Row>
+                  <Row className="align-items-center">
+                    <Col sm="2" lg="2">
+                      <i className="gr-text-2 icon icon-chart-bar-52"></i>
+                    </Col>
+                    <Col>
+                      <h5 className="text-left">Cellular / Wireless Access</h5>
+                    </Col>
+                  </Row>
                 </div>
               </Col>
             </Row>
