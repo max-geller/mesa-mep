@@ -14,47 +14,6 @@ const Systems = () => {
       <div className="content-section  pb-13 pb-lg-27 bg-default-2">
         <Container>
           <Row className="align-items-center justify-content-center">
-            <Col sm="8" lg="5" xl="6" className="mb-9 mb-lg-0">
-              <div className="content-grid-image-group d-flex  mx-sm-n3">
-                <div className="single-image d-flex flex-column px-3 px-sm-6">
-                  <img
-                    src={imgC1}
-                    alt=""
-                    data-aos="zoom-in"
-                    data-aos-duration="500"
-                    className="w-100 pb-6 pb-sm-9 rounded-10"
-                  />
-
-                  <img
-                    src={imgC2}
-                    alt=""
-                    data-aos="zoom-in"
-                    data-aos-duration="500"
-                    data-aos-delay="800"
-                    className="w-100 pb-6 pb-sm-9 rounded-10"
-                  />
-                </div>
-                <div className="single-image d-flex flex-column pt-11 px-3 px-sm-6">
-                  <img
-                    src={imgC3}
-                    alt=""
-                    data-aos="zoom-in"
-                    data-aos-duration="500"
-                    data-aos-delay="400"
-                    className="w-100 pb-6 pb-sm-9 rounded-10"
-                  />
-
-                  <img
-                    src={imgC4}
-                    alt=""
-                    data-aos="zoom-in"
-                    data-aos-duration="500"
-                    data-aos-delay="1200"
-                    className="w-100 rounded-10"
-                  />
-                </div>
-              </div>
-            </Col>
             <Col
               sm="8"
               lg="6"
@@ -98,6 +57,88 @@ const Systems = () => {
                   <li>CCTV & Access Controls</li>
                   <li>Wireless / Cellular / RF</li>
                 </ul>
+              </div>
+            </Col>
+            <Col sm="8" lg="5" xl="6" className="mb-9 mb-lg-0">
+              <div className="content-grid-image-group d-flex  mx-sm-n3">
+                <div className="single-image d-flex flex-column px-3 px-sm-6">
+                  <img
+                    src={imgC1}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    className="w-100 pb-6 pb-sm-9 rounded-10"
+                  />
+
+                  <img
+                    src={imgC2}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="800"
+                    className="w-100 pb-6 pb-sm-9 rounded-10"
+                  />
+                </div>
+
+                <div className="single-image d-flex flex-column pt-11 px-3 px-sm-6">
+                  <img
+                    src={imgC3}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="400"
+                    className="w-100 pb-6 pb-sm-9 rounded-10"
+                  />
+
+                  <img
+                    src={imgC4}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="1200"
+                    className="w-100 rounded-10"
+                  />
+                </div>
+              </div>
+              <div className="content-grid-image-group d-flex  mx-sm-n3">
+                <div className="single-image d-flex flex-column px-3 px-sm-6">
+                  <img
+                    src={imgC1}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    className="w-100 pb-6 pb-sm-9 rounded-10"
+                  />
+
+                  <img
+                    src={imgC2}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="800"
+                    className="w-100 pb-6 pb-sm-9 rounded-10"
+                  />
+                </div>
+
+                <div className="single-image d-flex flex-column pt-11 px-3 px-sm-6">
+                  <img
+                    src={imgC3}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="400"
+                    className="w-100 pb-6 pb-sm-9 rounded-10"
+                  />
+
+                  <img
+                    src={imgC4}
+                    alt=""
+                    data-aos="zoom-in"
+                    data-aos-duration="500"
+                    data-aos-delay="1200"
+                    className="w-100 rounded-10"
+                  />
+                </div>
               </div>
             </Col>
           </Row>
