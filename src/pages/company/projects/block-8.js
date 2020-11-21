@@ -1,12 +1,9 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import PageWrapper from "../../components/PageWrapper";
+import PageWrapper from "../../../components/PageWrapper";
 
-import imgBanner from "../../assets/image/stock/precon.jpeg";
-import imgC1 from "../../assets/image/stock/data-center.jpeg";
-import imgC2 from "../../assets/image/stock/cellular.jpeg";
-import imgC3 from "../../assets/image/stock/precon.jpeg";
-import imgC4 from "../../assets/image/stock/conduit.jpeg";
+import imgBanner from "../../../assets/image/stock/precon.jpeg";
+import imgC1 from "../../../assets/image/projects/avery.jpg";
 
 const AboutPage = () => {
   return (
@@ -28,14 +25,12 @@ const AboutPage = () => {
             <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
               <Col lg="9" xl="8">
                 <div className="px-md-12 text-center mb-11 mb-lg-14">
-                  <h2 className="title gr-text-2 mb-9 mb-lg-12">Team Experience</h2>
+                  <h2 className="title gr-text-2 mb-9 mb-lg-12">Transbay Block 8</h2>
                   <p className="gr-text-8 mb-0">
                     With lots of unique blocks, you can easily build a page
                     without coding. Build your next consultancy website within
                     few minutes.
                   </p>
-                  <a className="btn gr-text-8 mb-0" href="/company/resumes/MaxGeller">Max Geller
-                  </a>
                 </div>
               </Col>
               <Col xs="12">
