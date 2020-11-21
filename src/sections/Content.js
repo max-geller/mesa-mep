@@ -17,15 +17,13 @@ const Content = () => {
                 <h2 className="title gr-text-4 mb-7">
                   Why Presidio Cost Solutions?
                 </h2>
-
-                <p>
-                  Clients have relied on Presidio Cost Solutions to prepare,
-                  assist, analyze, and manage their construction estimating
-                  process. In addition, clients and their attorneys have called
-                  on Presidio Cost Solutions’s experts to perform forensic
-                  analysis of construction projects to determine liability for
-                  increased cost, reduced labor productivity, defects, and
-                  schedule delays.
+                <p className="gr-text-8 px-lg-7 px-xl-0">
+                  Whether you are an owner, developer, design-builder, or trade
+                  partner, Presidio Cost Solutions can provide unprecedented
+                  levels of cost articulation and clarity. Our electrical and
+                  low-voltage preconstruction services provide peace-of-mind
+                  buyout and procurement support at all levels of the electrical
+                  construction industry.
                 </p>
               </div>
             </Col>
