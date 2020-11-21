@@ -26,7 +26,7 @@ const Services = () => {
                   Electrical and low-voltage systems account for some of the
                   highest cost-variance in today's commercial construction.
                   Tightening energy codes, regional AHJ requirements and
-                  ever-changing technologies have made cost estimating a
+                  ever-changing technologies have made generating accurate electrical estimates a
                   challenging task. Presidio Cost Solutions provides
                   industry-leading tools to make informed cost decisions.
                 </p>
@@ -35,7 +35,7 @@ const Services = () => {
                   partner, Presidio Cost Solutions can provide unprecedented
                   levels of cost articulation and clarity. Our electrical and
                   low-voltage preconstruction services provide peace-of-mind
-                  buyout and procurement support at all levels of the electrical
+                  buyout and procurement support at all levels of the electrical construction
                   industry.
                 </p>
               </div>

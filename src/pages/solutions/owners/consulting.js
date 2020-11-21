@@ -2,6 +2,7 @@ import React from "react";
 
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
+import BI from "../../../sections/BI";
 import Phases from "../../../sections/Phases";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -61,18 +62,20 @@ const Consultation = () => {
                 <p className="gr-text-8  px-xl-0">
                   Modern building systems account for the highest cost-variance
                   in commercial construction. Presidio Cost Solutions provides
-                  industry-leading tools to make informed cost decisions.
+                  industry-leading tools to make informed cost decisions for
+                  electrical and technology systems.
                 </p>
                 <p>
-                  Accurate electrical and low-voltage systems estimating
-                  requires thoughtful attention to project requirements, system
-                  experience, familiarity with local Code, and regional market
-                  pricing insights. It's tough for today's owners, developers
-                  and general contractors to navigate the changing technologies
-                  and regulations.
+                  Accurate estimating in today's environment requires thoughtful
+                  attention to project requirements, system expertise,
+                  familiarity with local Code, and regional market labor and
+                  material pricing insights. It's tough for today's owners,
+                  developers and general contractors to navigate the changing
+                  technologies and regulations.
                 </p>
               </div>
             </Col>
+            <BI />
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-left mb-11 mb-lg-20">
                 <p className="gr-text-8  px-xl-0">
@@ -100,8 +103,10 @@ const Consultation = () => {
         </Container>
         <Container>
           <Phases />
+
         </Container>
         <CTA />
+        
       </PageWrapper>
     </>
   );
