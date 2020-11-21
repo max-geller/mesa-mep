@@ -9,6 +9,7 @@ const BI = () => {
       {/* <!-- Fact Area --> */}
       <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
         <Container>
+        <Row className="justify-content-center">
           <iframe
             width="900"
             height="686"
@@ -16,6 +17,7 @@ const BI = () => {
             frameborder="0"
             allowFullScreen="true"
           ></iframe>
+          </ Row>
         </Container>
       </div>
     </>
