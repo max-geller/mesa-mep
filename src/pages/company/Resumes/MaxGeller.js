@@ -1,12 +1,12 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import PageWrapper from "../../components/PageWrapper";
+import PageWrapper from "../../../components/PageWrapper";
 
-import imgBanner from "../../assets/image/stock/precon.jpeg";
-import imgC1 from "../../assets/image/stock/data-center.jpeg";
-import imgC2 from "../../assets/image/stock/cellular.jpeg";
-import imgC3 from "../../assets/image/stock/precon.jpeg";
-import imgC4 from "../../assets/image/stock/conduit.jpeg";
+import imgBanner from "../../../assets/image/stock/precon.jpeg";
+import imgC1 from "../../../assets/image/stock/data-center.jpeg";
+import imgC2 from "../../../assets/image/stock/cellular.jpeg";
+import imgC3 from "../../../assets/image/stock/precon.jpeg";
+import imgC4 from "../../../assets/image/stock/conduit.jpeg";
 
 const AboutPage = () => {
   return (
