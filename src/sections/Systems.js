@@ -6,6 +6,10 @@ import imgC1 from "../assets/image/stock/data-center.jpeg";
 import imgC2 from "../assets/image/stock/cellular.jpeg";
 import imgC3 from "../assets/image/stock/precon.jpeg";
 import imgC4 from "../assets/image/stock/conduit.jpeg";
+import distribution from "../assets/image/distribution.jpeg";
+import lighting from "../assets/image/lighting.jpeg";
+import av from "../assets/image/stock/av.jpeg";
+import cabling from "../assets/image/stock/cabling.jpeg";
 
 const Systems = () => {
   const gContext = useContext(GlobalContext);
@@ -103,7 +107,7 @@ const Systems = () => {
               <div className="content-grid-image-group d-flex  mx-sm-n3">
                 <div className="single-image d-flex flex-column px-3 px-sm-6">
                   <img
-                    src={imgC1}
+                    src={cabling}
                     alt=""
                     data-aos="zoom-in"
                     data-aos-duration="500"
@@ -111,7 +115,7 @@ const Systems = () => {
                   />
 
                   <img
-                    src={imgC2}
+                    src={distribution}
                     alt=""
                     data-aos="zoom-in"
                     data-aos-duration="500"
@@ -122,7 +126,7 @@ const Systems = () => {
 
                 <div className="single-image d-flex flex-column pt-11 px-3 px-sm-6">
                   <img
-                    src={imgC3}
+                    src={av}
                     alt=""
                     data-aos="zoom-in"
                     data-aos-duration="500"
@@ -131,7 +135,7 @@ const Systems = () => {
                   />
 
                   <img
-                    src={imgC4}
+                    src={lighting}
                     alt=""
                     data-aos="zoom-in"
                     data-aos-duration="500"
