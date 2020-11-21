@@ -2,10 +2,8 @@ import React from "react";
 
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
-
+import imgBanner from "./../../../assets/image/takeoff-sample.JPG";
 import estimate from "./../../../assets/image/stock/estimating.jpeg";
 
 const Takeoff = () => {
@@ -77,17 +75,34 @@ const Takeoff = () => {
                   <li>Measuring Work</li>
                   <li>Value Engineering & Feasibility</li>
                   <li>Valuing change orders</li>
-                  </ul>
+                </ul>
 
-                <p>
-                  Our team has experience with 
-                </p>
+                <p>Our team has experience with</p>
                 <ul>
                   <li>Accubid Classic Estimating</li>
                   <li>On-Screen Takeoff</li>
                   <li>BlueBeam Revu</li>
                   <li>Trimble Live Count</li>
                 </ul>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        <Container>
+          <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
+            <Col lg="9" xl="8">
+              <div className="px-md-12 text-center mb-11 mb-lg-14">
+                <h2 className="title gr-text-2 mb-9 mb-lg-12">About Us</h2>
+                <p className="gr-text-8 mb-0">
+                  With lots of unique blocks, you can easily build a page
+                  without coding. Build your next consultancy website within few
+                  minutes.
+                </p>
+              </div>
+            </Col>
+            <Col xs="12">
+              <div className="banner-fluid-image pt-lg-9">
+                <img src={imgBanner} alt="" className="w-100" />
               </div>
             </Col>
           </Row>
