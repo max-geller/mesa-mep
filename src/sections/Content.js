@@ -81,7 +81,7 @@ const Content = () => {
                 </div>
                 <div className="media-body">
                   <h3 className="w-title mb-5 gr-text-7">
-                    Unparalleled Expertise
+                    Unparalleled Electrical Expertise
                   </h3>
                   <p className="gr-text-9 mb-0">
                     Presidio Cost Solutions has a diverse experience in
