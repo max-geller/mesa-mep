@@ -5,6 +5,7 @@ import Hero from "../sections/Hero";
 import Services from "../sections/Services";
 import Content from "../sections/Content";
 import CTA from "../sections/CTA";
+import Systems from "../sections/Systems";
 import FAQ from "../sections/FAQ";
 import BI from "../sections/BI";
 import Actions from "../sections/Actions";
@@ -30,7 +31,7 @@ const Consultation = () => {
         <Hero />
         <Services />
         <Content />
-
+        <Systems />
         <Actions />
         <BI />
         <FAQ />

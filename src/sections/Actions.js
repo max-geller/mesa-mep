@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState, useContext } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import GlobalContext from "./../context/GlobalContext";
 
 const Actions = () => {
+  const gContext = useContext(GlobalContext);
   return (
     <>
       {/* <!-- Newsletter Area --> */}
       <div className="newsltr-section pt-12 pb-10 pt-lg-19 pb-lg-17 bg-default-6 border-bottom ">
         <Container>
           <h2 className="mb-6">Ready to take a closer look?</h2>
-          <p className="mb-12">Let's get you better acquainted with our full suite of services, experience, and tooling:</p>
+          <p className="mb-12">
+            Let's get you better acquainted with our full suite of services,
+            experience, and tooling:
+          </p>
           <Row className="align-items-center justify-content-center">
             <Col
               lg="4"
@@ -16,9 +21,12 @@ const Actions = () => {
               className="align-items-center justify-content-center"
             >
               <div className="cta-btn mb-8">
-                <Button className="with-icon gr-hover-y">
-                  Example Estimates<i className="icon icon-tail-right"></i>
-                </Button>
+              <a
+                  href="/company/examples"
+                  className={`with-icon gr-hover-y btn btn-${gContext.header.variant}`}
+                >
+                  Example Deliverables<i className="icon icon-tail-right"></i>
+                </a>
               </div>
             </Col>
             <Col
@@ -27,9 +35,12 @@ const Actions = () => {
               className="align-items-center justify-content-center"
             >
               <div className="cta-btn mb-8">
-                <Button className="with-icon gr-hover-y">
-                  Project Resume<i className="icon icon-tail-right"></i>
-                </Button>
+              <a
+                  href="/company/team"
+                  className={`with-icon gr-hover-y btn btn-${gContext.header.variant}`}
+                >
+                  Team Experience<i className="icon icon-tail-right"></i>
+                </a>
               </div>
             </Col>
             <Col
@@ -38,9 +49,12 @@ const Actions = () => {
               className="align-items-center justify-content-center"
             >
               <div className="cta-btn mb-8">
-                <Button className="with-icon gr-hover-y">
+                <a
+                  href="/company/tooling"
+                  className={`with-icon gr-hover-y btn btn-${gContext.header.variant}`}
+                >
                   Software & Tooling<i className="icon icon-tail-right"></i>
-                </Button>
+                </a>
               </div>
             </Col>
           </Row>
