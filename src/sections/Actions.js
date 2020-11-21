@@ -36,10 +36,10 @@ const Actions = () => {
             >
               <div className="cta-btn mb-8">
               <a
-                  href="/company/team"
+                  href="/company/resumes/MaxGeller"
                   className={`with-icon gr-hover-y btn btn-${gContext.header.variant}`}
                 >
-                  Team Experience<i className="icon icon-tail-right"></i>
+                  Formal Resume<i className="icon icon-tail-right"></i>
                 </a>
               </div>
             </Col>
