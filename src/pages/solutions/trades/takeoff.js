@@ -3,8 +3,8 @@ import React from "react";
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import imgBanner from "./../../../assets/image/takeoff-sample.JPG";
-import estimate from "./../../../assets/image/stock/estimating.jpeg";
+import imgBanner from "./../../../assets/image/stock/takeoff.jpg";
+import estimate from "./../../../assets/image/stock/takeoff.jpg";
 
 const Takeoff = () => {
   return (
