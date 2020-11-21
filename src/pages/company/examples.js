@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
+
+import { Document, Page } from 'react-pdf'
 
 import imgBanner from "../../assets/image/stock/precon.jpeg";
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
@@ -9,7 +11,10 @@ import imgC3 from "../../assets/image/stock/precon.jpeg";
 import imgC4 from "../../assets/image/stock/conduit.jpeg";
 
 const AboutPage = () => {
+  
+
   return (
+    
     <>
       <PageWrapper
         headerConfig={{
@@ -23,26 +28,12 @@ const AboutPage = () => {
           theme: "light",
         }}
       >
-        <div className="inner-banner">
-          <Container>
-            <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
-              <Col lg="9" xl="8">
-                <div className="px-md-12 text-center mb-11 mb-lg-14">
-                  <h2 className="title gr-text-2 mb-9 mb-lg-12">Example Deliverables</h2>
-                  <p className="gr-text-8 mb-0">
-                    Have a look at some of our reporting styles and example deliverables.
-                  </p>
-                </div>
-              </Col>
-              <Col xs="12">
-                <div className="banner-fluid-image pt-lg-9">
-                  <img src={imgBanner} alt="" className="w-100" />
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+        
+
         <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
+        <div>
+
+    </div>
           <Container>
             <Row>
               <Col lg="6" className="mb-7 mb-lg-0">
