@@ -41,10 +41,11 @@ const Footer = () => {
                 <div className="single-footer mb-13 mb-lg-9">
                   <p className="footer-title gr-text-11 mb-7">Company</p>
                   <ul className="footer-list list-unstyled">
-
                     <li className="py-2">
                       <Link href="/company/approach">
-                        <a className={`gr-text-9 ${linkClassName}`}>Our Approach</a>
+                        <a className={`gr-text-9 ${linkClassName}`}>
+                          Our Approach
+                        </a>
                       </Link>
                     </li>
                     <li className="py-2">
@@ -59,7 +60,9 @@ const Footer = () => {
                     </li>
                     <li className="py-2">
                       <Link href="/company/contact">
-                        <a className={`gr-text-9 ${linkClassName}`}>Contact Us</a>
+                        <a className={`gr-text-9 ${linkClassName}`}>
+                          Contact Us
+                        </a>
                       </Link>
                     </li>
                   </ul>
@@ -124,32 +127,32 @@ const Footer = () => {
               <Col lg="6" className="text-center text-lg-right">
                 <ul className="social-icons list-unstyled mb-0">
                   <li className="ml-7">
-                    <Link href="/">
-                      <a className={iconClassName}>
-                        <i className="icon icon-logo-twitter"></i>
-                      </a>
-                    </Link>
+                    <a
+                      className={iconClassName}
+                      href="https://www.twitter.com/presidiocs"
+                      target="_blank"
+                    >
+                      <i className="icon icon-logo-twitter"></i>
+                    </a>
                   </li>
                   <li className="ml-7">
-                    <Link href="/">
-                      <a className={iconClassName}>
-                        <i className="icon icon-logo-facebook"></i>
-                      </a>
-                    </Link>
+                    <a
+                      className={iconClassName}
+                      href="https://www.facebook.com/presidiosolutions"
+                      target="_blank"
+                    >
+                      <i className="icon icon-logo-facebook"></i>
+                    </a>
                   </li>
+
                   <li className="ml-7">
-                    <Link href="/">
-                      <a className={iconClassName}>
-                        <i className="icon icon-instant-camera-2"></i>
-                      </a>
-                    </Link>
-                  </li>
-                  <li className="ml-7">
-                    <Link href="/">
-                      <a className={iconClassName}>
-                        <i className="icon icon-logo-linkedin"></i>
-                      </a>
-                    </Link>
+                    <a
+                      className={iconClassName}
+                      href="https://www.linkedin.com/company/presidiosolutions"
+                      target="_blank"
+                    >
+                      <i className="icon icon-logo-linkedin"></i>
+                    </a>
                   </li>
                 </ul>
               </Col>
