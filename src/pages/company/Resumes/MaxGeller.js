@@ -59,7 +59,7 @@ const AboutPage = () => {
             </Row>
           </Container>
         </div>
-        <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
+        <div className="about-content pt-lg-16  pb-13 pb-lg-25">
           <Container>
             <Row>
               <Col lg="3" className="mb-7 mb-lg-0">
@@ -67,7 +67,8 @@ const AboutPage = () => {
                   <h2 className="gr-text-3 mb-0">Education</h2>
                 </div>
               </Col>
-              <Col lg="9">
+              <Col lg="9"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13">
                   <h4>University of Southern California</h4>
                   <h5>M. S. Construction Management, 2015</h5>
@@ -87,14 +88,15 @@ const AboutPage = () => {
               </Col>
             </Row>
           </Container>
-          <Container className="mb-8">
+          <Container className="mb-8 mt-14">
             <Row>
               <Col lg="3" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">Experience</h2>
                 </div>
               </Col>
-              <Col lg="9">
+              <Col lg="9"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-8">
                   <h4>Hollins Consulting, Inc.</h4>
                   <h5>Electrical & Technology Preconstruction</h5>
@@ -198,7 +200,8 @@ const AboutPage = () => {
               </Col>
             </Row>
             <Row className="mb-12">
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -209,7 +212,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -220,7 +224,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -231,7 +236,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -242,7 +248,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -253,7 +260,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -264,7 +272,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -275,7 +284,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -286,7 +296,8 @@ const AboutPage = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="6"                       data-aos="fade-left"
+                      data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
