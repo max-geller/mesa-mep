@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 
-import estimating from "../assets/image/stock/takeoff.jpeg";
+import estimating from "../assets/image/stock/estimating.jpeg";
 import contracts from "../assets/image/stock/contracts.jpeg";
 import forensics from "../assets/image/stock/forensics.jpeg";
-import takeoff from "../assets/image/stock/takeoff.jpg";
+import takeoff from "../assets/image/stock/takeoff.jpeg";
 import research from "../assets/image/stock/research.jpeg";
 import imgS4 from "../assets/image/stock/precon.jpeg";
 
