@@ -29,7 +29,7 @@ import "../assets/fonts/fontawesome-5/css/all.css";
 import "../scss/bootstrap.scss";
 import "../scss/main.scss";
 
-const trackingId = "UA-183800005-1"; // Replace with your Google Analytics tracking ID
+const trackingId = "UA-183812989-1"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
 
