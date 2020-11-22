@@ -43,9 +43,10 @@ const Consultation = () => {
                     SYSTEMS SCOPING
                   </h1>
                   <p className="gr-text-10 text-left">
-                    Let us take care of your MEP estimating needs. Our systems
-                    estimating approach provides a level of cost-certainty
-                    unparalleled in the industry.
+                    A critical element of electrical preconstruction is the
+                    generation of reliable, clear, and no-nonsense systems
+                    scoping documentation. We have extensive expertise in this
+                    area. Let's show you how...
                   </p>
                 </div>
               </Col>

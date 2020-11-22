@@ -43,10 +43,10 @@ const Analytics = () => {
                     ELECTRICAL DISTRIBUTION
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    We know our switchgear.  220? 221? Whatever it takes...
+                    We know our switchgear. We can help your team digest even
+                    the toughest of single-line diagrams.
                   </p>
-                  <p className="gr-text-8 pr-sm-7 pr-md-12">
-                  </p>
+                  <p className="gr-text-8 pr-sm-7 pr-md-12"></p>
                 </div>
               </Col>
             </Row>

@@ -45,9 +45,9 @@ const Wireless = () => {
                     WIRELESS / CELLULAR
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    History shows the buyout process of MEP systems is the
-                    single-largest contributor to trade bid variance. Let's get
-                    you setup for success.
+                    It's tough to plan for costs for systems without wires.
+                    Radio-frequency (RF) technologies are all the hype these
+                    days, but let's try to bring some clarity on costs.
                   </p>
                 </div>
               </Col>

@@ -43,9 +43,11 @@ const Security = () => {
                     SECURITY & ACCESS
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    History shows the buyout process of MEP systems is the
-                    single-largest contributor to trade bid variance. Let's get
-                    you setup for success.
+                    Security, CCTV, and access control systems are some of the
+                    most important features of your modern facility.
+                    Unfortunately, these costs are often not understood until
+                    it's too late. Let's get ahead of the security planning
+                    process up front...
                   </p>
                 </div>
               </Col>

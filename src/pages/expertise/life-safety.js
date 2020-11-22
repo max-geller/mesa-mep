@@ -8,7 +8,6 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import map from "./../../assets/image/stock/fire-alarm.jpeg";
 
-
 const Analytics = () => {
   return (
     <>
@@ -25,36 +24,39 @@ const Analytics = () => {
         }}
       >
         {/* <!-- Hero Area --> */}
-    <div
-        className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
-        css={`
-          background-image: url(${map});
-        `}
-      >
-        <Container>
-          <Row className="align-items-center">
-            <Col
-              md="9"
-              lg="7"
-              xl="6"
-              data-aos="fade-right"
-              data-aos-duration="750"
-              data-aos-delay="500"
-            >
-              <div className="hero-content section-title dark-mode-texts">
-                <h1 className="gr-text-3 font-weight-bold mb-8">
-                  Fire & Life Safety
-                </h1>
-                <p className="gr-text-8 pr-sm-7 pr-md-12">
-                History shows the buyout process of MEP systems is the single-largest contributor to trade bid variance. Let's get you setup for success.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+        <div
+          className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
+          css={`
+            background-image: url(${map});
+          `}
+        >
+          <Container>
+            <Row className="align-items-center">
+              <Col
+                md="9"
+                lg="7"
+                xl="6"
+                data-aos="fade-right"
+                data-aos-duration="750"
+                data-aos-delay="500"
+              >
+                <div className="hero-content section-title dark-mode-texts">
+                  <h1 className="gr-text-3 font-weight-bold mb-8">
+                    Fire & Life Safety
+                  </h1>
+                  <p className="gr-text-8 pr-sm-7 pr-md-12">
+                    Fire and life-safety systems can be tough to keep up with
+                    these days. Local jurisdictions, changing technologies, and
+                    heighting requirements for high-rise buildings add to the
+                    confusion. Let's help make sense of these systems for you...
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
 
-      <Container>
+        <Container>
           <p className="mt-8">
             Airport campuses can present many logistic challenges to the
             construction phasing process, and require a special attention to

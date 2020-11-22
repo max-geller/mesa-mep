@@ -46,7 +46,7 @@ const Change = () => {
                   CHANGE MANAGEMENT
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
-                Tough time digesting a change order? We've been there.  Let's take a look for you.
+                Tough time digesting a pesky change order? We've been there.  Let's take a look for you.
                 </p>
               </div>
             </Col>

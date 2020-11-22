@@ -46,7 +46,7 @@ const RFQ = () => {
                   RFQ / VENDOR OUTREACH
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
-                History shows the buyout process of MEP systems is the single-largest contributor to trade bid variance. Let's get you setup for success.
+                Seasonal estimating demands can vary widely.  We're happy to help manage your Requests-for-Quotations (RFQ) requests from vendors, suppliers and subcontractors...
                 </p>
               </div>
             </Col>

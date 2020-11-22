@@ -45,7 +45,8 @@ const Takeoff = () => {
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
                     We know how hard it can be to find competent electrical and
                     low-voltage estimators, especially during spikes in bidding
-                    activity.
+                    activity. We pride ourselves in preparing sensible and clear
+                    takeoff documentation.
                   </p>
                 </div>
               </Col>

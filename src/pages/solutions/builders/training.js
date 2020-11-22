@@ -45,9 +45,10 @@ const Training = () => {
                     TRAINING & SUPPORT
                   </h1>
                   <p className="gr-text-10 text-left">
-                    Let us take care of your MEP estimating needs. Our systems
-                    estimating approach provides a level of cost-certainty
-                    unparalleled in the industry.
+                    Our team has a wealth of expertise in electrical and
+                    technology preconstruction, and we're happy to share what
+                    we've learned. We can offer one-on-one or group trainings to
+                    help grow your team.
                   </p>
                 </div>
               </Col>
@@ -58,18 +59,18 @@ const Training = () => {
           <Row className="justify-content-center mt-11 mb-11">
             <Col xl="12" lg="12" sm="11" xs="11">
               <div className="section-title text-left mb-11 mb-lg-20">
-                <h4 className="title gr-text-6 mb-5">
-                  Let's Talk Costs...
-                </h4>
+                <h4 className="title gr-text-6 mb-5">Let's Talk Costs...</h4>
                 <p className="gr-text-8  px-xl-0">
                   Modern building systems account for the highest cost-variance
-                  in commercial construction. Presidio Cost Solutions provides industry-leading
-                  tools to make informed cost decisions.
+                  in commercial construction. Presidio Cost Solutions provides
+                  industry-leading tools to make informed cost decisions.
                 </p>
                 <p>
                   Accurate MEP estimating requires thoughtful attention to
                   project requirements, system experience, familiarity with
-                  local Code, and regional market pricing insights.  It's tough for today's owners, developers and general contractors to navigate the changing technologies and regulations.
+                  local Code, and regional market pricing insights. It's tough
+                  for today's owners, developers and general contractors to
+                  navigate the changing technologies and regulations.
                 </p>
               </div>
             </Col>

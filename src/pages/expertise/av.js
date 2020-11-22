@@ -45,9 +45,9 @@ const Analytics = () => {
                     VOICE / AUDIO-VISUAL
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    History shows the buyout process of MEP systems is the
-                    single-largest contributor to trade bid variance. Let's get
-                    you setup for success.
+                    Voice and audio-visual systems are all-too-often a costly
+                    afterthought. Let's set your project up for success by
+                    planning for these systems at the outset of design.
                   </p>
                 </div>
               </Col>

@@ -45,7 +45,7 @@ const Forensics = () => {
                     CHANGE FORENSICS
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    Tough time digesting a spicy change order? We've been there. Let's
+                    Tough time digesting change orders from trade partners? We've been there. Let's
                     take a look for you...
                   </p>
                 </div>

@@ -8,7 +8,6 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import contracts from "./../../../assets/image/stock/contracts.jpeg";
 
-
 const Value = () => {
   return (
     <>
@@ -25,47 +24,45 @@ const Value = () => {
         }}
       >
         {/* <!-- Hero Area --> */}
-    <div
-        className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
-        css={`
-          background-image: url(${contracts});
-        `}
-      >
-        <Container>
-          <Row className="align-items-center">
-            <Col
-              md="9"
-              lg="7"
-              xl="6"
-              data-aos="fade-right"
-              data-aos-duration="750"
-              data-aos-delay="500"
-            >
-              <div className="hero-content section-title dark-mode-texts">
-                <h1 className="gr-text-2 font-weight-bold mb-8">
-                  VALUE ENGINEERING
-                </h1>
-                <p className="gr-text-8 pr-sm-7 pr-md-12">
-                History shows the buyout process of MEP systems is the single-largest contributor to trade bid variance. Let's get you setup for success.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+        <div
+          className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
+          css={`
+            background-image: url(${contracts});
+          `}
+        >
+          <Container>
+            <Row className="align-items-center">
+              <Col
+                md="9"
+                lg="7"
+                xl="6"
+                data-aos="fade-right"
+                data-aos-duration="750"
+                data-aos-delay="500"
+              >
+                <div className="hero-content section-title dark-mode-texts">
+                  <h1 className="gr-text-2 font-weight-bold mb-8">
+                    VALUE ENGINEERING
+                  </h1>
+                  <p className="gr-text-8 pr-sm-7 pr-md-12">
+                    Wondering where your project can save costs and deliver more
+                    value? Our team has extensive experience in delivering
+                    value-based solutions for electrical installations. Let's
+                    take a look...
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
 
-
-      {/* <!-- Fact Area --> */}
-      <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
-        <Container>
-
-
-              <div className="single-fact d-flex px-md-5 px-lg-2 px-xl-9">
-                <h3 className="gr-text-3 mr-9">1M+</h3>
-                <p className="gr-text-9 mb-0">
-                  Somin somin
-                </p>
-              </div>
+        {/* <!-- Fact Area --> */}
+        <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
+          <Container>
+            <div className="single-fact d-flex px-md-5 px-lg-2 px-xl-9">
+              <h3 className="gr-text-3 mr-9">1M+</h3>
+              <p className="gr-text-9 mb-0">Somin somin</p>
+            </div>
 
             <Col lg="4" md="6" sm="6" className="mb-9 mb-lg-0">
               <div className="single-fact d-flex px-md-5 px-lg-2 px-xl-9">
@@ -100,14 +97,13 @@ const Value = () => {
                 </p>
               </div>
             </Col>
-
-        </Container>
-        <h4>Sample Buyout Resources</h4>
+          </Container>
+          <h4>Sample Buyout Resources</h4>
           <ul>
             <li>Final Bid Tabs</li>
             <li>Interview Checklist</li>
           </ul>
-      </div>
+        </div>
         <CTA />
       </PageWrapper>
     </>

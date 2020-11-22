@@ -43,7 +43,7 @@ const Research = () => {
                     MARKET RESEARCH
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                   Need to know Union Market Share?  Looking to see what Journeymen are paid in Local 332?  We wonder about these sorts of things too...
+                   Need to know Union Market Share?  Looking to see what Union Journeymen Electricians are paid in your area?  We wonder about these sorts of things too...
                   </p>
                 </div>
               </Col>
