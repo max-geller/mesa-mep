@@ -6,6 +6,7 @@ import PageWrapper from "../../components/PageWrapper";
 
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
 import imgC2 from "../../assets/image/stock/cellular.jpeg";
+import imgC3 from "../../assets/image/stock/cellular.jpeg";
 import imgC4 from "../../assets/image/stock/conduit.jpeg";
 
 const trackingId = "UA-183812989-1";
