@@ -4,7 +4,7 @@ import PageWrapper from "../../components/PageWrapper";
 
 
 
-import imgBanner from "../../assets/image/stock/precon.jpeg";
+import BI from "../../sections/BI";
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
 import imgC2 from "../../assets/image/stock/cellular.jpeg";
 import imgC3 from "../../assets/image/stock/precon.jpeg";
@@ -68,6 +68,7 @@ const AboutPage = () => {
               </Col>
             </Row>
           </Container>
+          <BI />
         </div>
         <div className="content-section pt-14 pt-lg-27 pb-13 pb-lg-27 bg-default-2">
           <Container>
