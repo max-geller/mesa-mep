@@ -1,9 +1,15 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import Link from "next/link";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../../../components/PageWrapper";
 
-const JobOpenings = () => {
+const trackingId = "UA-183812989-1";
+
+const DataAnalyst = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/career/openings/data-analyst");
   return (
     <>
       <PageWrapper
@@ -196,4 +202,4 @@ const JobOpenings = () => {
     </>
   );
 };
-export default JobOpenings;
+export default DataAnalyst;

@@ -1,14 +1,19 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "./../../sections/CTA";
 
-import imgBanner from "../../assets/image/stock/precon.jpeg";
 import avery from "../../assets/image/projects/avery.jpg";
 import harold from "../../assets/image/projects/haroldway.jpg";
 import banner from "./../../assets/image/projects/avery.jpg";
 
-const AboutPage = () => {
+const trackingId = "UA-183812989-1";
+
+const Projects = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/projects");
   return (
     <>
       <PageWrapper
@@ -112,4 +117,4 @@ const AboutPage = () => {
     </>
   );
 };
-export default AboutPage;
+export default Projects;

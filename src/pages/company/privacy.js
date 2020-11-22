@@ -1,8 +1,14 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-const AboutPage = () => {
+const trackingId = "UA-183812989-1";
+
+const PrivacyPolicy = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/privacy");
   return (
     <>
       <PageWrapper
@@ -287,4 +293,4 @@ const AboutPage = () => {
     </>
   );
 };
-export default AboutPage;
+export default PrivacyPolicy;

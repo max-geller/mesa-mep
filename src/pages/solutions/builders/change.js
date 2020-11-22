@@ -1,14 +1,17 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import forensics from "./../../../assets/image/stock/forensics.jpeg";
 
+const trackingId = "UA-183812989-1";
+
 const Change = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/solutions/builders/change");
   return (
     <>
       <PageWrapper

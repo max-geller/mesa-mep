@@ -1,8 +1,14 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container, Button } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
+const trackingId = "UA-183812989-1"; 
+
 const Contact = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/contact");
   return (
     <>
       <PageWrapper

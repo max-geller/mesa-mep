@@ -1,14 +1,17 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import estimate from "../../assets/image/stock/data-center.jpeg";
 
-const Consultation = () => {
+const trackingId = "UA-183812989-1";
+
+const DataCenter = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/markets/data-center");
   return (
     <>
       <PageWrapper
@@ -178,4 +181,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default DataCenter;

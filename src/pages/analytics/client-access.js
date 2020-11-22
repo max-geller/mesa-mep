@@ -1,20 +1,19 @@
-import React, { useState } from "react";
+import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-
-
-import imgBanner from "../../assets/image/stock/precon.jpeg";
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
 import imgC2 from "../../assets/image/stock/cellular.jpeg";
-import imgC3 from "../../assets/image/stock/precon.jpeg";
 import imgC4 from "../../assets/image/stock/conduit.jpeg";
 
-const AboutPage = () => {
-  
+const trackingId = "UA-183812989-1";
 
+const ClientAccess = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/analytics/client-access");
   return (
-    
     <>
       <PageWrapper
         headerConfig={{
@@ -28,12 +27,8 @@ const AboutPage = () => {
           theme: "light",
         }}
       >
-        
-
         <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
-        <div>
-
-    </div>
+          <div></div>
           <Container>
             <Row>
               <Col lg="6" className="mb-7 mb-lg-0">
@@ -144,4 +139,4 @@ const AboutPage = () => {
     </>
   );
 };
-export default AboutPage;
+export default ClientAccess;

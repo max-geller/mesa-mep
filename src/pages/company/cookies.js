@@ -1,8 +1,12 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-const AboutPage = () => {
+const Cookies = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/cookies");
   return (
     <>
       <PageWrapper
@@ -130,4 +134,4 @@ const AboutPage = () => {
     </>
   );
 };
-export default AboutPage;
+export default Cookies;

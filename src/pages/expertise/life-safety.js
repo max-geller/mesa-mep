@@ -1,14 +1,17 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import map from "./../../assets/image/stock/fire-alarm.jpeg";
 
-const Analytics = () => {
+const trackingId = "UA-183812989-1";
+
+const LifeSafety = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/expertise/life-safety");
   return (
     <>
       <PageWrapper
@@ -76,4 +79,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default LifeSafety;

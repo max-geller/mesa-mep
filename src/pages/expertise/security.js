@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
@@ -6,7 +7,11 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import security from "./../../assets/image/stock/card-access.jpeg";
 
+const trackingId = "UA-183812989-1";
+
 const Security = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/expertise/security");
   return (
     <>
       <PageWrapper

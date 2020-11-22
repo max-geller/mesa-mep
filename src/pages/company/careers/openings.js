@@ -1,4 +1,6 @@
 import React, { useContext } from "react";
+import ReactGA from "react-ga";
+
 import Link from "next/link";
 import GlobalContext from "../../../context/GlobalContext";
 import { Row, Col, Container } from "react-bootstrap";
@@ -11,8 +13,12 @@ import icon4 from "../../../assets/image/inner/icon-watch-red.svg";
 import icon5 from "../../../assets/image/inner/icon-keyhole-pink.svg";
 import icon6 from "../../../assets/image/inner/icon-globe-blue.svg";
 
+const trackingId = "UA-183812989-1";
+
 const JobOpenings = () => {
   const gContext = useContext(GlobalContext);
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/career/openings");
   return (
     <>
       <PageWrapper

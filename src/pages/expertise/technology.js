@@ -1,15 +1,17 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
-import CountUp from "react-countup";
-import LazyLoad from "react-lazyload";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
 import map from "./../../assets/image/stock/map.jpeg";
 
+const trackingId = "UA-183812989-1";
 
-const Analytics = () => {
+const Technology = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/expertise/technology");
   return (
     <>
       <PageWrapper
@@ -74,4 +76,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default Technology;

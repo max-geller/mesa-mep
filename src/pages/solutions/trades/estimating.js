@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
@@ -6,7 +7,11 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import estimate from "./../../../assets/image/accubid.JPG";
 
+const trackingId = "UA-183812989-1";
+
 const Estimating = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/solutions/trades/estimating");
   return (
     <>
       <PageWrapper

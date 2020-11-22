@@ -1,11 +1,17 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
 import Newsletter from "../../sections/Newsletter";
 import estimating from "../../assets/image/stock/estimating.jpeg"
 
+const trackingId = "UA-183812989-1";
+
 const Tooling = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/tooling");
   return (
     <>
       <PageWrapper

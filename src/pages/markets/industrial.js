@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
@@ -6,7 +7,11 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import distribution from "./../../assets/image/distribution.jpeg";
 
-const Consultation = () => {
+const trackingId = "UA-183812989-1";
+
+const Industrial = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/markets/industrial");
   return (
     <>
       <PageWrapper
@@ -176,4 +181,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default Industrial;

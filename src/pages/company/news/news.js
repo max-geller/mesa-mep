@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "./../../../components/PageWrapper";
 import Fact from "../../../sections/Fact";
@@ -9,7 +10,11 @@ import Testimonial from "../../../sections/Testimonial";
 import CTA from "../../../sections/CTA";
 import Newsletter from "../../../sections/Newsletter";
 
-const Consultation = () => {
+const trackingId = "UA-183812989-1";
+
+const News = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/news");
   return (
     <>
       <PageWrapper
@@ -37,4 +42,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default News;

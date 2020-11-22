@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
@@ -6,7 +7,11 @@ import Tiers from "../../sections/Tiers";
 import Approach from "../../sections/Approach";
 import Newsletter from "../../sections/Newsletter";
 
-const Consultation = () => {
+const trackingId = "UA-183812989-1"; 
+
+const Approach = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/approach");
   return (
     <>
       <PageWrapper
@@ -30,4 +35,4 @@ const Consultation = () => {
   );
 };
 
-export default Consultation;
+export default Approach;

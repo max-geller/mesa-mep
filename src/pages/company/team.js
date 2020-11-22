@@ -1,4 +1,6 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
@@ -8,7 +10,11 @@ import imgC2 from "../../assets/image/stock/cellular.jpeg";
 import imgC3 from "../../assets/image/stock/precon.jpeg";
 import imgC4 from "../../assets/image/stock/conduit.jpeg";
 
-const AboutPage = () => {
+const trackingId = "UA-183812989-1";
+
+const Team = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/team");
   return (
     <>
       <PageWrapper
@@ -157,4 +163,4 @@ const AboutPage = () => {
     </>
   );
 };
-export default AboutPage;
+export default Team;

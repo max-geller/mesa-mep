@@ -1,10 +1,16 @@
 import React from "react";
+import ReactGA from "react-ga";
+
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../../components/PageWrapper";
 
 import maxgeller from "../../../assets/image/team/max.jpg";
 
-const AboutPage = () => {
+const trackingId = "UA-183812989-1"; 
+
+const MaxGeller = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/company/resumes/max-geller");
   return (
     <>
       <PageWrapper
@@ -372,4 +378,4 @@ const AboutPage = () => {
     </>
   );
 };
-export default AboutPage;
+export default MaxGeller;

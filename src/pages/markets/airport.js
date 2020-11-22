@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
@@ -6,7 +7,11 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 
 import airport from "./../../assets/image/stock/airport.jpg";
 
+const trackingId = "UA-183812989-1";
+
 const Airport = () => {
+  ReactGA.initialize(trackingId);
+  ReactGA.pageview("/markets/airport");
   return (
     <>
       <PageWrapper
