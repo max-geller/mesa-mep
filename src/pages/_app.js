@@ -2,6 +2,7 @@
 import Layout from "../components/Layout";
 import { GlobalProvider } from "../context/GlobalContext";
 import { CartProvider } from "../context/CartContext";
+import ReactGA from 'react-ga';
 
 import "../assets/fonts/fontawesome-5/webfonts/fa-brands-400.ttf";
 import "../assets/fonts/fontawesome-5/webfonts/fa-regular-400.ttf";
@@ -27,6 +28,10 @@ import "../assets/fonts/fontawesome-5/css/all.css";
 
 import "../scss/bootstrap.scss";
 import "../scss/main.scss";
+
+const trackingId = "UA-183800005-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
+
 
 const MyApp = ({ Component, pageProps, router }) => {
   if (router.pathname.match(/sign|reset|coming/)) {
