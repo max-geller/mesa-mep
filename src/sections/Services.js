@@ -5,9 +5,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import estimating from "../assets/image/stock/takeoff.jpeg";
 import contracts from "../assets/image/stock/contracts.jpeg";
 import forensics from "../assets/image/stock/forensics.jpeg";
-import controls from "../assets/image/stock/controls.jpeg";
+import takeoff from "../assets/image/stock/takeoff.jpg";
 import research from "../assets/image/stock/research.jpeg";
-import warehouse from "../assets/image/stock/warehouse.jpeg";
 import imgS4 from "../assets/image/stock/precon.jpeg";
 
 const Services = () => {
@@ -46,12 +45,36 @@ const Services = () => {
             >
               <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
                 <img
+                  src={takeoff}
+                  className="card-img-top rounded-top-10"
+                  alt="..."
+                />
+                <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
+                  <Link href="/solutions/trades/takeoff">
+                    <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
+                      Takeoff Services{" "}
+                      <i className="icon icon-tail-right font-weight-bold"></i>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+            <Col
+              xs="10"
+              sm="6"
+              lg="3"
+              className="mb-9 mb-lg-6"
+              data-aos="fade-left"
+              data-aos-duration="1100"
+            >
+              <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
+                <img
                   src={estimating}
                   className="card-img-top rounded-top-10"
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/builders/estimating">
+                  <Link href="/solutions/builders/estimating">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Modeling / Estimating{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -76,34 +99,9 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/builders/buyout">
+                  <Link href="/solutions/builders/buyout">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Procurement / Buyout{" "}
-                      <i className="icon icon-tail-right font-weight-bold"></i>
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </Col>
-
-            <Col
-              xs="10"
-              sm="6"
-              lg="3"
-              className="mb-9 mb-lg-6"
-              data-aos="fade-left"
-              data-aos-duration="1700"
-            >
-              <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
-                <img
-                  src={controls}
-                  className="card-img-top rounded-top-10"
-                  alt="..."
-                />
-                <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/services/controls">
-                    <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
-                      Project Controls{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
                     </a>
                   </Link>
@@ -126,7 +124,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/services/forensics">
+                  <Link href="/solutions/owners/forensics">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Change Forensics{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -151,7 +149,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/services/research">
+                  <Link href="/solutions/owners/research">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Market Research{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -175,7 +173,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/solutions/analytics">
+                  <Link href="/analytics/possibilities">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Cost Analytics{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
