@@ -4,7 +4,7 @@ import PageWrapper from "../../../components/PageWrapper";
 
 import imgBanner from "../../../assets/image/stock/precon.jpeg";
 import imgC1 from "../../../assets/image/projects/avery.jpg";
-
+import imgC2 from "../../../assets/image/projects/haroldway.jpg";
 const AboutPage = () => {
   return (
     <>
