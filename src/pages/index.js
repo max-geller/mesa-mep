@@ -13,9 +13,10 @@ import Actions from "../sections/Actions";
 import Newsletter from "../sections/Newsletter";
 
 const trackingId = "UA-183812989-1"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
+
 
 const Consultation = () => {
+  ReactGA.initialize(trackingId);
   return (
     <>
       <PageWrapper
@@ -30,6 +31,7 @@ const Consultation = () => {
           theme: "light",
         }}
       >
+        
         <Hero />
         <Services />
         <Content />
