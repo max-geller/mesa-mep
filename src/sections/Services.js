@@ -26,11 +26,11 @@ const Services = () => {
                   Electrical and low-voltage systems account for some of the
                   highest cost-variance in today's commercial construction.
                   Tightening energy codes, regional AHJ requirements and
-                  ever-changing technologies have made generating accurate electrical estimates a
-                  challenging task. Presidio Cost Solutions provides
-                  industry-leading tools to make informed cost decisions.
+                  ever-changing technologies have made generating accurate
+                  electrical estimates a challenging task. Presidio Cost
+                  Solutions provides industry-leading tools to make informed
+                  cost decisions.
                 </p>
-
               </div>
             </Col>
           </Row>
@@ -51,7 +51,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/services/estimating">
+                  <Link href="/builders/estimating">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Modeling / Estimating{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -67,7 +67,7 @@ const Services = () => {
               lg="3"
               className="mb-9 mb-lg-6"
               data-aos="fade-left"
-              data-aos-duration="2300"
+              data-aos-duration="1700"
             >
               <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
                 <img
@@ -76,7 +76,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/services/procurement">
+                  <Link href="/builders/buyout">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Procurement / Buyout{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>
@@ -117,7 +117,7 @@ const Services = () => {
               lg="3"
               className="mb-9 mb-lg-6"
               data-aos="fade-left"
-              data-aos-duration="2300"
+              data-aos-duration="1700"
             >
               <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
                 <img
@@ -142,7 +142,7 @@ const Services = () => {
               lg="3"
               className="mb-9 mb-lg-6"
               data-aos="fade-left"
-              data-aos-duration="2300"
+              data-aos-duration="1700"
             >
               <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
                 <img
@@ -166,7 +166,7 @@ const Services = () => {
               lg="3"
               className="mb-9 mb-lg-6"
               data-aos="fade-left"
-              data-aos-duration="2300"
+              data-aos-duration="1700"
             >
               <div className="service-card rounded-10 border border-gray-3 gr-hover-shadow-1">
                 <img
@@ -175,7 +175,7 @@ const Services = () => {
                   alt="..."
                 />
                 <div className="card-body bg-white rounded-bottom-10 px-7 py-6">
-                  <Link href="/analytics">
+                  <Link href="/solutions/analytics">
                     <a className="card-title gr-text-9 text-blackish-blue card-btn-link with-icon mb-0">
                       Cost Analytics{" "}
                       <i className="icon icon-tail-right font-weight-bold"></i>

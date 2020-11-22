@@ -42,10 +42,10 @@ export const menuItems = [
     name: "services",
     label: "Analytics / BI",
     items: [
-      { name: "services/takeoff", label: "BI Capabilities" },
-      { name: "services/takeoff", label: "Visual Reporting" },
-      { name: "services/estimating", label: "Client Data Access" },
-      { name: "services/estimating", label: "Cost Repo Services" },
+      { name: "analytics/possibilities", label: "BI Capabilities" },
+      { name: "analytics/reporting", label: "Visual Reporting" },
+      { name: "analytics/client-access", label: "Client Data Access" },
+      { name: "analytics/cost-repo", label: "Cost Repo Services" },
     ],
   },
   {
