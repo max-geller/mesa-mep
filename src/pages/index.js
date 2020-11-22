@@ -17,6 +17,7 @@ const trackingId = "UA-183812989-1"; // Replace with your Google Analytics track
 
 const Consultation = () => {
   ReactGA.initialize(trackingId);
+  ReactGA.pageview('/home');
   return (
     <>
       <PageWrapper
