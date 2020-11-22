@@ -45,7 +45,7 @@ const Wireless = () => {
                     WIRELESS / CELLULAR
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    It's tough to plan for costs for systems without wires.
+                    It's tough to conceptualize costs for systems without wires.
                     Radio-frequency (RF) technologies are all the hype these
                     days, but let's try to bring some clarity on costs.
                   </p>

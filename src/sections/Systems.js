@@ -40,6 +40,7 @@ const Systems = () => {
                   <li>Temporary Power & Lighting</li>
                   <li>Distribution Equipment & Feeders</li>
                   <li>Uninterruptible Power Supply (UPS) Systems</li>
+                  <li>Grounding, Bonding, Lightning Protection</li>
                   <li>Engine Generators, Transfer Switches</li>
                   <li>Lighting Fixtures and Networked Controls</li>
                   <li>Power Wiring Devices and Branch</li>
@@ -56,7 +57,9 @@ const Systems = () => {
                 <ul>
                   <li>Network Equipment Racking & Hardware</li>
                   <li>Premises Backbone Cabling (Fiber / Copper / Coax)</li>
+                  <li>MDF / IDF / MPOE Build-Out</li>
                   <li>Horizontal Cabling</li>
+                  <li>Cable / Ladder / Basket Trays</li>
                   <li>Audio-Visual / Voice Systems</li>
                   <li>CCTV & Access Controls</li>
                   <li>Wireless / Cellular / RF</li>
