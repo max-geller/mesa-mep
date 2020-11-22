@@ -43,9 +43,10 @@ const Estimating = () => {
                     ACCUBID ESTIMATING
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                    Let us take care of your MEP estimating needs. Our systems
-                    estimating approach provides a level of cost-certainty
-                    unparalleled in the industry.
+                    Trimble Accubid has become a staple for electrical
+                    estimators and contractors throughout the United States. Our
+                    team has exhaustive experience in both Accubid Classic,
+                    Change Order, and Enterprise...
                   </p>
                 </div>
               </Col>
@@ -56,8 +57,8 @@ const Estimating = () => {
         <Row className="justify-content-center">
           <Col xl="6" lg="8" sm="10">
             <div className="section-title text-center mb-11 mb-lg-20">
-              <h2 className="title gr-text-4 mb-7">
-                Data-Driven MEP Solutions
+              <h2 className="title gr-text-4 mb-7 mt-8">
+                Meet the Accubid Specialists
               </h2>
               <p className="gr-text-8 px-lg-7 px-xl-0">
                 Modern building systems account for the highest cost-variance in
@@ -65,33 +66,6 @@ const Estimating = () => {
                 industry-leading tools to make informed cost decisions.
               </p>
             </div>
-          </Col>
-          <Col>
-            <p>
-              Quantity Surveys are needed for a wide variety of purposes,
-              including: - Preparing estimates and bids - Measuring work
-              completed (for interim payments, etc.) - Valuing change orders -
-              Assessing the validity of claims - Value engineering - Life cycle
-              costing/cost-in-use - Due diligence studies Such quantity surveys
-              may be carried out from drawings or at the actual site, as
-              appropriate. Consequently, the method used for carrying out the
-              measurements will vary widely, with drawings possibly be measured
-              by scale rule, small measuring wheel, digitizer, or on-screen
-              software (such as BidScreen from Vertigraph) used with electronic
-              documents. On-site measurements might be carried out using
-              traditional tape, electronic 'tape' measures, measuring wheel,
-              etc. Whatever method is used, the level of detail must be
-              appropriate for use to which it is being put, gathering ample
-              records, but not superfluous information. Quantity Surveys are
-              normally part of the process to achieving another goal, but in
-              almost all cases they are a very important part.
-            </p>
-            <h4>Sample Estimate Reports</h4>
-            <ul>
-              <li>Conceptual Example Estimate Report</li>
-              <li>Assemblies-Based Example Estimate Report</li>
-              <li>Detailed Example Estimate Report</li>
-            </ul>
           </Col>
         </Row>
         <CTA />
