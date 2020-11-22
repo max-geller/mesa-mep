@@ -18,15 +18,15 @@ const Hero = () => {
           <Row className="align-items-center">
             <Col
               md="9"
-              lg="7"
-              xl="8"
+              lg="9"
+              xl="9"
               data-aos="fade-right"
               data-aos-duration="750"
               data-aos-delay="500"
             >
               <div className="hero-content section-title dark-mode-texts">
                 <h1 className="gr-text-2 font-weight-bold mb-8">
-                  Let's take care of your cost estimating needs...
+                  Let's take care of your electrical estimating needs...
                 </h1>
                 <p className="gr-text-8 pr-sm-7 pr-md-12">
                   Presidio Cost Solutions is your trusted partner for

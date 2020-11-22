@@ -39,7 +39,7 @@ const Content = () => {
                 </div>
                 <div className="media-body">
                   <h3 className="w-title mb-5 gr-text-7">
-                    Trade-Level Estimating Detail
+                  🔍 Trade-Level Estimating Detail
                   </h3>
                   <p className="gr-text-9 mb-0">
                     Our team uses the same tools and techniques as the largest
@@ -60,7 +60,7 @@ const Content = () => {
                 </div>
                 <div className="media-body">
                   <h3 className="w-title mb-5 gr-text-7">
-                    No Quantities? No Problem...
+                  💡 No Quantities? No Problem...
                   </h3>
                   <p className="gr-text-9 mb-0">
                     Don't have quantities yet? No problem. We offer quantity
@@ -81,7 +81,7 @@ const Content = () => {
                 </div>
                 <div className="media-body">
                   <h3 className="w-title mb-5 gr-text-7">
-                    Unparalleled Electrical Expertise
+                  🧠 Unparalleled Electrical Expertise
                   </h3>
                   <p className="gr-text-9 mb-0">
                     Presidio Cost Solutions has a diverse experience in
@@ -101,7 +101,7 @@ const Content = () => {
                   </span>
                 </div>
                 <div className="media-body">
-                  <h3 className="w-title mb-5 gr-text-7">Modern Reporting</h3>
+                  <h3 className="w-title mb-5 gr-text-7">📈 Modern Reporting</h3>
                   <p className="gr-text-9 mb-0">
                     While our standard estimate reporting is second-to-none, we
                     strongly believe that we should empower our clients with
@@ -123,7 +123,7 @@ const Content = () => {
                 </div>
                 <div className="media-body">
                   <h3 className="w-title mb-5 gr-text-7">
-                    Industry-Leading Collaboration
+                  🚀 Industry-Leading Collaboration
                   </h3>
                   <p className="gr-text-9 mb-0">
                     Let's face it, the world has changed quite a bit in the last
