@@ -7,7 +7,7 @@ import Content from "../sections/Content";
 import CTA from "../sections/CTA";
 import Systems from "../sections/Systems";
 import FAQ from "../sections/FAQ";
-import BI from "../sections/BI";
+import Projects from "../sections/Projects";
 import Actions from "../sections/Actions";
 import Newsletter from "../sections/Newsletter";
 
@@ -33,6 +33,7 @@ const Consultation = () => {
         <Content />
         <Systems />
         <Actions />
+        <Projects />
         <FAQ />
         <CTA />
         <Newsletter />

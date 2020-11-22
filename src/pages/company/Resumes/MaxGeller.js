@@ -50,14 +50,9 @@ const AboutPage = () => {
                     Hospitality, Data Centers / Mission-Critical, Laboratories,
                     Residential, High Rise / Mixed Use, Education and Airports.
                   </p>
-                  <p>
-                    David Parden formed DBP Electrical Consulting in 2009 to
-                    provide freelance electrical estimating services and
-                    electrical estimator training. DBP Electrical Consulting has
-                    obtained the highest level of peer review for services
-                    provided as a consulting firm by CERT (Consulting Estimators
-                    Round Table) – and has achieved VCEF status (Validated
-                    Consulting Estimating Firm).
+                  <p className="mt-8">
+                    Max Geller formed Presidio Cost Solutions in 2020 to
+                    provide independent electrical cost consulting and preconstruction services.
                   </p>
                 </div>
               </Col>
@@ -67,12 +62,12 @@ const AboutPage = () => {
         <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
           <Container>
             <Row>
-              <Col lg="6" className="mb-7 mb-lg-0">
+              <Col lg="3" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">Education</h2>
                 </div>
               </Col>
-              <Col lg="6">
+              <Col lg="9">
                 <div className="pr-xl-13">
                   <h4>University of Southern California</h4>
                   <h5>M. S. Construction Management, 2015</h5>
@@ -94,13 +89,13 @@ const AboutPage = () => {
           </Container>
           <Container className="mb-8">
             <Row>
-              <Col lg="6" className="mb-7 mb-lg-0">
+              <Col lg="3" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">Experience</h2>
                 </div>
               </Col>
-              <Col lg="6">
-                <div className="pr-xl-13">
+              <Col lg="9">
+                <div className="pr-xl-13 mb-8">
                   <h4>Hollins Consulting, Inc.</h4>
                   <h5>Electrical & Technology Preconstruction</h5>
                   <p>
@@ -124,7 +119,7 @@ const AboutPage = () => {
                   </p>
                 </div>
 
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-8">
                   <h4>Webcor Builders</h4>
                   <h5>Electrical Preconstruction Manager</h5>
                   <p>
@@ -147,7 +142,7 @@ const AboutPage = () => {
                     </ul>
                   </p>
                 </div>
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-8">
                   <h4>Redwood Electric Group</h4>
                   <h5>Project Management</h5>
                   <p>
@@ -170,7 +165,7 @@ const AboutPage = () => {
                     </ul>
                   </p>
                 </div>
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-8">
                   <h4>CSI Electrical Contractors</h4>
                   <h5>Electrical Estimating</h5>
                   <p>
@@ -195,10 +190,8 @@ const AboutPage = () => {
                 </div>
               </Col>
             </Row>
-          </Container>
-          <Container>
-            <Row className="mb-12">
-              <Col lg="6" className="mb-7 mb-lg-0">
+            <Row className="mb-12 mt-10">
+              <Col lg="5" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">Notable Projects</h2>
                 </div>
@@ -206,7 +199,7 @@ const AboutPage = () => {
             </Row>
             <Row className="mb-12">
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -217,7 +210,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -228,7 +221,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -239,7 +232,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -250,7 +243,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -261,7 +254,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -272,7 +265,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -283,7 +276,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -294,7 +287,7 @@ const AboutPage = () => {
                 </div>
               </Col>
               <Col lg="6">
-                <div className="pr-xl-13">
+                <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
                   <p>
@@ -308,7 +301,7 @@ const AboutPage = () => {
           </Container>
           <Container>
             <Row>
-              <Col lg="6" className="mb-7 mb-lg-0">
+              <Col lg="3" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">Expertise</h2>
                 </div>

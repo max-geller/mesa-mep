@@ -51,7 +51,7 @@ const Tooling = () => {
           <Container>
             <Row className="justify-content-center">
               <div className="section-title text-left mb-12 mb-lg-8">
-                <h2 className="title gr-text-4 mb-7">Tooling & Software</h2>
+                <h2 className="title gr-text-4 mb-7"> Software</h2>
                 <p className="gr-text-8 px-lg-7 px-xl-0">
                   Modern construction requires modern tooling. Presidio Cost
                   Solutions leverages the latest in construction technology to
@@ -70,11 +70,7 @@ const Tooling = () => {
                       data-aos-duration="750"
                     >
                       <div className="single-widget my-7 media">
-                        <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                          <span className="count text-primary--light-only gr-text-9">
-                            1
-                          </span>
-                        </div>
+
                         <div className="media-body">
                           <h3 className="w-title mb-5 gr-text-7">
                             Estimating & Takeoff
@@ -113,11 +109,7 @@ const Tooling = () => {
                       data-aos-duration="1800"
                     >
                       <div className="single-widget my-7 media">
-                        <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                          <span className="count text-primary--light-only gr-text-9">
-                            2
-                          </span>
-                        </div>
+
                         <div className="media-body">
                           <h3 className="w-title mb-5 gr-text-7">
                             Advanced Client Reporting & BI
@@ -146,11 +138,7 @@ const Tooling = () => {
                       data-aos-duration="1800"
                     >
                       <div className="single-widget my-7 media">
-                        <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                          <span className="count text-primary--light-only gr-text-9">
-                            3
-                          </span>
-                        </div>
+
                         <div className="media-body">
                           <h3 className="w-title mb-5 gr-text-7">
                             Project Management / Document Control
@@ -179,11 +167,7 @@ const Tooling = () => {
                       data-aos-duration="1200"
                     >
                       <div className="single-widget my-7 media">
-                        <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                          <span className="count text-primary--light-only gr-text-9">
-                            5
-                          </span>
-                        </div>
+
                         <div className="media-body">
                           <h3 className="w-title mb-5 gr-text-7">
                             PDF Markup / File Sharing / Collaboration
@@ -210,11 +194,7 @@ const Tooling = () => {
                       data-aos-duration="1800"
                     >
                       <div className="single-widget my-7 media">
-                        <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                          <span className="count text-primary--light-only gr-text-9">
-                            6
-                          </span>
-                        </div>
+
                         <div className="media-body">
                           <h3 className="w-title mb-5 gr-text-7">
                             Teleconference / Video
@@ -242,11 +222,7 @@ const Tooling = () => {
                       data-aos-duration="750"
                     >
                       <div className="single-widget my-7 media">
-                        <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                          <span className="count text-primary--light-only gr-text-9">
-                            1
-                          </span>
-                        </div>
+ 
                         <div className="media-body">
                           <h3 className="w-title mb-5 gr-text-7">
                             Client Data Engagement
