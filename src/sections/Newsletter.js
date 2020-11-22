@@ -12,7 +12,7 @@ const Newsletter = () => {
             <Col lg="8" md="10" className="pr-lg-9">
               <div className="nwsltr-text">
                 <h2 className="title gr-text-5">
-                  Subscribe to our newsletter to get latest news on your inbox.
+                  Subscribe to our newsletter to get latest news in your inbox:
                 </h2>
               </div>
             </Col>
