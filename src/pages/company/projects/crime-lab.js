@@ -26,7 +26,9 @@ const AboutPage = () => {
             <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
               <Col lg="9" xl="8">
                 <div className="px-md-12 text-center mb-11 mb-lg-14">
-                  <h2 className="title gr-text-2 mb-9 mb-lg-12">Transbay Block 8</h2>
+                  <h2 className="title gr-text-2 mb-9 mb-lg-12">
+                    Transbay Block 8
+                  </h2>
                   <p className="gr-text-8 mb-0">
                     With lots of unique blocks, you can easily build a page
                     without coding. Build your next consultancy website within
@@ -99,25 +101,6 @@ const AboutPage = () => {
                       data-aos-duration="500"
                       data-aos-delay="800"
                       className="w-100 pb-6 pb-sm-9 rounded-10"
-                    />
-                  </div>
-                  <div className="single-image d-flex flex-column pt-11 px-3 px-sm-6">
-                    <img
-                      src={imgC3}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      data-aos-delay="400"
-                      className="w-100 pb-6 pb-sm-9 rounded-10"
-                    />
-
-                    <img
-                      src={imgC4}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      data-aos-delay="1200"
-                      className="w-100 rounded-10"
                     />
                   </div>
                 </div>
