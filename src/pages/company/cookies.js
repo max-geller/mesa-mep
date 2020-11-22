@@ -4,6 +4,8 @@ import ReactGA from "react-ga";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
+const trackingId = "UA-183812989-1"; 
+
 const Cookies = () => {
   ReactGA.initialize(trackingId);
   ReactGA.pageview("/company/cookies");
