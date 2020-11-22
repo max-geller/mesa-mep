@@ -1,4 +1,5 @@
 import React from "react";
+import ReactGA from "react-ga";
 
 import PageWrapper from "../components/PageWrapper";
 import Hero from "../sections/Hero";
@@ -11,7 +12,8 @@ import Projects from "../sections/Projects";
 import Actions from "../sections/Actions";
 import Newsletter from "../sections/Newsletter";
 
-import { Container, Row, Col } from "react-bootstrap";
+const trackingId = "UA-183812989-1"; // Replace with your Google Analytics tracking ID
+ReactGA.initialize(trackingId);
 
 const Consultation = () => {
   return (
