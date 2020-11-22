@@ -50,13 +50,21 @@ const AboutPage = () => {
                     Hospitality, Data Centers / Mission-Critical, Laboratories,
                     Residential, High Rise / Mixed Use, Education and Airports.
                   </p>
+                  <p>
+                    David Parden formed DBP Electrical Consulting in 2009 to
+                    provide freelance electrical estimating services and
+                    electrical estimator training. DBP Electrical Consulting has
+                    obtained the highest level of peer review for services
+                    provided as a consulting firm by CERT (Consulting Estimators
+                    Round Table) – and has achieved VCEF status (Validated
+                    Consulting Estimating Firm).
+                  </p>
                 </div>
               </Col>
             </Row>
           </Container>
         </div>
         <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
-          
           <Container>
             <Row>
               <Col lg="6" className="mb-7 mb-lg-0">
@@ -195,8 +203,8 @@ const AboutPage = () => {
                   <h2 className="gr-text-3 mb-0">Notable Projects</h2>
                 </div>
               </Col>
-              </Row>
-              <Row className="mb-12">
+            </Row>
+            <Row className="mb-12">
               <Col lg="6">
                 <div className="pr-xl-13">
                   <h4>SFO Terminal 3 West Modernization</h4>
@@ -204,8 +212,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -216,8 +223,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -228,8 +234,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -240,8 +245,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -252,8 +256,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -264,8 +267,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -276,8 +278,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -288,8 +289,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>
@@ -300,8 +300,7 @@ const AboutPage = () => {
                   <p>
                     We serve public and private owners, architects, engineers
                     and contractors. We have extensive experience in health
-                    care, educational facilities, 
-
+                    care, educational facilities,
                   </p>
                 </div>
               </Col>

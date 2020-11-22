@@ -239,6 +239,13 @@ const Estimating = () => {
                     </Col>
                   </Row>
                 </Container>
+                <Container>
+                  <p>
+                    In today's hectic building environment, having access to an
+                    independent electrical cost estimator provies a variety of
+                    benefits to design-builders and general contractors.
+                  </p>
+                </Container>
               </div>
             </Col>
           </Row>

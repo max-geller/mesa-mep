@@ -8,6 +8,7 @@ export const menuItems = [
         label: "Owners / Developers",
         items: [
           { name: "solutions/owners/consulting", label: "Systems Consulting" },
+          { name: "solutions/owners/value", label: "Value Engineering" },
           { name: "solutions/owners/research", label: "Market Research" },
           { name: "solutions/owners/forensics", label: "Change Forensics" },
         ],
@@ -19,7 +20,6 @@ export const menuItems = [
           { name: "solutions/builders/estimating", label: "Electrical Estimating" },
           { name: "solutions/builders/scoping", label: "Scoping Support" },
           { name: "solutions/builders/buyout", label: "Buyout & Bid Support" },
-          { name: "solutions/builders/value", label: "Value Engineering" },
           { name: "solutions/builders/change", label: "Change Management" },
           { name: "solutions/builders/training", label: "Training & Instruction" },
         ],

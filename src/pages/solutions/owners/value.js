@@ -59,50 +59,22 @@ const Value = () => {
         {/* <!-- Fact Area --> */}
         <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
           <Container>
-            <div className="single-fact d-flex px-md-5 px-lg-2 px-xl-9">
-              <h3 className="gr-text-3 mr-9">1M+</h3>
-              <p className="gr-text-9 mb-0">Somin somin</p>
-            </div>
-
-            <Col lg="4" md="6" sm="6" className="mb-9 mb-lg-0">
-              <div className="single-fact d-flex px-md-5 px-lg-2 px-xl-9">
-                <h3 className="gr-text-3 mr-9">
-                  <LazyLoad>
-                    <span className="counter">
-                      <CountUp duration={3} end={93} />%
-                    </span>
-                  </LazyLoad>
-                </h3>
-                <p className="gr-text-9 mb-0">
-                  Satisfaction rate from our customers.
-                </p>
-              </div>
-            </Col>
-            <Col lg="4" md="6" sm="6" className="mb-9 mb-lg-0">
-              <div className="single-fact d-flex px-md-5 px-lg-2 px-xl-9">
-                <h3 className="gr-text-3 mr-9">
-                  <LazyLoad>
-                    <span className="counter">
-                      <CountUp
-                        duration={3}
-                        decimal="."
-                        decimals={1}
-                        end={4.9}
-                      />
-                    </span>
-                  </LazyLoad>
-                </h3>
-                <p className="gr-text-9 mb-0">
-                  Average customer ratings out of 5.00!
-                </p>
-              </div>
-            </Col>
+            <p>
+              In every project we find cost-efficient alternatives without
+              compromising value. Our estimators examine each component for
+              cost-reducing alternative solutions and provide a thorough
+              analysis of the entire project. Our analysis allows our clients to
+              make timely decisions on changes in design, systems, and materials
+              that benefit their project and budget.
+            </p>
           </Container>
-          <h4>Sample Buyout Resources</h4>
-          <ul>
-            <li>Final Bid Tabs</li>
-            <li>Interview Checklist</li>
-          </ul>
+          <Container>
+            <h4>Sample Buyout Resources</h4>
+            <ul>
+              <li>Final Bid Tabs</li>
+              <li>Interview Checklist</li>
+            </ul>
+          </Container>
         </div>
         <CTA />
       </PageWrapper>

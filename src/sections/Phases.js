@@ -21,129 +21,100 @@ const Phases = () => {
                   cost, reduced labor productivity, defects, and schedule
                   delays.
                 </p>
-
               </div>
             </Col>
           </Row>
 
-                <Row className="align-items-center">
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="1200"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          1
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Conceptual / Feasibility
-                        </h3>
-                        <p className="gr-text-9 mb-0">
-                          With lots of unique blocks, you can easily build a
-                          page without coding.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="1800"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          2
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Schematic Design
-                        </h3>
-                        <p className="gr-text-9 mb-0">
-                          With lots of unique blocks, you can easily build a
-                          page without coding.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
+          <Row className="align-items-center">
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1200">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    1
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">
+                    Conceptual / Feasibility
+                  </h3>
+                  <p className="gr-text-9 mb-0">
+                    At the earliest stages of design, Presidio Cost Solutions
+                    can provide high-level cost guidance to ensure program scope
+                    and value are achieved. Pricing for conceptual estimates are
+                    based on both known and historical construction cost data
+                    which can help establish a realistic program budget.{" "}
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1800">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    2
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">Schematic Design</h3>
+                  <p className="gr-text-9 mb-0">
+                    With lots of unique blocks, you can easily build a page
+                    without coding.{" "}
+                  </p>
+                </div>
+              </div>
+            </Col>
 
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="1800"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          3
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Design Development
-                        </h3>
-                        <p className="gr-text-9 mb-0">
-                          With lots of unique blocks, you can easily build a
-                          page without coding.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="750"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          4
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Construction Document
-                        </h3>
-                        <p className="gr-text-9 mb-0">
-                          With lots of unique blocks, you can easily build a
-                          page without coding.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                  <Col
-                    md="6"
-                    lg="12"
-                    data-aos="fade-left"
-                    data-aos-duration="750"
-                  >
-                    <div className="single-widget my-7 media">
-                      <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                        <span className="count text-primary--light-only gr-text-9">
-                          4
-                        </span>
-                      </div>
-                      <div className="media-body">
-                        <h3 className="w-title mb-5 gr-text-7">
-                          Change Management
-                        </h3>
-                        <p className="gr-text-9 mb-0">
-                          With lots of unique blocks, you can easily build a
-                          page without coding.{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1800">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    3
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">Design Development</h3>
+                  <p className="gr-text-9 mb-0">
+                    With lots of unique blocks, you can easily build a page
+                    without coding.{" "}
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    4
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">
+                    Construction Document
+                  </h3>
+                  <p className="gr-text-9 mb-0">
+                    With lots of unique blocks, you can easily build a page
+                    without coding.{" "}
+                  </p>
+                </div>
+              </div>
+            </Col>
+            <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    4
+                  </span>
+                </div>
+                <div className="media-body">
+                  <h3 className="w-title mb-5 gr-text-7">Change Management</h3>
+                  <p className="gr-text-9 mb-0">
+                    With lots of unique blocks, you can easily build a page
+                    without coding.{" "}
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
         </Container>
       </div>
     </>

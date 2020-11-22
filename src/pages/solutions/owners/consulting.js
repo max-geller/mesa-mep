@@ -57,7 +57,7 @@ const Consultation = () => {
         <Container>
           <Row className="justify-content-center mt-11 mb-11">
             <Col xl="12" lg="12" sm="11" xs="11">
-              <div className="section-title text-left mb-11 mb-lg-20">
+              <div className="section-title text-left mb-11 mb-lg-8">
                 <h4 className="title gr-text-6 mb-5">Let's Talk Costs...</h4>
                 <p className="gr-text-8  px-xl-0">
                   Modern building systems account for the highest cost-variance
@@ -73,9 +73,13 @@ const Consultation = () => {
                   developers and general contractors to navigate the changing
                   technologies and regulations.
                 </p>
+                <p>
+                  Hiring the right independent electrical cost consultant can
+                  ensure that your project is designed, procured, and built with
+                  value in mind.
+                </p>
               </div>
             </Col>
-            <BI />
             <Col xl="12" lg="12" sm="12">
               <div className="section-title text-left mb-11 mb-lg-20">
                 <p className="gr-text-8  px-xl-0">
@@ -88,25 +92,55 @@ const Consultation = () => {
                   and notable construction projects throughout the United
                   States, for both private and public entities.
                 </p>
-                <p>
-                  Quantity Surveys are needed for a wide variety of purposes,
-                  including: - Preparing estimates and bids - Measuring work
-                  completed (for interim payments, etc.) - Valuing change orders
-                  - Assessing the validity of claims - Value engineering - Life
-                  cycle costing/cost-in-use - Due diligence studies Such
-                  quantity surveys may be carried out from drawings or at the
-                  actual site, as appropriate. C
-                </p>
               </div>
+              <p>
+                Owners and developers often require trade-level cost estimating
+                and subcontract buyout/ consulting in order to:
+              </p>
+              <ul>
+                <li>
+                  Make quality program-level decisions using informed cost model
+                  information
+                </li>
+                <li>
+                  Improve the strength and accuracy of trade scoping
+                  documentation.
+                </li>
+                <li>
+                  Better identify major cost contributors during each stage of
+                  project design.
+                </li>
+                <li>
+                  Validate construction cost proposals from trade partners
+                </li>
+                <li>
+                  Understand and evaluate construction cost estimates and change
+                  orders from trade subcontractors.
+                </li>
+                <li>
+                  Reconcile construction cost variances with construction trade
+                  partners.{" "}
+                </li>
+                <li>
+                  Evaluate, specify, and enjoy the highest-quality materials,
+                  products, and finishes.
+                </li>
+                <li>
+                  Maintain adhrerence construction budget and schedule
+                  constraints.
+                </li>
+                <li>
+                  Ensure effective commissioning and closeout upon project
+                  completion.
+                </li>
+              </ul>
             </Col>
           </Row>
         </Container>
         <Container>
           <Phases />
-
         </Container>
         <CTA />
-        
       </PageWrapper>
     </>
   );

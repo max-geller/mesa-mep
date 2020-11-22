@@ -58,16 +58,47 @@ const Estimating = () => {
           <Col xl="6" lg="8" sm="10">
             <div className="section-title text-center mb-11 mb-lg-20">
               <h2 className="title gr-text-4 mb-7 mt-8">
-                Meet the Accubid Specialists
+                Not Your Average Bean Counters
               </h2>
               <p className="gr-text-8 px-lg-7 px-xl-0">
-                Modern building systems account for the highest cost-variance in
-                commercial construction. Presidio Cost Solutions provides
-                industry-leading tools to make informed cost decisions.
+                The estimating package you will receive includes feeder
+                schedules, equipment connection sheets, branch work sheets,
+                fixture schedules, quote sheets (to send to your suppliers),
+                computer print out of pricing and labor sheets, recap sheets,
+                computer audit and detailed summary sheets. The estimates you
+                will receive are prepared using the Electrical Bid Manager™
+                estimating software by Vision InfoSoft Corporation, Accubid Pro
+                10 by Trimble and IntelliBid Software by ConEst Software
+                Systems.
               </p>
             </div>
           </Col>
         </Row>
+        <Container>
+          <p>
+            With all of our estimating service options, the estimating package
+            you receive will consist of:
+          </p>
+          <ul>
+            <li>Power Feeders & Equipment</li>
+            <li>Motor Feeders & Equipment Connections</li>
+            <li>Systems Feeders & Devices</li>
+            <li>Branch Work Sheets</li>
+            <li>Quote Sheets to Send to Your Suppliers</li>
+            <li>Pricing & Labor Computer Print Out</li>
+            <li>Adjusted, Material & Labor Recap Sheet</li>
+            <li>Estimate Summary & Preliminary Bid Price</li>
+            <li>Inclusions and Exclusions Sheet (Standard Service™)</li>
+          </ul>
+        </Container>
+        <Container>
+          <h4>Confidence</h4>
+          <p>
+            We guarantee no copies of an estimate will be furnished to any other
+            contractor.
+          </p>
+        </Container>
+
         <CTA />
       </PageWrapper>
     </>
