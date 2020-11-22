@@ -9,7 +9,6 @@ export const menuItems = [
         items: [
           { name: "solutions/owners/consulting", label: "Systems Consulting" },
           { name: "solutions/owners/research", label: "Market Research" },
-          { name: "solutions/owners/procurement", label: "Procurement Support" },
           { name: "solutions/owners/forensics", label: "Change Forensics" },
         ],
       },
