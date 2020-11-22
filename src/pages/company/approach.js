@@ -9,7 +9,7 @@ import Newsletter from "../../sections/Newsletter";
 
 const trackingId = "UA-183812989-1"; 
 
-const Approach = () => {
+const ApproachPage = () => {
   ReactGA.initialize(trackingId);
   ReactGA.pageview("/company/approach");
   return (
@@ -35,4 +35,4 @@ const Approach = () => {
   );
 };
 
-export default Approach;
+export default ApproachPage;
