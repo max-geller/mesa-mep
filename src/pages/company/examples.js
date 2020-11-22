@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-import { Document, Page } from 'react-pdf'
+
 
 import imgBanner from "../../assets/image/stock/precon.jpeg";
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
