@@ -26,7 +26,6 @@ const Tooling = () => {
           theme: "light",
         }}
       >
-        {/* <!-- Hero Area --> */}
         <div
           className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
           css={`

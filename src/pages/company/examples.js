@@ -4,10 +4,7 @@ import ReactGA from "react-ga";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-import imgC1 from "../../assets/image/stock/data-center.jpeg";
-import imgC2 from "../../assets/image/stock/cellular.jpeg";
-import imgC3 from "../../assets/image/stock/precon.jpeg";
-import imgC4 from "../../assets/image/stock/conduit.jpeg";
+import examples from "../../assets/image/examples/tier2-estimate.png";
 
 const trackingId = "UA-183812989-1";
 
@@ -15,7 +12,6 @@ const Examples = () => {
   ReactGA.initialize(trackingId);
   ReactGA.pageview("/company/examples");
   return (
-    
     <>
       <PageWrapper
         headerConfig={{
@@ -29,17 +25,41 @@ const Examples = () => {
           theme: "light",
         }}
       >
-        
-
+        <div
+          className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
+          css={`
+            background-image: url(${examples});
+          `}
+        >
+          <Container>
+            <Row className="align-items-center">
+              <Col
+                md="9"
+                lg="7"
+                xl="6"
+                data-aos="fade-right"
+                data-aos-duration="750"
+                data-aos-delay="500"
+              >
+                <div className="hero-content section-title dark-mode-texts">
+                  <h1 className="gr-text-3 font-weight-bold mb-8">
+                    EXAMPLE DELIVERABLES
+                  </h1>
+                  <p className="gr-text-8 pr-sm-7 pr-md-12"></p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
         <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
-        <div>
-
-    </div>
+          <div></div>
           <Container>
             <Row>
               <Col lg="6" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
-                  <h2 className="gr-text-3 mb-0">Who We Are</h2>
+                  <h2 className="gr-text-3 mb-0">
+                    Let's Check out Some Samples:
+                  </h2>
                 </div>
               </Col>
               <Col lg="6">
@@ -53,89 +73,67 @@ const Examples = () => {
                     Solutions offers guidance and control for all types of
                     architectural construction projects.
                   </p>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities, research labs, high tech
-                    office buildings, hospitality and resort, aviation, museums,
-                    art galleries, retail, industrial, government, and
-                    commercial office buildings. We offer you a comprehensive
-                    range of project and cost management services including:
-                    Strategic Planning, Project Management, Budget Management,
-                    Schedule Management, Value Management, Claims Settlement,
-                    Dispute Resolution, and Quantity Surveys.
-                  </p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        <div className="content-section pt-14 pt-lg-27 pb-13 pb-lg-27 bg-default-2">
-          <Container>
-            <Row className="align-items-center justify-content-center">
-              <Col sm="8" lg="5" xl="6" className="mb-9 mb-lg-0">
-                <div className="content-grid-image-group d-flex  mx-sm-n3">
-                  <div className="single-image d-flex flex-column px-3 px-sm-6">
-                    <img
-                      src={imgC1}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      className="w-100 pb-6 pb-sm-9 rounded-10"
-                    />
-
-                    <img
-                      src={imgC2}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      data-aos-delay="800"
-                      className="w-100 pb-6 pb-sm-9 rounded-10"
-                    />
-                  </div>
-                  <div className="single-image d-flex flex-column pt-11 px-3 px-sm-6">
-                    <img
-                      src={imgC3}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      data-aos-delay="400"
-                      className="w-100 pb-6 pb-sm-9 rounded-10"
-                    />
-
-                    <img
-                      src={imgC4}
-                      alt=""
-                      data-aos="zoom-in"
-                      data-aos-duration="500"
-                      data-aos-delay="1200"
-                      className="w-100 rounded-10"
-                    />
-                  </div>
-                </div>
-              </Col>
-              <Col
-                sm="8"
-                lg="6"
-                xl="5"
-                className="offset-lg-1 offset-lg-1 offset-xl-0"
-              >
-                <div className="content-text">
-                  <h2 className="gr-text-3 mb-7 mb-lg-11">
-                    We speak
-                    <br className="d-none d-lg-block" /> building systems
-                  </h2>
-                  <p className="gr-text-8 mb-7 mb-lg-10">
-                    We share common trends and strategies for improving your
-                    rental income and making sure you stay in high demand of
-                    service.{" "}
-                  </p>
-                  <p className="gr-text-8 mb-0">
-                    With lots of unique blocks, you can easily build a page
-                    without coding. Build your next landing page. With lots of
-                    unique blocks, you can easily build a page without coding
-                    any other page.
-                  </p>
+                  <Container>
+                    <h4>Some Examples:</h4>
+                    <ul>
+                      <li>
+                        <a
+                          href="https://presidiosolutions.s3-us-west-1.amazonaws.com/tier2.pdf"
+                          target="blank"
+                        >
+                          Sample Assemblies Based
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://presidiosolutions.s3-us-west-1.amazonaws.com/SampleBOE.pdf"
+                          target="blank"
+                        >
+                          Sample Basis of Estimate
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://presidiosolutions.s3-us-west-1.amazonaws.com/PCS+Electrical+Itemized+Estimate.pdf"
+                          target="blank"
+                        >
+                          PCS Detailed Estimate Example
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://presidiosolutions.s3-us-west-1.amazonaws.com/PCS+Sort+Codes_Master.pdf"
+                          target="blank"
+                        >
+                          PCS Standard Phase Codes
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://presidiosolutions.s3-us-west-1.amazonaws.com/ExampleAccubidSummary.pdf"
+                          target="blank"
+                        >
+                          Example Accubid Summary
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://presidiosolutions.s3-us-west-1.amazonaws.com/PCS+LV+Basis+of+Estimate.pdf"
+                          target="blank"
+                        >
+                          PCS Low Voltage Basis of Estimate
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://presidiosolutions.s3-us-west-1.amazonaws.com/SpecificScopeTempPower.pdf"
+                          target="blank"
+                        >
+                          Example Specific Scope of Work (Temporary Power)
+                        </a>
+                      </li>
+                    </ul>
+                  </Container>
                 </div>
               </Col>
             </Row>
