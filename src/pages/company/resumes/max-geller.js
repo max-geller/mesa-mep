@@ -82,7 +82,7 @@ const MaxGeller = () => {
               </div>
             </Row>
             <Row>
-            <Col lg="6" md="8" sm="12" className=" align-items-center">
+              <Col lg="6" md="8" sm="12" className=" align-items-center">
                 <Row className="align-items-center">
                   <Col
                     sm="2"
@@ -122,7 +122,7 @@ const MaxGeller = () => {
                     sm="2"
                     lg="2"
                     data-aos="fade-left"
-                    data-aos-duration="750"
+                    data-aos-duration="1050"
                   >
                     <div className="media-icon circle-sm  ">
                       <div className="user-image circle-md ">
@@ -167,14 +167,14 @@ const MaxGeller = () => {
                 <div className="single-widget my-7 media">
                   <div className="media-icon circle-sm  mr-8">
                     <span className="count text-primary--light-only gr-text-9">
-                      <div className="user-image circle-md mr-7">
+                    <div className="user-image circle-md mr-7 mt-8">
                         <img className="w-100" src={presidio} alt="" />
                       </div>
                     </span>
                   </div>
                   <div className="pr-xl-13 mb-8">
-                    <h4>Presidio Cost Solutions</h4>
-                    <h5>Principal, Electrical Preconstruction</h5>
+                    <h4 class="gr-text-8 mb-0">Presidio Cost Solutions, LLC</h4>
+                    <h5 class="gr-text-10 mb-4">Principal, Electrical Preconstruction</h5>
                     <Row className="justify-items-left">
                       <Col lg="2" sm="6">
                         <h5 class="small">Phoenix, AZ</h5>
@@ -198,40 +198,46 @@ const MaxGeller = () => {
             </Row>
 
             <Row>
-              <Col>
-                <div className="pr-xl-13 mb-8">
+              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+                <div className="single-widget my-7 media ">
                   <div className="media-icon circle-sm  mr-8">
                     <span className="count text-primary--light-only gr-text-9">
-                      <div className="user-image circle-md mr-7">
-                        <img className="w-100" src={presidio} alt="" />
+                      <div className="user-image circle-md mr-7 mt-6">
+                        <img className="w-100" src={hci} alt="" />
                       </div>
                     </span>
                   </div>
-                  <h4>Hollins Consulting, Inc.</h4>
-                  <h5>Electrical & Technology Preconstruction</h5>
-                  <Row className="justify-items-left">
-                    <Col lg="2" sm="6">
-                      <h5 class="small">San Francisco, CA</h5>
-                    </Col>
-                    <Col lg="2" sm="6">
-                      <h5 class="small">2018 - 2020</h5>
-                    </Col>
-                  </Row>
-                  <p>
-                    At Hollins Consulting, I've managed and conducted all
-                    operational functions for electrical, fire alarm and
-                    low-voltage work scopes. This includes conducting design
-                    reviews and value engineering evaluations, initial cost
-                    model validation, core-trade buyout and coordination, and
-                    enforcement of ownership standards. This role allowed me to
-                    review all aspects of electrical and technology systems
-                    design, performance requirements, specifications, technology
-                    selections, preliminary quotes and bid documents to ensure
-                    adherence to project goals and commitment to end-user
-                    satisfaction.
-                  </p>
+                  <div className="pr-xl-13 mb-8 mt-0">
+                    <h4 class="gr-text-8 mb-0">Hollins Consulting, Inc.</h4>
+                    <h5 class="gr-text-10 mb-4">Electrical & Technology Preconstruction</h5>
+                    <Row className="justify-items-left">
+                      <Col lg="2" sm="6">
+                        <h5 class="small">San Francisco, CA</h5>
+                      </Col>
+                      <Col lg="2" sm="6">
+                        <h5 class="small">2018 - 2020</h5>
+                      </Col>
+                    </Row>
+                    <p>
+                      At Hollins Consulting, I've managed and conducted all
+                      operational functions for electrical, fire alarm and
+                      low-voltage work scopes. This includes conducting design
+                      reviews and value engineering evaluations, initial cost
+                      model validation, core-trade buyout and coordination, and
+                      enforcement of ownership standards. This role allowed me
+                      to review all aspects of electrical and technology systems
+                      design, performance requirements, specifications,
+                      technology selections, preliminary quotes and bid
+                      documents to ensure adherence to project goals and
+                      commitment to end-user satisfaction.
+                    </p>
+                  </div>
                 </div>
+              </Col>
+            </Row>
 
+            <Row>
+              <Col>
                 <div className="pr-xl-13 mb-8">
                   <h4>Webcor Builders</h4>
                   <h5>Electrical Preconstruction Manager</h5>
@@ -432,8 +438,8 @@ const MaxGeller = () => {
             </Row>
           </Container>
           <Container>
-            <Row>
-              <Col lg="3" className="mb-7 mb-lg-0">
+          <Row className="mb-12 mt-10">
+              <Col lg="5" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">Expertise</h2>
                 </div>
