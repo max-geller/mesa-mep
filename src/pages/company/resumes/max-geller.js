@@ -13,6 +13,8 @@ import hci from "./../../../assets/image/resumes/max/hci.gif";
 import webcor from "./../../../assets/image/resumes/max/webcor.png";
 import reg from "./../../../assets/image/resumes/max/reg.jpg";
 import csi from "./../../../assets/image/resumes/max/csi.png";
+import sfot3 from "./../../../assets/image/projects/sfo-t3.jpg";
+import lbnf from "./../../../assets/image/projects/lbnf.jpg";
 
 const trackingId = "UA-183812989-1";
 
@@ -74,15 +76,15 @@ const MaxGeller = () => {
             </Row>
           </Container>
         </div>
-        <div className="about-content pt-lg-0  pb-5 pb-lg-5">
-          <Container className="ml-6">
+
+        <Container className="mb-8 mt-14">
             <Row lg="3">
               <div className="pr-xl-13">
                 <h2 className="gr-text-3 mb-12">Education</h2>
               </div>
             </Row>
             <Row>
-              <Col lg="6" md="8" sm="12" className=" align-items-center mb-10">
+              <Col lg="6" md="8" sm="12" className="justify-items-center align-items-center mb-10">
                 <Row className="align-items-center">
                   <Col
                     sm="2"
@@ -353,7 +355,6 @@ const MaxGeller = () => {
             </Row>
           </Container>
 
-
           <Container className="mb-8 mt-14">
             <Row className="mb-12 mt-10">
               <Col lg="5" className="mb-7 mb-lg-0">
@@ -362,8 +363,14 @@ const MaxGeller = () => {
                 </div>
               </Col>
             </Row>
+
             <Row className="mb-12">
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
+              <Col sm="10" lg="4" data-aos="fade-left" data-aos-duration="750">
+                <div className=" mr-7  pr-6">
+                  <img className="w-100" src={sfot3} alt="" />
+                </div>
+              </Col>
+              <Col sm="10" lg="6">
                 <div className="pr-xl-13 mb-12">
                   <h4>SFO Terminal 3 West Modernization</h4>
                   <h5>Special Systems Project Manager</h5>
@@ -375,7 +382,16 @@ const MaxGeller = () => {
                   </p>
                 </div>
               </Col>
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
+            </Row>
+
+
+            <Row className="mb-12">
+              <Col sm="10" lg="4" data-aos="fade-left" data-aos-duration="750">
+                <div className=" mr-7  pr-6">
+                  <img className="w-100" src={lbnf} alt="" />
+                </div>
+              </Col>
+              <Col sm="10" lg="6">
                 <div className="pr-xl-13 mb-12">
                   <h4>Long-Baseline Neutrino Facility</h4>
                   <h5>Electrical Estimating & Reconciliation</h5>
@@ -387,6 +403,11 @@ const MaxGeller = () => {
                   </p>
                 </div>
               </Col>
+            </Row>
+
+
+            <Row>
+
               <Col lg="6" data-aos="fade-left" data-aos-duration="750">
                 <div className="pr-xl-13 mb-12">
                   <h4>San Francisco Traffic & Forensics Facility </h4>
@@ -523,7 +544,7 @@ const MaxGeller = () => {
               </Col>
             </Row>
           </Container>
-        </div>
+
       </PageWrapper>
     </>
   );
