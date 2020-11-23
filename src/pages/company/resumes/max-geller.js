@@ -75,14 +75,14 @@ const MaxGeller = () => {
           </Container>
         </div>
         <div className="about-content pt-lg-0  pb-5 pb-lg-5">
-          <Container>
+          <Container className="ml-6">
             <Row lg="3">
               <div className="pr-xl-13">
                 <h2 className="gr-text-3 mb-12">Education</h2>
               </div>
             </Row>
             <Row>
-              <Col lg="6" md="8" sm="12" className=" align-items-center">
+              <Col lg="6" md="8" sm="12" className=" align-items-center mb-10">
                 <Row className="align-items-center">
                   <Col
                     sm="2"
@@ -97,13 +97,11 @@ const MaxGeller = () => {
                     </div>
                   </Col>
 
-                  <Col sm="10" lg="8">
+                  <Col sm="10" lg="8" className="mr-4">
                     <h4 class="gr-text-8 mb-0">
                       University of Southern California
                     </h4>
-                    <h5 class="gr-text-10">
-                      M. S. Construction Management, 2015
-                    </h5>
+                    <h5 class="gr-text-10">M. S. Construction Management</h5>
                     <Row className="justify-items-left">
                       <Col lg="4" sm="10">
                         <h5 class="small">Los Angeles, CA</h5>
@@ -124,20 +122,18 @@ const MaxGeller = () => {
                     data-aos="fade-left"
                     data-aos-duration="1050"
                   >
-                    <div className="media-icon circle-sm  ">
+                    <div className="media-icon circle-sm mb-10 mb-10 mt-8 ">
                       <div className="user-image circle-md ">
                         <img className="w-100" src={chico} alt="" />
                       </div>
                     </div>
                   </Col>
 
-                  <Col sm="10" lg="8">
+                  <Col sm="10" lg="8" className="mr-4">
                     <h4 class="gr-text-8 mb-0">
                       California State University, Chico
                     </h4>
-                    <h5 class="gr-text-10">
-                      B. S. Construction Management, 2011
-                    </h5>
+                    <h5 class="gr-text-10">B. S. Construction Management</h5>
                     <Row className="justify-items-left">
                       <Col lg="4" sm="10">
                         <h5 class="small">Chico, CA</h5>
@@ -162,19 +158,19 @@ const MaxGeller = () => {
               </Col>
             </Row>
 
-            <Row>
+            <Row className="ml-4">
               <Col lg="9" data-aos="fade-left" data-aos-duration="750">
                 <div className="single-widget my-7 media">
                   <div className="media-icon circle-sm  mr-8">
                     <span className="count text-primary--light-only gr-text-9">
-                    <div className="user-image circle-md mr-7 mt-8">
+                      <div className="user-image circle-md mr-7 mt-8">
                         <img className="w-100" src={presidio} alt="" />
                       </div>
                     </span>
                   </div>
                   <div className="pr-xl-13 mb-8">
                     <h4 class="gr-text-8 mb-0">Presidio Cost Solutions, LLC</h4>
-                    <h5 class="gr-text-10 mb-4">Principal, Electrical Preconstruction</h5>
+                    <h5 class="gr-text-10 mb-4">Principal</h5>
                     <Row className="justify-items-left">
                       <Col lg="2" sm="6">
                         <h5 class="small">Phoenix, AZ</h5>
@@ -197,7 +193,7 @@ const MaxGeller = () => {
               </Col>
             </Row>
 
-            <Row>
+            <Row className="ml-4">
               <Col lg="9" data-aos="fade-left" data-aos-duration="750">
                 <div className="single-widget my-7 media ">
                   <div className="media-icon circle-sm  mr-8">
@@ -209,7 +205,9 @@ const MaxGeller = () => {
                   </div>
                   <div className="pr-xl-13 mb-8 mt-0">
                     <h4 class="gr-text-8 mb-0">Hollins Consulting, Inc.</h4>
-                    <h5 class="gr-text-10 mb-4">Electrical & Technology Preconstruction</h5>
+                    <h5 class="gr-text-10 mb-4">
+                      Electrical & Technology Preconstruction
+                    </h5>
                     <Row className="justify-items-left">
                       <Col lg="2" sm="6">
                         <h5 class="small">San Francisco, CA</h5>
@@ -236,96 +234,127 @@ const MaxGeller = () => {
               </Col>
             </Row>
 
-            <Row>
-              <Col>
-                <div className="pr-xl-13 mb-8">
-                  <h4>Webcor Builders</h4>
-                  <h5>Electrical Preconstruction Manager</h5>
-                  <Row className="justify-items-left">
-                    <Col lg="2" sm="6">
-                      <h5 class="small">San Francisco, CA</h5>
-                    </Col>
-                    <Col lg="2" sm="6">
-                      <h5 class="small">2014 - 2017</h5>
-                    </Col>
-                  </Row>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities, research labs, high tech
-                    office buildings, hospitality and resort, aviation, museums,
-                    art galleries, retail, industrial, government,
-                    <ul>
-                      <li>
-                        commercial office buildings range of project and cost
-                        management services including:
-                      </li>
-                      <li>
-                        Strategic Planning, Project Management, Budget
-                        Management, Schedule Management, Value Management,
-                        Claims Settlement,
-                      </li>
-                      <li>Dispute Resolution, and Quantity Surveys.</li>
-                    </ul>
-                  </p>
-                </div>
-                <div className="pr-xl-13 mb-8">
-                  <h4>Redwood Electric Group</h4>
-                  <h5>Project Management</h5>
-                  <h5 class="small">Santa Clara, CA</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities, research labs, high tech
-                    office buildings, hospitality and resort, aviation, museums,
-                    art galleries, retail, industrial, government,
-                    <ul>
-                      <li>
-                        commercial office buildings range of project and cost
-                        management services including:
-                      </li>
-                      <li>
-                        Strategic Planning, Project Management, Budget
-                        Management, Schedule Management, Value Management,
-                        Claims Settlement,
-                      </li>
-                      <li>Dispute Resolution, and Quantity Surveys.</li>
-                    </ul>
-                  </p>
-                </div>
-                <div className="pr-xl-13 mb-8">
-                  <h4>CSI Electrical Contractors</h4>
-                  <h5>Electrical Estimating</h5>
-                  <Row>
-                    <Col lg="2" sm="6">
-                      <h5 class="small">Los Angeles, CA</h5>
-                    </Col>
-                    <Col lg="2" sm="6">
-                      <h5 class="small">2011 - 2014</h5>
-                    </Col>
-                  </Row>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities, research labs, high tech
-                    office buildings, hospitality and resort, aviation, museums,
-                    art galleries, retail, industrial, government,
-                    <ul>
-                      <li>
-                        commercial office buildings range of project and cost
-                        management services including:
-                      </li>
-                      <li>
-                        Strategic Planning, Project Management, Budget
-                        Management, Schedule Management, Value Management,
-                        Claims Settlement,
-                      </li>
-                      <li>Dispute Resolution, and Quantity Surveys.</li>
-                    </ul>
-                  </p>
+            <Row className="ml-4">
+              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+                <div className="single-widget my-7 media ">
+                  <div className="media-icon circle-sm  mr-8">
+                    <span className="count text-primary--light-only gr-text-9">
+                      <div className="user-image circle-md mr-7 mt-6">
+                        <img className="w-100" src={webcor} alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="pr-xl-13 mb-8 mt-0">
+                    <h4 class="gr-text-8 mb-0">Webcor Builders</h4>
+                    <h5 class="gr-text-10 mb-4">
+                      Electrical Preconstruction Manager
+                    </h5>
+                    <Row className="justify-items-left">
+                      <Col lg="2" sm="6">
+                        <h5 class="small">San Francisco, CA</h5>
+                      </Col>
+                      <Col lg="2" sm="6">
+                        <h5 class="small">2017 - 2018</h5>
+                      </Col>
+                    </Row>
+                    <p>
+                      At Hollins Consulting, I've managed and conducted all
+                      operational functions for electrical, fire alarm and
+                      low-voltage work scopes. This includes conducting design
+                      reviews and value engineering evaluations, initial cost
+                      model validation, core-trade buyout and coordination, and
+                      enforcement of ownership standards. This role allowed me
+                      to review all aspects of electrical and technology systems
+                      design, performance requirements, specifications,
+                      technology selections, preliminary quotes and bid
+                      documents to ensure adherence to project goals and
+                      commitment to end-user satisfaction.
+                    </p>
+                  </div>
                 </div>
               </Col>
             </Row>
+            <Row className="ml-4">
+              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+                <div className="single-widget my-7 media ">
+                  <div className="media-icon circle-sm  mr-8">
+                    <span className="count text-primary--light-only gr-text-9">
+                      <div className="user-image circle-md mr-7 mt-6">
+                        <img className="w-100" src={reg} alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="pr-xl-13 mb-8 mt-0">
+                    <h4 class="gr-text-8 mb-0">Redwood Electric Group</h4>
+                    <h5 class="gr-text-10 mb-4">Project Management</h5>
+                    <Row className="justify-items-left">
+                      <Col lg="2" sm="6">
+                        <h5 class="small">Santa Clara, CA</h5>
+                      </Col>
+                      <Col lg="2" sm="6">
+                        <h5 class="small">2014 - 2017</h5>
+                      </Col>
+                    </Row>
+                    <p>
+                      At Hollins Consulting, I've managed and conducted all
+                      operational functions for electrical, fire alarm and
+                      low-voltage work scopes. This includes conducting design
+                      reviews and value engineering evaluations, initial cost
+                      model validation, core-trade buyout and coordination, and
+                      enforcement of ownership standards. This role allowed me
+                      to review all aspects of electrical and technology systems
+                      design, performance requirements, specifications,
+                      technology selections, preliminary quotes and bid
+                      documents to ensure adherence to project goals and
+                      commitment to end-user satisfaction.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+
+            <Row className="ml-4">
+              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+                <div className="single-widget my-7 media ">
+                  <div className="media-icon circle-sm  mr-8">
+                    <span className="count text-primary--light-only gr-text-9">
+                      <div className="user-image circle-md mr-7 mt-6">
+                        <img className="w-100" src={csi} alt="" />
+                      </div>
+                    </span>
+                  </div>
+                  <div className="pr-xl-13 mb-8 mt-0">
+                    <h4 class="gr-text-8 mb-0">CSI Electrical Contractors</h4>
+                    <h5 class="gr-text-10 mb-4">Electrical Estimating</h5>
+                    <Row className="justify-items-left">
+                      <Col lg="2" sm="6">
+                        <h5 class="small">Los Angeles, CA</h5>
+                      </Col>
+                      <Col lg="2" sm="6">
+                        <h5 class="small">2011 - 2014</h5>
+                      </Col>
+                    </Row>
+                    <p>
+                      At Hollins Consulting, I've managed and conducted all
+                      operational functions for electrical, fire alarm and
+                      low-voltage work scopes. This includes conducting design
+                      reviews and value engineering evaluations, initial cost
+                      model validation, core-trade buyout and coordination, and
+                      enforcement of ownership standards. This role allowed me
+                      to review all aspects of electrical and technology systems
+                      design, performance requirements, specifications,
+                      technology selections, preliminary quotes and bid
+                      documents to ensure adherence to project goals and
+                      commitment to end-user satisfaction.
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+
+
+          <Container className="mb-8 mt-14">
             <Row className="mb-12 mt-10">
               <Col lg="5" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
@@ -438,7 +467,7 @@ const MaxGeller = () => {
             </Row>
           </Container>
           <Container>
-          <Row className="mb-12 mt-10">
+            <Row className="mb-12 mt-10">
               <Col lg="5" className="mb-7 mb-lg-0">
                 <div className="pr-xl-13">
                   <h2 className="gr-text-3 mb-0">Expertise</h2>
