@@ -15,6 +15,13 @@ import reg from "./../../../assets/image/resumes/max/reg.jpg";
 import csi from "./../../../assets/image/resumes/max/csi.png";
 import sfot3 from "./../../../assets/image/projects/sfo-t3.jpg";
 import lbnf from "./../../../assets/image/projects/lbnf.jpg";
+import crimelab from "./../../../assets/image/projects/crime-lab.jpg";
+import avery from "./../../../assets/image/projects/avery.jpg";
+import harveymilk from "./../../../assets/image/projects/harveymilk.jpg";
+import fbGsoc from "./../../../assets/image/projects/fb-gsoc.jpg";
+import gilead from "./../../../assets/image/projects/gilead.jpg";
+import ttc from "./../../../assets/image/projects/ttc.jpg";
+import sfogh from "./../../../assets/image/projects/sfogh.jpg";
 
 const trackingId = "UA-183812989-1";
 
@@ -78,473 +85,472 @@ const MaxGeller = () => {
         </div>
 
         <Container className="mb-8 mt-14">
-            <Row lg="3">
+          <Row lg="3">
+            <div className="pr-xl-13">
+              <h2 className="gr-text-3 mb-12">Education</h2>
+            </div>
+          </Row>
+          <Row>
+            <Col
+              lg="6"
+              md="8"
+              sm="12"
+              className="justify-items-center align-items-center mb-10"
+            >
+              <Row className="align-items-center">
+                <Col sm="2" lg="2" data-aos="fade-left" data-aos-duration="750">
+                  <div className="media-icon circle-sm mb-10 mb-10 mt-8 ">
+                    <div className="user-image circle-md  ">
+                      <img className="w-100" src={usc} alt="" />
+                    </div>
+                  </div>
+                </Col>
+
+                <Col sm="10" lg="8" className="mr-4">
+                  <h4 class="gr-text-8 mb-0">
+                    University of Southern California
+                  </h4>
+                  <h5 class="gr-text-10">M. S. Construction Management</h5>
+                  <Row className="justify-items-left">
+                    <Col lg="4" sm="10">
+                      <h5 class="small">Los Angeles, CA</h5>
+                    </Col>
+
+                    <Col lg="4" sm="10">
+                      <h5 class="small">2015</h5>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+            </Col>
+            <Col lg="6" md="8" sm="12" className="mb-10 align-items-center">
+              <Row className="align-items-center">
+                <Col
+                  sm="2"
+                  lg="2"
+                  data-aos="fade-left"
+                  data-aos-duration="1050"
+                >
+                  <div className="media-icon circle-sm mb-10 mb-10 mt-8 ">
+                    <div className="user-image circle-md ">
+                      <img className="w-100" src={chico} alt="" />
+                    </div>
+                  </div>
+                </Col>
+
+                <Col sm="10" lg="8" className="mr-4">
+                  <h4 class="gr-text-8 mb-0">
+                    California State University, Chico
+                  </h4>
+                  <h5 class="gr-text-10">B. S. Construction Management</h5>
+                  <Row className="justify-items-left">
+                    <Col lg="4" sm="10">
+                      <h5 class="small">Chico, CA</h5>
+                    </Col>
+
+                    <Col lg="2" sm="10">
+                      <h5 class="small">2011</h5>
+                    </Col>
+                  </Row>
+                </Col>
+              </Row>
+            </Col>
+          </Row>
+        </Container>
+
+        <Container className="mb-8 mt-14">
+          <Row>
+            <Col lg="3">
               <div className="pr-xl-13">
-                <h2 className="gr-text-3 mb-12">Education</h2>
+                <h2 className="gr-text-3 mb-12">Experience</h2>
               </div>
-            </Row>
-            <Row>
-              <Col lg="6" md="8" sm="12" className="justify-items-center align-items-center mb-10">
-                <Row className="align-items-center">
-                  <Col
-                    sm="2"
-                    lg="2"
-                    data-aos="fade-left"
-                    data-aos-duration="750"
-                  >
-                    <div className="media-icon circle-sm mb-10 mb-10 mt-8 ">
-                      <div className="user-image circle-md  ">
-                        <img className="w-100" src={usc} alt="" />
-                      </div>
+            </Col>
+          </Row>
+
+          <Row className="ml-4">
+            <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media">
+                <div className="media-icon circle-sm  mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    <div className="user-image circle-md mr-7 mt-8">
+                      <img className="w-100" src={presidio} alt="" />
                     </div>
-                  </Col>
+                  </span>
+                </div>
+                <div className="pr-xl-13 mb-8">
+                  <h4 class="gr-text-8 mb-0">Presidio Cost Solutions, LLC</h4>
+                  <h5 class="gr-text-10 mb-4">Principal</h5>
+                  <Row className="justify-items-left">
+                    <Col lg="2" sm="6">
+                      <h5 class="small">Phoenix, AZ</h5>
+                    </Col>
+                    <Col lg="2" sm="6">
+                      <h5 class="small">2020 - Present</h5>
+                    </Col>
+                  </Row>
+                  <p>
+                    At Presidio Cost Solutions, I strive to deliver an
+                    unprecedented level of cost clarity to each and every
+                    client. With an extensive background in electrical, fire
+                    alarm, and low-voltage systems preconstruction, I'm able to
+                    leverage the latest estimating techniques, tooling and
+                    reporting capabilities that modern construction has to
+                    offer.
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
 
-                  <Col sm="10" lg="8" className="mr-4">
-                    <h4 class="gr-text-8 mb-0">
-                      University of Southern California
-                    </h4>
-                    <h5 class="gr-text-10">M. S. Construction Management</h5>
-                    <Row className="justify-items-left">
-                      <Col lg="4" sm="10">
-                        <h5 class="small">Los Angeles, CA</h5>
-                      </Col>
-
-                      <Col lg="4" sm="10">
-                        <h5 class="small">2015</h5>
-                      </Col>
-                    </Row>
-                  </Col>
-                </Row>
-              </Col>
-              <Col lg="6" md="8" sm="12" className="mb-10 align-items-center">
-                <Row className="align-items-center">
-                  <Col
-                    sm="2"
-                    lg="2"
-                    data-aos="fade-left"
-                    data-aos-duration="1050"
-                  >
-                    <div className="media-icon circle-sm mb-10 mb-10 mt-8 ">
-                      <div className="user-image circle-md ">
-                        <img className="w-100" src={chico} alt="" />
-                      </div>
+          <Row className="ml-4">
+            <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media ">
+                <div className="media-icon circle-sm  mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    <div className="user-image circle-md mr-7 mt-6">
+                      <img className="w-100" src={hci} alt="" />
                     </div>
-                  </Col>
-
-                  <Col sm="10" lg="8" className="mr-4">
-                    <h4 class="gr-text-8 mb-0">
-                      California State University, Chico
-                    </h4>
-                    <h5 class="gr-text-10">B. S. Construction Management</h5>
-                    <Row className="justify-items-left">
-                      <Col lg="4" sm="10">
-                        <h5 class="small">Chico, CA</h5>
-                      </Col>
-
-                      <Col lg="2" sm="10">
-                        <h5 class="small">2011</h5>
-                      </Col>
-                    </Row>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-
-          <Container className="mb-8 mt-14">
-            <Row>
-              <Col lg="3">
-                <div className="pr-xl-13">
-                  <h2 className="gr-text-3 mb-12">Experience</h2>
+                  </span>
                 </div>
-              </Col>
-            </Row>
-
-            <Row className="ml-4">
-              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
-                <div className="single-widget my-7 media">
-                  <div className="media-icon circle-sm  mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      <div className="user-image circle-md mr-7 mt-8">
-                        <img className="w-100" src={presidio} alt="" />
-                      </div>
-                    </span>
-                  </div>
-                  <div className="pr-xl-13 mb-8">
-                    <h4 class="gr-text-8 mb-0">Presidio Cost Solutions, LLC</h4>
-                    <h5 class="gr-text-10 mb-4">Principal</h5>
-                    <Row className="justify-items-left">
-                      <Col lg="2" sm="6">
-                        <h5 class="small">Phoenix, AZ</h5>
-                      </Col>
-                      <Col lg="2" sm="6">
-                        <h5 class="small">2020 - Present</h5>
-                      </Col>
-                    </Row>
-                    <p>
-                      At Presidio Cost Solutions, I strive to deliver an
-                      unprecedented level of cost clarity to each and every
-                      client. With an extensive background in electrical, fire
-                      alarm, and low-voltage systems preconstruction, I'm able
-                      to leverage the latest estimating techniques, tooling and
-                      reporting capabilities that modern construction has to
-                      offer.
-                    </p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-
-            <Row className="ml-4">
-              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
-                <div className="single-widget my-7 media ">
-                  <div className="media-icon circle-sm  mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      <div className="user-image circle-md mr-7 mt-6">
-                        <img className="w-100" src={hci} alt="" />
-                      </div>
-                    </span>
-                  </div>
-                  <div className="pr-xl-13 mb-8 mt-0">
-                    <h4 class="gr-text-8 mb-0">Hollins Consulting, Inc.</h4>
-                    <h5 class="gr-text-10 mb-4">
-                      Electrical & Technology Preconstruction
-                    </h5>
-                    <Row className="justify-items-left">
-                      <Col lg="2" sm="6">
-                        <h5 class="small">San Francisco, CA</h5>
-                      </Col>
-                      <Col lg="2" sm="6">
-                        <h5 class="small">2018 - 2020</h5>
-                      </Col>
-                    </Row>
-                    <p>
-                      At Hollins Consulting, I've managed and conducted all
-                      operational functions for electrical, fire alarm and
-                      low-voltage work scopes. This includes conducting design
-                      reviews and value engineering evaluations, initial cost
-                      model validation, core-trade buyout and coordination, and
-                      enforcement of ownership standards. This role allowed me
-                      to review all aspects of electrical and technology systems
-                      design, performance requirements, specifications,
-                      technology selections, preliminary quotes and bid
-                      documents to ensure adherence to project goals and
-                      commitment to end-user satisfaction.
-                    </p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-
-            <Row className="ml-4">
-              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
-                <div className="single-widget my-7 media ">
-                  <div className="media-icon circle-sm  mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      <div className="user-image circle-md mr-7 mt-6">
-                        <img className="w-100" src={webcor} alt="" />
-                      </div>
-                    </span>
-                  </div>
-                  <div className="pr-xl-13 mb-8 mt-0">
-                    <h4 class="gr-text-8 mb-0">Webcor Builders</h4>
-                    <h5 class="gr-text-10 mb-4">
-                      Electrical Preconstruction Manager
-                    </h5>
-                    <Row className="justify-items-left">
-                      <Col lg="2" sm="6">
-                        <h5 class="small">San Francisco, CA</h5>
-                      </Col>
-                      <Col lg="2" sm="6">
-                        <h5 class="small">2017 - 2018</h5>
-                      </Col>
-                    </Row>
-                    <p>
-                      At Hollins Consulting, I've managed and conducted all
-                      operational functions for electrical, fire alarm and
-                      low-voltage work scopes. This includes conducting design
-                      reviews and value engineering evaluations, initial cost
-                      model validation, core-trade buyout and coordination, and
-                      enforcement of ownership standards. This role allowed me
-                      to review all aspects of electrical and technology systems
-                      design, performance requirements, specifications,
-                      technology selections, preliminary quotes and bid
-                      documents to ensure adherence to project goals and
-                      commitment to end-user satisfaction.
-                    </p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-            <Row className="ml-4">
-              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
-                <div className="single-widget my-7 media ">
-                  <div className="media-icon circle-sm  mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      <div className="user-image circle-md mr-7 mt-6">
-                        <img className="w-100" src={reg} alt="" />
-                      </div>
-                    </span>
-                  </div>
-                  <div className="pr-xl-13 mb-8 mt-0">
-                    <h4 class="gr-text-8 mb-0">Redwood Electric Group</h4>
-                    <h5 class="gr-text-10 mb-4">Project Management</h5>
-                    <Row className="justify-items-left">
-                      <Col lg="2" sm="6">
-                        <h5 class="small">Santa Clara, CA</h5>
-                      </Col>
-                      <Col lg="2" sm="6">
-                        <h5 class="small">2014 - 2017</h5>
-                      </Col>
-                    </Row>
-                    <p>
-                      At Hollins Consulting, I've managed and conducted all
-                      operational functions for electrical, fire alarm and
-                      low-voltage work scopes. This includes conducting design
-                      reviews and value engineering evaluations, initial cost
-                      model validation, core-trade buyout and coordination, and
-                      enforcement of ownership standards. This role allowed me
-                      to review all aspects of electrical and technology systems
-                      design, performance requirements, specifications,
-                      technology selections, preliminary quotes and bid
-                      documents to ensure adherence to project goals and
-                      commitment to end-user satisfaction.
-                    </p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-
-            <Row className="ml-4">
-              <Col lg="9" data-aos="fade-left" data-aos-duration="750">
-                <div className="single-widget my-7 media ">
-                  <div className="media-icon circle-sm  mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      <div className="user-image circle-md mr-7 mt-6">
-                        <img className="w-100" src={csi} alt="" />
-                      </div>
-                    </span>
-                  </div>
-                  <div className="pr-xl-13 mb-8 mt-0">
-                    <h4 class="gr-text-8 mb-0">CSI Electrical Contractors</h4>
-                    <h5 class="gr-text-10 mb-4">Electrical Estimating</h5>
-                    <Row className="justify-items-left">
-                      <Col lg="2" sm="6">
-                        <h5 class="small">Los Angeles, CA</h5>
-                      </Col>
-                      <Col lg="2" sm="6">
-                        <h5 class="small">2011 - 2014</h5>
-                      </Col>
-                    </Row>
-                    <p>
-                      At Hollins Consulting, I've managed and conducted all
-                      operational functions for electrical, fire alarm and
-                      low-voltage work scopes. This includes conducting design
-                      reviews and value engineering evaluations, initial cost
-                      model validation, core-trade buyout and coordination, and
-                      enforcement of ownership standards. This role allowed me
-                      to review all aspects of electrical and technology systems
-                      design, performance requirements, specifications,
-                      technology selections, preliminary quotes and bid
-                      documents to ensure adherence to project goals and
-                      commitment to end-user satisfaction.
-                    </p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-
-          <Container className="mb-8 mt-14">
-            <Row className="mb-12 mt-10">
-              <Col lg="5" className="mb-7 mb-lg-0">
-                <div className="pr-xl-13">
-                  <h2 className="gr-text-3 mb-0">Notable Projects</h2>
-                </div>
-              </Col>
-            </Row>
-
-            <Row className="mb-12">
-              <Col sm="10" lg="4" data-aos="fade-left" data-aos-duration="750">
-                <div className=" mr-7  pr-6">
-                  <img className="w-100" src={sfot3} alt="" />
-                </div>
-              </Col>
-              <Col sm="10" lg="6">
-                <div className="pr-xl-13 mb-12">
-                  <h4>SFO Terminal 3 West Modernization</h4>
-                  <h5>Special Systems Project Manager</h5>
-                  <h5>San Francisco, CA</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-            </Row>
-
-
-            <Row className="mb-12">
-              <Col sm="10" lg="4" data-aos="fade-left" data-aos-duration="750">
-                <div className=" mr-7  pr-6">
-                  <img className="w-100" src={lbnf} alt="" />
-                </div>
-              </Col>
-              <Col sm="10" lg="6">
-                <div className="pr-xl-13 mb-12">
-                  <h4>Long-Baseline Neutrino Facility</h4>
-                  <h5>Electrical Estimating & Reconciliation</h5>
-                  <h5>Lead, SD</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-            </Row>
-
-
-            <Row>
-
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
-                <div className="pr-xl-13 mb-12">
-                  <h4>San Francisco Traffic & Forensics Facility </h4>
-                  <h5>Electrical Estimating & COR Review</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
-                <div className="pr-xl-13 mb-12">
-                  <h4>Transbay Block 8 (The Avery)</h4>
-                  <h5>Electrical Change Order Review</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
-                <div className="pr-xl-13 mb-12">
-                  <h4>SFO Terminal 1C / Boarding Area B</h4>
-                  <h5>Electrical Estimating & Trade Reconciliation</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
-                <div className="pr-xl-13 mb-12">
-                  <h4>Global Security Command Center (Anonymous)</h4>
-                  <h5>Electrical Modeling & Estimating</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
-                <div className="pr-xl-13 mb-12">
-                  <h4>Gilead Pilot Laboratory</h4>
-                  <h5>Electrical Estimating & COR Review</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
-                <div className="pr-xl-13 mb-12">
-                  <h4>SFO Grand Hyatt Hotel</h4>
-                  <h5>Electrical Estimating & Trade Procurement</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-              <Col lg="6" data-aos="fade-left" data-aos-duration="750">
-                <div className="pr-xl-13 mb-12">
-                  <h4>Transbay Transit Center</h4>
-                  <h5>Change Order Review & Trade Reconciliation</h5>
-                  <p>
-                    We serve public and private owners, architects, engineers
-                    and contractors. We have extensive experience in health
-                    care, educational facilities,
-                  </p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-          <Container>
-            <Row className="mb-12 mt-10">
-              <Col lg="5" className="mb-7 mb-lg-0">
-                <div className="pr-xl-13">
-                  <h2 className="gr-text-3 mb-0">Expertise</h2>
-                </div>
-              </Col>
-              <Col lg="6">
-                <div className="pr-xl-13">
-                  <Row className="align-items-center">
-                    <Col sm="2" lg="2">
-                      <i className=" gr-text-2 icon icon-camera-flash"></i>
+                <div className="pr-xl-13 mb-8 mt-0">
+                  <h4 class="gr-text-8 mb-0">Hollins Consulting, Inc.</h4>
+                  <h5 class="gr-text-10 mb-4">
+                    Electrical & Technology Preconstruction
+                  </h5>
+                  <Row className="justify-items-left">
+                    <Col lg="2" sm="6">
+                      <h5 class="small">San Francisco, CA</h5>
                     </Col>
-                    <Col sm="8" lg="8">
-                      <h5 class="small" className="gr-text-8 text-left">
-                        Power & Distribution Systems
-                      </h5>
+                    <Col lg="2" sm="6">
+                      <h5 class="small">2018 - 2020</h5>
                     </Col>
                   </Row>
-                  <Row className="align-items-center">
-                    <Col sm="2" lg="2">
-                      <i className="gr-text-2 icon icon-plug"></i>
-                    </Col>
-                    <h5 className="text-left">Power & Distribution Systems</h5>
-                  </Row>
-                  <Row className="align-items-center">
-                    <Col sm="2" lg="2">
-                      <i className="gr-text-2 icon icon-bulb-63"></i>
-                    </Col>
-                  </Row>
-                  <Row className="align-items-center">
-                    <Col sm="2" lg="2">
-                      <i className="gr-text-2 icon icon-energy"></i>
-                    </Col>
-                  </Row>
-                  <Row className="align-items-center">
-                    <Col sm="2" lg="2">
-                      <i className=" gr-text-2 icon icon-phone-2-2"></i>
-                    </Col>
-                  </Row>
-                  <Row className="align-items-center">
-                    <Col sm="2" lg="2">
-                      <i className="gr-text-2 icon icon-cctv"></i>
-                    </Col>
-                  </Row>
-                  <Row className="align-items-center">
-                    <Col sm="2" lg="2">
-                      <i className="gr-text-2 icon icon-chart-bar-52"></i>
-                    </Col>
-                    <Col>
-                      <h5 className="text-left">Cellular / Wireless Access</h5>
-                    </Col>
-                  </Row>
+                  <p>
+                    At Hollins Consulting, I've managed and conducted all
+                    operational functions for electrical, fire alarm and
+                    low-voltage work scopes. This includes conducting design
+                    reviews and value engineering evaluations, initial cost
+                    model validation, core-trade buyout and coordination, and
+                    enforcement of ownership standards. This role allowed me to
+                    review all aspects of electrical and technology systems
+                    design, performance requirements, specifications, technology
+                    selections, preliminary quotes and bid documents to ensure
+                    adherence to project goals and commitment to end-user
+                    satisfaction.
+                  </p>
                 </div>
-              </Col>
-            </Row>
-          </Container>
+              </div>
+            </Col>
+          </Row>
 
+          <Row className="ml-4">
+            <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media ">
+                <div className="media-icon circle-sm  mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    <div className="user-image circle-md mr-7 mt-6">
+                      <img className="w-100" src={webcor} alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="pr-xl-13 mb-8 mt-0">
+                  <h4 class="gr-text-8 mb-0">Webcor Builders</h4>
+                  <h5 class="gr-text-10 mb-4">
+                    Electrical Preconstruction Manager
+                  </h5>
+                  <Row className="justify-items-left">
+                    <Col lg="2" sm="6">
+                      <h5 class="small">San Francisco, CA</h5>
+                    </Col>
+                    <Col lg="2" sm="6">
+                      <h5 class="small">2017 - 2018</h5>
+                    </Col>
+                  </Row>
+                  <p>
+                    At Hollins Consulting, I've managed and conducted all
+                    operational functions for electrical, fire alarm and
+                    low-voltage work scopes. This includes conducting design
+                    reviews and value engineering evaluations, initial cost
+                    model validation, core-trade buyout and coordination, and
+                    enforcement of ownership standards. This role allowed me to
+                    review all aspects of electrical and technology systems
+                    design, performance requirements, specifications, technology
+                    selections, preliminary quotes and bid documents to ensure
+                    adherence to project goals and commitment to end-user
+                    satisfaction.
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row className="ml-4">
+            <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media ">
+                <div className="media-icon circle-sm  mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    <div className="user-image circle-md mr-7 mt-6">
+                      <img className="w-100" src={reg} alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="pr-xl-13 mb-8 mt-0">
+                  <h4 class="gr-text-8 mb-0">Redwood Electric Group</h4>
+                  <h5 class="gr-text-10 mb-4">Project Management</h5>
+                  <Row className="justify-items-left">
+                    <Col lg="2" sm="6">
+                      <h5 class="small">Santa Clara, CA</h5>
+                    </Col>
+                    <Col lg="2" sm="6">
+                      <h5 class="small">2014 - 2017</h5>
+                    </Col>
+                  </Row>
+                  <p>
+                    At Hollins Consulting, I've managed and conducted all
+                    operational functions for electrical, fire alarm and
+                    low-voltage work scopes. This includes conducting design
+                    reviews and value engineering evaluations, initial cost
+                    model validation, core-trade buyout and coordination, and
+                    enforcement of ownership standards. This role allowed me to
+                    review all aspects of electrical and technology systems
+                    design, performance requirements, specifications, technology
+                    selections, preliminary quotes and bid documents to ensure
+                    adherence to project goals and commitment to end-user
+                    satisfaction.
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="ml-4">
+            <Col lg="9" data-aos="fade-left" data-aos-duration="750">
+              <div className="single-widget my-7 media ">
+                <div className="media-icon circle-sm  mr-8">
+                  <span className="count text-primary--light-only gr-text-9">
+                    <div className="user-image circle-md mr-7 mt-6">
+                      <img className="w-100" src={csi} alt="" />
+                    </div>
+                  </span>
+                </div>
+                <div className="pr-xl-13 mb-8 mt-0">
+                  <h4 class="gr-text-8 mb-0">CSI Electrical Contractors</h4>
+                  <h5 class="gr-text-10 mb-4">Electrical Estimating</h5>
+                  <Row className="justify-items-left">
+                    <Col lg="2" sm="6">
+                      <h5 class="small">Los Angeles, CA</h5>
+                    </Col>
+                    <Col lg="2" sm="6">
+                      <h5 class="small">2011 - 2014</h5>
+                    </Col>
+                  </Row>
+                  <p>
+                    At Hollins Consulting, I've managed and conducted all
+                    operational functions for electrical, fire alarm and
+                    low-voltage work scopes. This includes conducting design
+                    reviews and value engineering evaluations, initial cost
+                    model validation, core-trade buyout and coordination, and
+                    enforcement of ownership standards. This role allowed me to
+                    review all aspects of electrical and technology systems
+                    design, performance requirements, specifications, technology
+                    selections, preliminary quotes and bid documents to ensure
+                    adherence to project goals and commitment to end-user
+                    satisfaction.
+                  </p>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+
+        <Container className="mb-8 mt-14">
+          <Row className="mb-12 mt-10">
+            <Col lg="5" className="mb-7 mb-lg-0">
+              <div className="pr-xl-13">
+                <h2 className="gr-text-3 mb-0">Notable Projects</h2>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={sfot3} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>SFO Terminal 3 West Modernization</h4>
+                <h5>Special Systems Project Manager</h5>
+                <h5>San Francisco, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={lbnf} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>Long-Baseline Neutrino Facility</h4>
+                <h5>Electrical Estimating & Reconciliation</h5>
+                <h5>Lead, SD</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={crimelab} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>SF Traffic Company & Forensics Division Facility</h4>
+                <h5>Electrical Estimating & Reconciliation</h5>
+                <h5>San Francisco, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={avery} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>Transbay Block 8 (The Avery)</h4>
+                <h5>Electrical Change Order Review</h5>
+                <h5>San Francisco, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={harveymilk} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>SFO T1C / BAB (Harvey Milk Terminal)</h4>
+                <h5>Electrical Change Order Review</h5>
+                <h5>San Francisco, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={fbGsoc} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>Global Security Facility (Anonymous Client) </h4>
+                <h5>Electrical Change Order Review</h5>
+                <h5>San Francisco, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+
+         
+
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={gilead} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>Gilead Pilot Laboratory </h4>
+                <h5>Electrical Estimating & COR Review</h5>
+                <h5>Foster City, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={sfogh} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>SFO Grand Hyatt Hotel </h4>
+                <h5>Electrical Estimating & COR Review</h5>
+                <h5>San Francisco, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+          <Row className="mb-12">
+            <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
+              <div className=" mr-7  pr-6">
+                <img className="w-100" src={ttc} alt="" />
+              </div>
+            </Col>
+            <Col sm="10" lg="6">
+              <div className="pr-xl-13 mb-12">
+                <h4>Salesfore (Transbay) Transit Center </h4>
+                <h5>Change Order Review & Trade Reconciliation</h5>
+                <h5>San Francisco, CA</h5>
+                <p>
+                  We serve public and private owners, architects, engineers and
+                  contractors. We have extensive experience in health care,
+                  educational facilities,
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </PageWrapper>
     </>
   );
