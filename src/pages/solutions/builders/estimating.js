@@ -1,6 +1,6 @@
 import React from "react";
 import ReactGA from "react-ga";
-
+import { Document, Page } from "react-pdf";
 
 
 import PageWrapper from "../../../components/PageWrapper";
