@@ -7,7 +7,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import imgBanner from "./../../../assets/image/stock/takeoff.jpg";
 import estimate from "./../../../assets/image/stock/takeoff.jpg";
 
-import takeoffSample from "./../../../assets/image/takeoff-sample.jpg";
+import takeoffSample from "./../../../assets/image/takeoff-sample.JPG";
 
 const trackingId = "UA-183812989-1";
 
