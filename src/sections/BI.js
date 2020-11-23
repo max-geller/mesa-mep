@@ -11,12 +11,26 @@ const BI = () => {
           <h2 className="title gr-text-4 mb-7">
             Your Microsoft Power BI Partner
           </h2>
+
           <p>
             Microsoft Power BI is a cornerstone of our estimating workflow, and
             provides the basis for our client engagement and QA/QC efforts.
             Let's show some reporting possibilities you may have never known
             existed...
           </p>
+
+          <p>
+            Power BI is a platform provides an unprecedented level of client
+            data engagement. Sure, we have all sorts of fancy PDF-based cost
+            reports, but these 'flat' methods of cost reporting only show you
+            summary-level insights. Power BI's advanced reporting allows our
+            clients to explore and engage with their data, on their own terms.
+          </p>
+          <Row className="justify-content-center">
+            <h5 className="mt-8 mb-15">
+              Let's have a quick look at what's possible:
+            </h5>
+          </Row>
           <Row className="justify-content-center">
             <iframe
               width="900"
