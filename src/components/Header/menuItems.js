@@ -17,7 +17,10 @@ export const menuItems = [
         name: "design",
         label: "Design-Builders",
         items: [
-          { name: "solutions/builders/estimating", label: "Electrical Estimating" },
+          {
+            name: "solutions/builders/estimating",
+            label: "Electrical Estimating",
+          },
           { name: "solutions/builders/scoping", label: "Scoping Support" },
           { name: "solutions/builders/buyout", label: "Buyout & Bid Support" },
           { name: "solutions/builders/change", label: "Change Management" },
@@ -41,10 +44,11 @@ export const menuItems = [
     name: "services",
     label: "Analytics / BI",
     items: [
-      { name: "analytics/possibilities", label: "BI Capabilities" },
+      { name: "analytics/possibilities", label: "Custom Solutions" },
       { name: "analytics/reporting", label: "Visual Reporting" },
       { name: "analytics/client-access", label: "Client Data Access" },
       { name: "analytics/cost-repo", label: "Cost Repo Services" },
+      { name: "analytics/possibilities", label: "Custom Solutions" },
     ],
   },
   {

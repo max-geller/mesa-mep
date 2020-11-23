@@ -4,8 +4,6 @@ import ReactGA from "react-ga";
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
 
-
-
 import BI from "../../sections/BI";
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
 import imgC2 from "../../assets/image/stock/cellular.jpeg";
@@ -14,11 +12,10 @@ import imgC4 from "../../assets/image/stock/conduit.jpeg";
 
 const trackingId = "UA-183812989-1";
 
-const Possibilities = () => {
+const Custom = () => {
   ReactGA.initialize(trackingId);
-  ReactGA.pageview("/analytics/possibilities");
+  ReactGA.pageview("/analytics/custom");
   return (
-    
     <>
       <PageWrapper
         headerConfig={{
@@ -32,12 +29,8 @@ const Possibilities = () => {
           theme: "light",
         }}
       >
-        
-
         <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
-        <div>
-
-    </div>
+          <div></div>
           <Container>
             <Row>
               <Col lg="6" className="mb-7 mb-lg-0">
@@ -149,4 +142,4 @@ const Possibilities = () => {
     </>
   );
 };
-export default Possibilities;
+export default Custom;
