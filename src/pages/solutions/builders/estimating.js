@@ -1,7 +1,5 @@
 import React from "react";
 import ReactGA from "react-ga";
-import { Document, Page } from "react-pdf";
-
 
 import PageWrapper from "../../../components/PageWrapper";
 import CTA from "../../../sections/CTA";
@@ -51,7 +49,7 @@ const Estimating = () => {
                     ELECTRICAL ESTIMATING
                   </h1>
                   <p className="gr-text-10 text-left">
-                    Let us take care of your MEP estimating needs. Our systems
+                    Let us take care of your electrical estimating needs. Our systems
                     estimating approach provides a level of cost-certainty
                     unparalleled in the industry.
                   </p>
@@ -62,7 +60,7 @@ const Estimating = () => {
         </div>
 
         <Container>
-          <h4 className="title gr-text-6 mb-5">
+          <h4 className="title gr-text-6 mb-5 mt-12">
             Your Electrical Estimating Partner
           </h4>
           <Row className="justify-content-center mt-11 mb-11">
@@ -106,6 +104,67 @@ const Estimating = () => {
               </p>
             </Col>
           </Row>
+        </Container>
+        <Container>
+          <h4>Some Examples:</h4>
+          <ul>
+            <li>
+              <a
+                href="https://presidiosolutions.s3-us-west-1.amazonaws.com/tier2.pdf"
+                target="blank"
+              >
+                Sample Assemblies Based
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://presidiosolutions.s3-us-west-1.amazonaws.com/SampleBOE.pdf"
+                target="blank"
+              >
+                Sample Basis of Estimate
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://presidiosolutions.s3-us-west-1.amazonaws.com/PCS+Electrical+Itemized+Estimate.pdf"
+                target="blank"
+              >
+                PCS Detailed Estimate Example
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://presidiosolutions.s3-us-west-1.amazonaws.com/PCS+Sort+Codes_Master.pdf"
+                target="blank"
+              >
+                PCS Standard Phase Codes
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://presidiosolutions.s3-us-west-1.amazonaws.com/ExampleAccubidSummary.pdf"
+                target="blank"
+              >
+                Example Accubid Summary
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://presidiosolutions.s3-us-west-1.amazonaws.com/PCS+LV+Basis+of+Estimate.pdf"
+                target="blank"
+              >
+                PCS Low Voltage Basis of Estimate
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://presidiosolutions.s3-us-west-1.amazonaws.com/SpecificScopeTempPower.pdf"
+                target="blank"
+              >
+                Example Specific Scope of Work (Temporary Power)
+              </a>
+            </li>
+          </ul>
         </Container>
         <Container>
           <Row className="justify-content-center">

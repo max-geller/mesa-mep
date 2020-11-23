@@ -7,6 +7,8 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import imgBanner from "./../../../assets/image/stock/takeoff.jpg";
 import estimate from "./../../../assets/image/stock/takeoff.jpg";
 
+import takeoffSample from "./../../../assets/image/takeoff-sample.jpg";
+
 const trackingId = "UA-183812989-1";
 
 const Takeoff = () => {
@@ -26,7 +28,6 @@ const Takeoff = () => {
           theme: "light",
         }}
       >
-        {/* <!-- Hero Area --> */}
         <div
           className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
           css={`
@@ -60,7 +61,7 @@ const Takeoff = () => {
         </div>
         <Container>
           <Row className="justify-content-center mt-11 mb-11">
-            <Col xl="12" lg="12" sm="11" xs="11">
+            <Col xl="6" lg="6" sm="11" xs="11">
               <div className="section-title text-left mb-11 mb-lg-20">
                 <h4 className="title gr-text-6 mb-5">
                   Your Trusted Partner for Electrical Takeoff & Survey
@@ -91,53 +92,16 @@ const Takeoff = () => {
                   <li>Trimble Live Count</li>
                 </ul>
               </div>
+
             </Col>
-          </Row>
-        </Container>
-        <Container>
-          <Row className="justify-content-center mt-md-6 pt-24 pt-lg-29">
-            <Col lg="9" xl="8">
-              <div className="px-md-12 text-center mb-11 mb-lg-14">
-                <h2 className="title gr-text-2 mb-9 mb-lg-12">About Us</h2>
-                <p className="gr-text-8 mb-0">
-                  With lots of unique blocks, you can easily build a page
-                  without coding. Build your next consultancy website within few
-                  minutes.
-                </p>
-              </div>
-            </Col>
-            <Col xs="12">
+
+            <Col xs="12" xs="6">
               <div className="banner-fluid-image pt-lg-9">
-                <img src={imgBanner} alt="" className="w-100" />
+                <img src={takeoffSample} alt="" className="w-100" />
               </div>
             </Col>
           </Row>
         </Container>
-        <Container>
-          <Row className="justify-content-center mt-11 mb-11">
-            <Col xl="6" lg="8" sm="10">
-              <div className="section-title text-center mb-11 mb-lg-20">
-                <h2 className="title gr-text-4 mb-7">
-                  Data-Driven MEP Solutions
-                </h2>
-                <p className="gr-text-8 px-lg-7 px-xl-0">
-                  Modern building systems account for the highest cost-variance
-                  in commercial construction. Presidio Cost Solutions provides
-                  industry-leading tools to make informed cost decisions.
-                </p>
-              </div>
-            </Col>
-          </Row>
-        </Container>
-        {/* <!-- Fact Area --> */}
-        <div className="fact-section pt-12 pb-6 pt-lg-19 pb-lg-17 border-bottom border-gray-3 bg-default-6 ">
-          <h4>Sample Takeoff Deliverables</h4>
-          <ul>
-            <li>Conceptual Example Estimate Report</li>
-            <li>Assemblies-Based Example Estimate Report</li>
-            <li>Detailed Example Estimate Report</li>
-          </ul>
-        </div>
         <CTA />
       </PageWrapper>
     </>
