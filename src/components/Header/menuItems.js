@@ -24,7 +24,10 @@ export const menuItems = [
           { name: "solutions/builders/scoping", label: "Scoping Support" },
           { name: "solutions/builders/buyout", label: "Buyout & Bid Support" },
           { name: "solutions/builders/change", label: "Change Management" },
-          { name: "solutions/builders/training", label: "Training & Instruction" },
+          {
+            name: "solutions/builders/training",
+            label: "Training & Instruction",
+          },
         ],
       },
 
@@ -44,11 +47,10 @@ export const menuItems = [
     name: "services",
     label: "Analytics / BI",
     items: [
-      { name: "analytics/possibilities", label: "Custom Solutions" },
       { name: "analytics/reporting", label: "Visual Reporting" },
       { name: "analytics/client-access", label: "Client Data Access" },
       { name: "analytics/cost-repo", label: "Cost Repo Services" },
-      { name: "analytics/possibilities", label: "Custom Solutions" },
+      { name: "analytics/custom", label: "Custom Solutions" },
     ],
   },
   {

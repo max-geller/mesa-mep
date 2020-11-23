@@ -3,7 +3,7 @@ import ReactGA from "react-ga";
 
 import { Row, Col, Container } from "react-bootstrap";
 import PageWrapper from "../../components/PageWrapper";
-
+import BI from "../../sections/BI";
 import imgC1 from "../../assets/image/stock/data-center.jpeg";
 import imgC2 from "../../assets/image/stock/cellular.jpeg";
 import imgC3 from "../../assets/image/stock/precon.jpeg";
@@ -15,7 +15,6 @@ const Reporting = () => {
   ReactGA.initialize(trackingId);
   ReactGA.pageview("/analytics/reporting");
   return (
-    
     <>
       <PageWrapper
         headerConfig={{
@@ -29,12 +28,10 @@ const Reporting = () => {
           theme: "light",
         }}
       >
-        
-
+        <Container>
+          <BI />
+        </Container>
         <div className="about-content pt-lg-28 pt-13 pb-13 pb-lg-25">
-        <div>
-
-    </div>
           <Container>
             <Row>
               <Col lg="6" className="mb-7 mb-lg-0">
