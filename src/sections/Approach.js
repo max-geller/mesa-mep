@@ -40,10 +40,7 @@ const Approach = () => {
         <Container>
           <Row className="justify-content-center">
             <div className="section-title text-left mb-12 mb-lg-8">
-              <h4>Early Engagement</h4>
-              <h4>Select the right tool for the job</h4>
-              <h4>Collaboration at Core</h4>
-              <h4>Client Engagement</h4>
+
               <p>
 
               </p>
