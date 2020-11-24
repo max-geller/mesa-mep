@@ -383,9 +383,9 @@ const MaxGeller = () => {
                 <h5>Special Systems Project Manager</h5>
                 <h5>San Francisco, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  As a memeber of the SFO Project Management Support Services
+                  team, I served as the Special Systems Project Manager during
+                  the initial design of the SFO Terminal 3 West Modernization.
                 </p>
               </div>
             </Col>
@@ -403,9 +403,11 @@ const MaxGeller = () => {
                 <h5>Electrical Estimating & Reconciliation</h5>
                 <h5>Lead, SD</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  Working as the Electrical Preconstruction Manager for Hollins
+                  Consulting, I performed electrical cost estimating services in
+                  close coordination with the project's engineering team, and
+                  represented the interests of the owner during trade
+                  reconciliation.
                 </p>
               </div>
             </Col>
@@ -423,9 +425,13 @@ const MaxGeller = () => {
                 <h5>Electrical Estimating & Reconciliation</h5>
                 <h5>San Francisco, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  Working as the Electrical and Technology Systems Manager for
+                  Hollins Consulting, I was responsible for the primary
+                  electrical and low-voltage systems cost estimating for the new
+                  San Francisco Traffic Company and Forensics Services Facility
+                  in San Francisco. Further, I served as the owners
+                  representative in providing critical analysis of change order
+                  documentation from trade-partners.
                 </p>
               </div>
             </Col>
@@ -443,9 +449,9 @@ const MaxGeller = () => {
                 <h5>Electrical Change Order Review</h5>
                 <h5>San Francisco, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  As the lead electrical estimator for Presidio Cost Solutions,
+                  I assisted the Webcor team with electrical change order
+                  evalution for this high-rise installation.
                 </p>
               </div>
             </Col>
@@ -463,9 +469,11 @@ const MaxGeller = () => {
                 <h5>Electrical Change Order Review</h5>
                 <h5>San Francisco, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  Serving as the Electrical Preconstruction Manager for Webcor
+                  Builders, I had the privelege of conducting preliminary
+                  electrical, fire alarm, and low-voltage (special-systems) cost
+                  estimating and reconciliation efforts with Core-Trade
+                  Partners.
                 </p>
               </div>
             </Col>
@@ -481,17 +489,19 @@ const MaxGeller = () => {
               <div className="pr-xl-13 mb-12">
                 <h4>Global Security Facility (Anonymous Client) </h4>
                 <h5>Electrical Change Order Review</h5>
-                <h5>San Francisco, CA</h5>
+                <h5>Menlo Park, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  Although this an anonymous client, this Global Security
+                  Operations facility represented a commitment to user privacy
+                  for a modern technology firm. As the primary electrical
+                  systems cost estimator for Hollins Consulting, I had the
+                  privelige of establishing initial cost models and electrical
+                  estimates throughout the earliest stages of the design
+                  process.
                 </p>
               </div>
             </Col>
           </Row>
-
-         
 
           <Row className="mb-12">
             <Col sm="12" lg="4" data-aos="fade-left" data-aos-duration="750">
@@ -505,9 +515,10 @@ const MaxGeller = () => {
                 <h5>Electrical Estimating & COR Review</h5>
                 <h5>Foster City, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  Working as the Electrical & Technology systems manager for
+                  Hollins Consulting, I represented the interests of Gilead
+                  Sciences during cost reconcilation and change order reviews
+                  with trade partners.
                 </p>
               </div>
             </Col>
@@ -524,9 +535,9 @@ const MaxGeller = () => {
                 <h5>Electrical Estimating & COR Review</h5>
                 <h5>San Francisco, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  As the Electrical Preconstruction Manager for Webcor Builders,
+                  I performed cost estimating and core-trade buyout management
+                  for the SFO Grand Hyatt Hotel.
                 </p>
               </div>
             </Col>
@@ -543,9 +554,9 @@ const MaxGeller = () => {
                 <h5>Change Order Review & Trade Reconciliation</h5>
                 <h5>San Francisco, CA</h5>
                 <p>
-                  We serve public and private owners, architects, engineers and
-                  contractors. We have extensive experience in health care,
-                  educational facilities,
+                  On behalf of Webcor Builders, I conducted intensive
+                  trade-partner COR reviews and cost reconciliation for the
+                  project team.
                 </p>
               </div>
             </Col>
