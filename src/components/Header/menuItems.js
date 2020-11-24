@@ -43,16 +43,16 @@ export const menuItems = [
       },
     ],
   },
-  {
-    name: "services",
-    label: "Analytics / BI",
-    items: [
-      { name: "analytics/reporting", label: "Visual Reporting" },
-      { name: "analytics/client-access", label: "Client Data Access" },
-      { name: "analytics/cost-repo", label: "Cost Repo Services" },
-      { name: "analytics/custom", label: "Custom Solutions" },
-    ],
-  },
+//  {
+//    name: "services",
+//    label: "Analytics / BI",
+//    items: [
+//      { name: "analytics/reporting", label: "Visual Reporting" },
+//      { name: "analytics/client-access", label: "Client Data Access" },
+//      { name: "analytics/cost-repo", label: "Cost Repo Services" },
+//      { name: "analytics/custom", label: "Custom Solutions" },
+//    ],
+//  },
   {
     name: "markets",
     label: "Markets",
