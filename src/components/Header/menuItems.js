@@ -87,7 +87,7 @@ export const menuItems = [
     items: [
       { name: "company/approach", label: "Our Approach" },
       { name: "company/tooling", label: "Software & Tooling" },
-      { name: "company/about", label: "About Us" },
+      { name: "company/resumes/max-geller", label: "Resume" },
       { name: "company/contact", label: "Contact Us" },
     ],
   },

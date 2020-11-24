@@ -267,17 +267,6 @@ const MaxGeller = () => {
                     </Col>
                   </Row>
                   <p>
-                    At Hollins Consulting, I've managed and conducted all
-                    operational functions for electrical, fire alarm and
-                    low-voltage work scopes. This includes conducting design
-                    reviews and value engineering evaluations, initial cost
-                    model validation, core-trade buyout and coordination, and
-                    enforcement of ownership standards. This role allowed me to
-                    review all aspects of electrical and technology systems
-                    design, performance requirements, specifications, technology
-                    selections, preliminary quotes and bid documents to ensure
-                    adherence to project goals and commitment to end-user
-                    satisfaction.
                   </p>
                 </div>
               </div>
@@ -305,17 +294,6 @@ const MaxGeller = () => {
                     </Col>
                   </Row>
                   <p>
-                    At Hollins Consulting, I've managed and conducted all
-                    operational functions for electrical, fire alarm and
-                    low-voltage work scopes. This includes conducting design
-                    reviews and value engineering evaluations, initial cost
-                    model validation, core-trade buyout and coordination, and
-                    enforcement of ownership standards. This role allowed me to
-                    review all aspects of electrical and technology systems
-                    design, performance requirements, specifications, technology
-                    selections, preliminary quotes and bid documents to ensure
-                    adherence to project goals and commitment to end-user
-                    satisfaction.
                   </p>
                 </div>
               </div>
@@ -344,17 +322,6 @@ const MaxGeller = () => {
                     </Col>
                   </Row>
                   <p>
-                    At Hollins Consulting, I've managed and conducted all
-                    operational functions for electrical, fire alarm and
-                    low-voltage work scopes. This includes conducting design
-                    reviews and value engineering evaluations, initial cost
-                    model validation, core-trade buyout and coordination, and
-                    enforcement of ownership standards. This role allowed me to
-                    review all aspects of electrical and technology systems
-                    design, performance requirements, specifications, technology
-                    selections, preliminary quotes and bid documents to ensure
-                    adherence to project goals and commitment to end-user
-                    satisfaction.
                   </p>
                 </div>
               </div>
