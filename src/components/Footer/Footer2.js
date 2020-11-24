@@ -121,7 +121,7 @@ const Footer = () => {
                 <p
                   className={`copyright-text gr-text-11 mb-6 mb-lg-0 text-center text-lg-left ${copyClassName}`}
                 >
-                  © 2020 Presidio Cost Solutions, LLC. All Right Reserved.
+                  © 2020 Presidio Cost Solutions, LLC. All Rights Reserved.
                 </p>
               </Col>
               <Col lg="6" className="text-center text-lg-right">
