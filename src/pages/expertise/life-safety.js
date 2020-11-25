@@ -59,26 +59,7 @@ const LifeSafety = () => {
           </Container>
         </div>
 
-        <Container>
-        <Container className="mt-18 mb-18">
-          <p>
-            Actually hell of venmo, vexillologist offal mustache truffaut
-            keffiyeh you probably haven't heard of them fingerstache. Marfa
-            microdosing biodiesel 3 wolf moon, 8-bit air plant poke normcore
-            echo park tacos. Shabby chic literally waistcoat, direct trade
-            humblebrag scenester taiyaki fingerstache. Forage 90's raw denim yr,
-            succulents pok pok crucifix swag put a bird on it.
-          </p>
-          <p>
-            XOXO copper mug schlitz, unicorn etsy cardigan forage poutine pabst
-            messenger bag 90's cloud bread shoreditch semiotics green
-            juice.Ennui knausgaard vegan quinoa, beard literally blue bottle.
-            Authentic iPhone fixie farm-to-table schlitz tilde. Distillery
-            glossier affogato gentrify craft beer. Intelligentsia kickstarter
-            pabst, distillery whatever ethical readymade everyday carry pork
-            belly vape.
-          </p>
-        </Container>
+
         <CTA />
       </PageWrapper>
     </>
