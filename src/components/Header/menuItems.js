@@ -43,27 +43,25 @@ export const menuItems = [
       },
     ],
   },
-//  {
-//    name: "services",
-//    label: "Analytics / BI",
-//    items: [
-//      { name: "analytics/reporting", label: "Visual Reporting" },
-//      { name: "analytics/client-access", label: "Client Data Access" },
-//      { name: "analytics/cost-repo", label: "Cost Repo Services" },
-//      { name: "analytics/custom", label: "Custom Solutions" },
-//    ],
-//  },
+  {
+    name: "analytics",
+    label: "Analytics / BI",
+    items: [
+      { name: "analytics/reporting", label: "Visual Reporting" },
+      { name: "analytics/client-access", label: "Client Data Access" },
+      { name: "analytics/cost-repo", label: "Cost Repo Services" },
+      { name: "analytics/custom", label: "Custom Solutions" },
+    ],
+  },
   {
     name: "markets",
     label: "Markets",
     items: [
       { name: "markets/airport", label: "Airport / Terminal" },
       { name: "markets/corporate", label: "Corporate" },
-      { name: "markets/data-centers", label: "Data Centers" },
       { name: "markets/high-rise", label: "High-Rise / Mixed Use" },
       { name: "markets/hospitality", label: "Hotels / Hospitality" },
       { name: "markets/industrial", label: "Industrial" },
-      { name: "markets/residential", label: "Residential" },
       { name: "markets/medical", label: "Medical / OSHPD" },
       { name: "markets/labs", label: "Labs / Life-Sciences" },
     ],
