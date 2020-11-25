@@ -5,7 +5,7 @@ import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import estimate from "./../../assets/image/stock/estimating.jpeg";
+import corporate from "./../../assets/image/markets/corporate.jpeg";
 
 const trackingId = "UA-183812989-1";
 
@@ -30,7 +30,7 @@ const Corporate = () => {
         <div
           className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
           css={`
-            background-image: url(${estimate});
+            background-image: url(${corporate});
           `}
         >
           <Container>
