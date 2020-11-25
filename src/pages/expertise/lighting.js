@@ -58,19 +58,23 @@ const Lighting = () => {
             </Row>
           </Container>
         </div>
-        <Container className="mt-15">
-          <h2>Let's Shine a Light on Costs...</h2>
-          <p className="mt-8">
-            Airport campuses can present many logistic challenges to the
-            construction phasing process, and require a special attention to
-            labor factoring and productivity impacts. Our team has seen more
-            exposure to these challenges than most, and have unique experience
-            that can help prepare more accurate cost estimates for airport
-            construction.{" "}
+        <Container className="mt-18 mb-18">
+          <p>
+            Actually hell of venmo, vexillologist offal mustache truffaut
+            keffiyeh you probably haven't heard of them fingerstache. Marfa
+            microdosing biodiesel 3 wolf moon, 8-bit air plant poke normcore
+            echo park tacos. Shabby chic literally waistcoat, direct trade
+            humblebrag scenester taiyaki fingerstache. Forage 90's raw denim yr,
+            succulents pok pok crucifix swag put a bird on it.
           </p>
           <p>
-            Let's take a look at some common cost-drivers for airport
-            construction:
+            XOXO copper mug schlitz, unicorn etsy cardigan forage poutine pabst
+            messenger bag 90's cloud bread shoreditch semiotics green
+            juice.Ennui knausgaard vegan quinoa, beard literally blue bottle.
+            Authentic iPhone fixie farm-to-table schlitz tilde. Distillery
+            glossier affogato gentrify craft beer. Intelligentsia kickstarter
+            pabst, distillery whatever ethical readymade everyday carry pork
+            belly vape.
           </p>
         </Container>
         <CTA />
