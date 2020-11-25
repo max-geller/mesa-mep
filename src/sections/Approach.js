@@ -40,18 +40,7 @@ const Approach = () => {
           <Row className="justify-content-center">
             <div className="section-title text-left mb-12 mb-lg-8">
               <p></p>
-              <h4>Calibration</h4>
-              <p>
-                Presidio Cost Solutions commences most new client services with
-                a ‘calibration’ period, which should be expected to take 1-2
-                weeks. This process is intended to serve as a triangulation
-                period in which our team strives to identify the commonalities
-                and sources of variance using a number of our clients'
-                historical projects. Using this information, along with feedback
-                from your estimating team, we can develop and tune material and
-                productivity costs that more accurately reflect your unique
-                operating conditions.
-              </p>
+
             </div>
           </Row>
           <Row className="align-items-center">
