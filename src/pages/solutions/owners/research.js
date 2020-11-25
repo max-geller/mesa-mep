@@ -26,7 +26,7 @@ const Research = () => {
           theme: "light",
         }}
       >
-        {/* <!-- Hero Area --> */}
+
         <div
           className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
           css={`
@@ -48,7 +48,9 @@ const Research = () => {
                     MARKET RESEARCH
                   </h1>
                   <p className="gr-text-8 pr-sm-7 pr-md-12">
-                   Need to know Union Market Share?  Looking to see what Union Journeymen Electricians are paid in your area?  We wonder about these sorts of things too...
+                    Need to know Union Market Share? Looking to see what Union
+                    Journeymen Electricians are paid in your area? We wonder
+                    about these sorts of things too...
                   </p>
                 </div>
               </Col>
@@ -60,87 +62,15 @@ const Research = () => {
             <Row className="justify-content-center">
               <Col xl="12" lg="12" sm="12">
                 <div className="section-title text-center mb-12 mb-lg-17">
-                  <h2 className="title gr-text-4 mb-7">
-                    Why Presidio Cost Solutions?
-                  </h2>
-
                   <p>
-                    Looking for a survey of electrician labor rates?  Need to know union market share? 
+                    XOXO copper mug schlitz, unicorn etsy cardigan forage
+                    poutine pabst messenger bag 90's cloud bread shoreditch
+                    semiotics green juice.Ennui knausgaard vegan quinoa, beard
+                    literally blue bottle. Authentic iPhone fixie farm-to-table
+                    schlitz tilde. Distillery glossier affogato gentrify craft
+                    beer. Intelligentsia kickstarter pabst, distillery whatever
+                    ethical readymade everyday carry pork belly vape.
                   </p>
-                </div>
-              </Col>
-            </Row>
-
-            <Row className="align-items-center">
-              <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1200">
-                <div className="single-widget my-7 media">
-                  <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      1
-                    </span>
-                  </div>
-                  <div className="media-body">
-                    <h3 className="w-title mb-5 gr-text-7">
-                      Trade-Level Estimating Detail
-                    </h3>
-                    <p className="gr-text-9 mb-0">
-                      With lots of unique blocks, you can easily build a page
-                      without coding.{" "}
-                    </p>
-                  </div>
-                </div>
-              </Col>
-              <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="750">
-                <div className="single-widget my-7 media">
-                  <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      2
-                    </span>
-                  </div>
-                  <div className="media-body">
-                    <h3 className="w-title mb-5 gr-text-7">
-                      Unparalleled Expertise
-                    </h3>
-                    <p className="gr-text-9 mb-0">
-                      With lots of unique blocks, you can easily build a page
-                      without coding.{" "}
-                    </p>
-                  </div>
-                </div>
-              </Col>
-              <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1800">
-                <div className="single-widget my-7 media">
-                  <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      3
-                    </span>
-                  </div>
-                  <div className="media-body">
-                    <h3 className="w-title mb-5 gr-text-7">Modern Reporting</h3>
-                    <p className="gr-text-9 mb-0">
-                      With lots of unique blocks, you can easily build a page
-                      without coding.{" "}
-                    </p>
-                  </div>
-                </div>
-              </Col>
-
-              <Col md="6" lg="12" data-aos="fade-left" data-aos-duration="1800">
-                <div className="single-widget my-7 media">
-                  <div className="media-icon circle-sm gr-bg-blue-opacity-1 mr-8">
-                    <span className="count text-primary--light-only gr-text-9">
-                      4
-                    </span>
-                  </div>
-                  <div className="media-body">
-                    <h3 className="w-title mb-5 gr-text-7">
-                      Industry-Leading Collaboration
-                    </h3>
-                    <p className="gr-text-9 mb-0">
-                      With lots of unique blocks, you can easily build a page
-                      without coding.{" "}
-                    </p>
-                  </div>
                 </div>
               </Col>
             </Row>

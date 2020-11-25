@@ -40,18 +40,6 @@ const BI = () => {
               allowFullScreen="true"
             ></iframe>
           </Row>
-          <Row className="justify-content-center mt-11 mb-11">
-            <Col xs="3">
-              <div className="form-group button-block mt-3 ">
-                <a
-                  href="/company/about"
-                  className={`btn btn-${gContext.header.variant}`}
-                >
-                  Show Me More
-                </a>
-              </div>
-            </Col>
-          </Row>
         </Container>
       </div>
     </>
