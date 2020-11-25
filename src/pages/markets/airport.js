@@ -5,7 +5,7 @@ import PageWrapper from "../../components/PageWrapper";
 import CTA from "../../sections/CTA";
 import { Container, Row, Col, Button } from "react-bootstrap";
 
-import airport from "./../../assets/image/stock/airport.jpg";
+import airport from "./../../assets/image/FIDS_03.jpg";
 
 const trackingId = "UA-183812989-1";
 

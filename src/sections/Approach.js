@@ -9,7 +9,6 @@ const Approach = () => {
 
   return (
     <>
-      {/* <!-- Hero Area --> */}
       <div
         className="bg-image bg-gradient bg-gradient-black mt-17 pt-14 pt-lg-12 pb-lg-12"
         css={`
@@ -40,10 +39,7 @@ const Approach = () => {
         <Container>
           <Row className="justify-content-center">
             <div className="section-title text-left mb-12 mb-lg-8">
-
-              <p>
-
-              </p>
+              <p></p>
               <h4>Calibration</h4>
               <p>
                 Presidio Cost Solutions commences most new client services with
