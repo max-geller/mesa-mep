@@ -58,8 +58,6 @@ const LifeSafety = () => {
             </Row>
           </Container>
         </div>
-
-
         <CTA />
       </PageWrapper>
     </>
